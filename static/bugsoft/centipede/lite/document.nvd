@@ -1,0 +1,126 @@
+navidoc 1.0
+graph=2
+nametype=2
+title=
+style=
+template=
+Pages:
+"index.html" Up="" Style="" Title="Centipede Lite BBS Software" Type="text/html" 1
+"download.html" Up="" Style="" Title="Centipede Lite Download" Type="text/html" 1
+"M-APNX-A.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"M-APNX-B.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"M-APNX-C.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"M-APNX-D.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"M-CENTI.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"M-CHAP1.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"M-CHAP2.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"M-CHAP3.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"M-CHAP4.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"M-CHAP5.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"M-CHAP6.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"M-CHAP7.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"M-CHAP8.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"M-COMLNK.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"M-LICENC.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"M-TOC.TXT" Up="" Style="" Title="" Type="text/plain" 1
+"manual.html" Up="" Style="" Title="Centipede Lite Manual" Type="text/html" 1
+"download2.html" Up="" Style="" Title="Please title this page. (download2.html in lite)" Type="text/html" 1
+"m-comlnk.txt" Up="" Style="" Title="" Type="text/plain" 1
+"m-licenc.txt" Up="" Style="" Title="" Type="text/plain" 1
+"m-chap1.txt" Up="" Style="" Title="" Type="text/plain" 1
+"notinlite.html" Up="" Style="" Title="What's Not In Centipede Lite" Type="text/html" 1
+"requestdisk.html" Up="" Style="" Title="Get Centipede Lite on Disk" Type="text/html" 1
+"comp_1.gif" Up="" Style="" Title="" Type="image/gif" 1
+"requirements.html" Up="" Style="" Title="Centipede Lite Hardware Requirements" Type="text/html" 1
+"m-chap6.txt" Up="" Style="" Title="" Type="text/plain" 1
+Ghosts:
+"downloads" Up="" Style="" Title="" Type="application/x-navidir" 0
+Refs:
+"index.html"
+	2 "../caterpil.gif"
+	6 "../centipede.gif"
+	2 "../index.html"
+	2 "../tiedye.gif"
+	2 "comp_1.gif"
+	2 "download.html"
+	2 "iftp.gif"
+	2 "manual.html"
+	2 "notinlite.html"
+	2 "oldbook.gif"
+	2 "query1b.gif"
+	6 "requirements.html"
+	0 "../../index.html"
+"download.html"
+	2 "../centipede.gif"
+	2 "../tiedye.gif"
+	2 "download2.html"
+	2 "downloads"
+	0 "downloads/library"
+	4 "index.html"
+"M-APNX-A.TXT"
+"M-APNX-B.TXT"
+"M-APNX-C.TXT"
+"M-APNX-D.TXT"
+"M-CENTI.TXT"
+"M-CHAP1.TXT"
+"M-CHAP2.TXT"
+"M-CHAP3.TXT"
+"M-CHAP4.TXT"
+"M-CHAP5.TXT"
+"M-CHAP6.TXT"
+"M-CHAP7.TXT"
+"M-CHAP8.TXT"
+"M-COMLNK.TXT"
+"M-LICENC.TXT"
+"M-TOC.TXT"
+"manual.html"
+	2 "../centipede.gif"
+	2 "../tiedye.gif"
+	0 "index.html"
+	0 "m-apnx-a.txt"
+	0 "m-apnx-b.txt"
+	0 "m-apnx-c.txt"
+	0 "m-apnx-d.txt"
+	0 "m-chap1.txt"
+	0 "m-chap2.txt"
+	0 "m-chap3.txt"
+	0 "m-chap4.txt"
+	0 "m-chap5.txt"
+	0 "m-chap6.txt"
+	0 "m-chap7.txt"
+	0 "m-chap8.txt"
+	2 "m-comlnk.txt"
+"download2.html"
+	2 "../centipede.gif"
+	2 "../tiedye.gif"
+	0 "download2.html"
+	2 "downloads"
+	0 "downloads/centlite.lbr"
+	0 "downloads/centlite.zip"
+	0 "downloads/help.lbr"
+	0 "downloads/library"
+	0 "downloads/manual.lbr"
+	0 "downloads/program1.lbr"
+	0 "downloads/program2.lbr"
+	0 "downloads/readme.txt"
+	0 "downloads/support.lbr"
+	0 "downloads/system.lbr"
+	0 "index.html"
+"m-comlnk.txt"
+"m-licenc.txt"
+"m-chap1.txt"
+"notinlite.html"
+	6 "../centipede.gif"
+	2 "../tiedye.gif"
+	2 "index.html"
+"requestdisk.html"
+	2 "../centipede.gif"
+	6 "../tiedye.gif"
+	0 "download.html"
+	2 "index.html"
+"comp_1.gif"
+"requirements.html"
+	4 "index.html"
+	2 "../centipede.gif"
+	2 "../tiedye.gif"
+"m-chap6.txt"

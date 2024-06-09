@@ -1,0 +1,106 @@
+8 - Wrapping Up
+
+We shall wrap up this manual with update policy, contact information, and
+special thanks to many of the fabulous people who have made Centipede
+possible.
+
+
+8.1 - Updates, Games, and Add-Ons [NAL]
+
+[Updates, games, and add-ons are not available for Centipede Lite.]
+
+
+8.2 - Contacting the Author
+
+Centipede is the result of years of BBS programming experience by Adam 'Ant'
+Fanello. He can be contacted for comments, suggestions, or million dollar job
+offers at any of the following:
+
+NOTE: Technical support is not available for Centipede Lite. It is distributed
+as freeware and "as is."
+
+Postal Mail:   Adam Fanello
+               4822 Larwin Ave
+               Cypress, CA
+               90630-3515 USA
+
+BBS:           Nature Reserve BBS (Net64 capable)
+               714-828-7296 (main line)
+               User #1: 'Ant'      User #2: 'Centipede'
+
+ComLink:       Send e-mail to: 1-Ant   -or-   1-Centipede
+
+Internet:      support@bugsoftware.com 
+               http://www.bugsoftware.com
+
+
+8.3 - Getting Help From Other SysOps [NAL]
+
+[NAL: Technical support is not available for Centipede Lite.]
+
+
+8.4 - How to Report Problems
+
+There is no such thing as an error-free program, with the possible exception
+of the infamous one line program, "Hello World." This is particularly true of
+huge systems like operating systems, productivity suites, and BBS programs.
+Every effort is made at Bugsoft to eliminate these problems, but it is a
+continuing battle of human vs. machine.
+
+If you wish to report a problem in Centipede Lite, there is a right way and
+a wrong way to state the problem. A statement such as "It crashes when reading
+messages!" tells anyone trying to help you almost nothing about the cause of
+your problem. The best strategy for reporting an error that causes a system
+crash is to include your "error snapshot" file. The error snapshot is a
+picture of what was on the screen when the crash occurred, including the error
+message. Other insightful information includes a description of what the
+system or the caller was doing leading up to a problem, a list of what add-ons
+you are using, and a description of your hardware and configuration. There is
+no such thing as too much information, only too little.
+
+Your report will be read, but you will not necessarily receive a fix or even a
+reply. Centipede Lite is an "as is" product. For technical support, expanded
+functionality, and free updates, please purchase the full version of
+Centipede.
+
+
+8.5 - Thanks from Adam Fanello
+
+A project of this size could not have been accomplished by one person alone.
+We all owe Centipede's existence to a gaggle of people. I cannot possibly name
+everybody who has an effect on Centipede here, but the following people,
+presented in semi-random order, have stood out and have earned their thanks
+here.
+
+*    Thanks to all the people who purchased my previous BBS program, V128.
+     Without the enormous success of V128, I doubt I would have had the
+     courage, or prodding, to have created Centipede.
+*    Mounds of thanks to the miracle worker, John 'Iceman' Pinson of the
+     Inner Circle BBS. Not only was he the first to declare that I would one
+     day be a SysOp, but he has continued to be one of my biggest supporters.
+     John's natural skills of generating publicity and making connections
+     could very well be how you came to learn about Centipede. His ability to
+     destroy what little modesty I had lead me to reach out to possibilities
+     I had hardly even imagined.
+*    Lots of love to my mother, who not only put up with all my computers and
+     dreaming, but supported me every step of the way.
+*    Thanks to Roger 'Frog' Hyatt, who was the first brave SysOp to allow me
+     to tack a crack at programming on his Color 64 BBS - the forerunner of
+     V128 and later, Centipede!
+*    Thanks to Richard 'Wanderer' Cunningham (not the TV character) of the
+     Desert Oasis BBS for his lasting support, and one really incredible code
+     optimization!
+*    Thanks to Ken 'Megga Force' Nealey of the Ultimate Force BBS, for making
+     sure there was a selection of games already converted to Centipede in
+     time for its release, and for continuing to manage the Centipede game
+     collection.
+*    Thanks to Michael 'Byte1' Crisp of Thunder Publishing, for designing the
+     Bugsoft and Centipede logos, as well as hosting the Bugsoft web site.
+*    Thanks to 'Grampa' Charles Nichols for drawing the Commodore
+     text/graphics version of the Bugsoft and Centipede logos.
+*    And a big thanks to all those who have purchased Centipede!
+
+
+Copyright 1998, Bugsoft
+
+  -<[ Use your browser's "BACK" button to return to the table of contents. ]>-

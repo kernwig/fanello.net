@@ -1,0 +1,211 @@
+@FROM   :funny-request@clari.net                                      
+@SUBJECT:The True News Digest part 7/22                               
+Newsgroups: rec.humor.funny
+
+[Note - What follows is one part of the True News Digest - a collection of
+ true-life stories which didn't really warrant individual posting, but
+ which are amusing nevertheless.  The digest is quite long, and it will
+ appear in 22 parts over the next few months - ed.]
+
+ =       =       =       =       =
+
+From: asylvain@felix.UUCP (Alvin)
+Subject: Your time will come.
+
+Saw this sign by the roadside at a monument company.  (For those who
+don't know, a "monument company" are the people who carve tombstones.)
+
+    "PLEASE DRIVE CAREFULLY   WE CAN WAIT"
+        
+ =       =       =       =       =
+
+From: ben@duttnph.tudelft.nl (Ben Verwer)
+Subject: No warnings pleaaaaaseeeeeeeeeeeeeeee
+
+The stardent compiler has a -w option: no warnings.
+
+ben [1] cc -w idontwantwarnings.c
+"idontwantwarnings.c", line 1: warning: 4 warnings suppressed by no warn
+option
+ben [2] 
+        
+ =       =       =       =       =
+
+From: msoques@mozart.amd.com (Martin Soques)
+Subject: who said they were a bunch of humorless stiffs?
+
+From the Wall St. Journal 4/25/91...
+
+Due to the high cost of and lack of space for burials, cemeterians [people
+who manage/administer/own cemeteries] have come out with a new slogan:
+
+        "Make Money the Modern Way.  Urn it!"
+        
+ =       =       =       =       =
+
+From: J.GERBER4@genie.com (Jim Gerber)
+Subject: Kennedy's Will Smith                   
+
+True story:
+
+Many years ago (well, a few) I came home from a business trip and showed my
+wife a bumper sticker I bought in the airport.  It said:
+
+  "More people died in Teddy Kennedy's car than at 3 mile island"
+
+(See, I'm pro Nuke and my wife isn't)
+
+She replied "Years from now, dozens of people my die at 3 Mile Island"
+
+I asked, "Is Teddy kennedy going to drive a busload of secretaries there?"
+
+She HIT me!
+        
+ =       =       =       =       =
+
+From: pardo@cs.washington.edu
+Subject: A visit by *which* queen?
+
+From a local radio station last week:
+
+During her visit, the queen was introduced to the
+director of the acclaimed movie ``Dances With Wolves''
+[Kevin Costner].  She said ``I find it quite
+interesting to meet you.  I have a cousin who is a
+photographer, you know.''  To which Kevin Costner
+replied ``And I'm quite happy to meet you; I have a
+cousin who's a queen, you know.''
+        
+ =       =       =       =       =
+
+From: ROEBER@cithe1.cithep.caltech.edu (Frederick G. M. Roeber)
+Subject: Congress cancels freedom
+
+From a UPI news brief of 4 June 1991, about cuts in the
+space station budget:
+
+"A House committee, ignoring White House pleas, voted to kill Freedom...."
+        
+(Note from Ant: Back before we joined up with the Russians, the station
+was named Space Station Freedom.)
+
+ =       =       =       =       =
+
+From: pdb059@mipl3.jpl.nasa.gov
+Subject: Only You Can Prevent Forest Fires
+
+Quoting from an article in the JPL "Universe", a weekly newsletter--
+
+ "Field tests have begun on an airborne system to map wildlands
+ fires being created for the U.S. Forest Service by JPL."
+
+My reaction:  Why can't they create their own damn fires?
+        
+ =       =       =       =       =
+
+From: mokry@ctr.columbia.edu (Robert Mokry)
+Subject: hear, hear
+
+According to the May 1991 issue of Men's Health Newsletter:
+
+Swiss burglar Gregore Roman was convicted after investigators
+discovered that his ear matched ear prints on eleven crime victims'
+doors.
+        
+ =       =       =       =       =
+
+From: torng@cs.stanford.edu
+Subject: boxing
+
+I've noticed the following ad in Encina Gym on Stanford campus:
+
+176 lb amateur boxer looking for sparring partner.  No experience 
+necessary.  
+
+I'll pass.
+        
+ =       =       =       =       =
+
+From: bskendig@phoenix.princeton.edu (Brian Kendig)
+Subject: Freudian telnet?
+
+A conversation I unwittingly had with another CS major in the back row
+of the SPARC room in the computer science building, appropriately
+named "Foo Hall":
+
+We had both logged on to different SPARCs, and we were waiting for any
+signs of life -- a prompt, anything! -- but of course the fileserver
+was either down or far too overloaded to accommodate us, as usual.
+
+Her: "Seems like it's pretty tight today.  How far can you get in?"
+
+Me: "I'm hung pretty well.  We've just got to wait for it to come up."
+
+It took a few discreet stares from the people around us until we
+realized the implications of this exchange...
+        
+ =       =       =       =       =
+
+From: john@chance.UUCP (John R MacMillan)
+Subject: Old habits die hard
+
+[ This is true, and it's among the reasons I love Toronto. ]
+
+Yesterday a scruffy man extended a plastic cup towards me and asked if
+I could spare $50,000.  I figure he used to be a lawyer.
+        
+ =       =       =       =       =
+
+From: rochberg-david@cs.yale.edu (David Rochberg)
+Subject: True story about a funny ad.
+
+As I was crossing the street on the way to my math final this morning,
+I saw a truck owned by the "Guaranteed Overnight Delivery"
+Corporation, or G.O.D.  On the back of the truck was written "For
+service, call 1-800-CALL-GOD"
+        
+ =       =       =       =       =
+
+From: bill@pslu1.psl.wisc.edu (Bill Roth)
+Subject: No where but Wisconsin.....
+
+During the recent(national reported) food warehouse fire near Madison,
+Wisconsin, there were a few occasions for chuckles:
+
+The first was the local TV interview with an offical of the EPA, with
+a concertedly puzzled look on his face. His comment: We've dealt with
+environmental contamination from chemicals, and of course, oil...umm,
+but never from butter.
+
+Also: Other places, like Alaska and New Jersey, have oil spills, but
+only in Wisconsin would you have a CHEESE SPILL.
+        
+ =       =       =       =       =
+
+From: mckusick@ptolemy.arc.nasa.gov (Kate McKusick)
+Subject: Home Boy
+
+**NEWS YOU MIGHT HAVE MISSED**
+
+Nike Commercial Just Doesn't Do It
+
+Dr. Lee Cronk, an anthropologist at the University of Cincinnatti who
+spent two years in Kenya studying the Samburu tribe, took particular
+note when he saw a new commercial for Nike running shoes.  The
+comercial depicts Samburu tribesmen running in northern Kenya.  The
+camera slowly pans down to show them wearing new Nikes.  One of the
+tribesmen speaks in the Maa language, and a subtitle flashes Nike's
+latest slogan: "Just do it."  Not exactly a literal translation, said
+Cronk, who knows the language.  "What he is really saying is, 'I don't
+want these.  Give me big shoes.'"
+
+"I don't think he had anything against Nikes.  I'm sure he thought they
+were great shoes.  I don't see why they should change it.  It is
+really kind of harmless."
+
+--from the Funny Times "Monthly Newspaper of Humor, Politics & Fun"
+           Cleveland Heights, OH
+        
+==
+Selected by Jim Griffith.  MAIL your joke to funny@clari.net.
+Sponsored by ClariNet Communications Corp.  (http://www.clari.net)

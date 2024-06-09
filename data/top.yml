@@ -1,0 +1,16 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center"
+id: "top"
+title : "Fanello Family"
+content: |
+  <p>Welcome to the Family.</p>
+  <p>
+    This is a landing page to direct you to a <i>family</i> of web sites related to
+    members of the Fanello family.
+  </p>
+  Scroll down for the selections.
+
+#button:
+#  label: "Learn More"
+#  link: "#"
+image: "images/coat-of-arms.gif"

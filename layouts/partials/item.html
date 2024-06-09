@@ -1,0 +1,20 @@
+<section>
+  {{ with .icon }}<span class="icon {{.}}"></span>{{ end }}
+  {{ with .topImage }}
+  <div class="image">
+    <img src="{{ . }}"/>
+  </div>
+  {{ end }}
+  <h3>{{ .name }}</h3>
+  {{ with .middleImage }}
+  <div class="image">
+    <img src="{{ . }}"/>
+  </div>
+  {{ end }}
+  <p>{{ .content  | safeHTML }}</p>
+  {{ with .bottomImage }}
+  <div class="image">
+    <img src="{{ . }}"/>
+  </div>
+  {{ end }}
+</section>

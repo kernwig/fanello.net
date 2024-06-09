@@ -1,0 +1,50 @@
+6 - Using Add-Ons [NAL]
+
+Centipede was designed to support easily installed add-on systems. [NAL] Two
+general types of add- ons are games and networks. Other add-ons may add any
+sort of added functionality you can think of.
+
+
+6.1 - About Network Add-Ons
+
+Centipede supports the use of up to ten message network systems. When
+installed, these networks are seamlessly inserted into the e-mail and message
+board systems. Replies to both public and private messages are automatically
+routed to the correct network. A list of nodes, on all networks, is available
+to send new e-mail. 
+
+At the time of this writing, there are three networks available for Centipede:
+
+     ComLink - a centralized network consisting of shared message categories
+               and e-mail across V128 and Centipede BBSs.
+     CommNet - a distributed network consisting of shared message categories
+               and e-mail across several BBS programs. [NAL]
+     Net64 -   the Color 64 Network - a system of independently connected BBSs
+               with e-mail and limited public messaging abilities. [NAL]
+
+
+6.1.1 - What is ComLink?
+
+ComLink is a centralized, message-oriented network for Commodore BBSs. Entire
+message categories are sent to a central hub, run by Bugsoft, which
+distributes the messages to all nodes in the Link. E-Mail can also be sent to
+any user on any node in the 'Link. The entire transfer is done in only a few
+minutes, with a single call from your BBS to the Hub system.
+
+In order to use the ComLink system, you must subscribe to the Hub service. The
+price is kept low, running about the same price as a magazine subscription.
+With a magazine, you receive information once a month. With ComLink, you
+receive and send information every day! It's quite a deal!
+
+Once a night, your BBS will automatically call the ComLink Hub (located in
+California) at a time of your choosing. New messages are exchanged and then
+you are quickly disconnected. Depending on your baud rate and current
+activity, a call to the ComLink hub generally lasts only one to three minutes.
+
+ComLink is already built into Centipede Lite. For information on how to
+subscribe ComLink, please refer to the ComLink manual "comlink.dox".
+
+
+Copyright 1998, Bugsoft
+
+  -<[ Use your browser's "BACK" button to return to the table of contents. ]>-

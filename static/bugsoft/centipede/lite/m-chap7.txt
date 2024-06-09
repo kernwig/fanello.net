@@ -1,0 +1,10 @@
+7 - Converting Color 64 and V128 Games and Add-Ons [NAL]
+
+Centipede includes a program called Cocoon. This program preforms much of the
+labor of converting an online game from Color 64 or Version 128, into a 
+Centipede game. [NAL]
+
+
+Copyright 1998, Bugsoft
+
+  -<[ Use your browser's "BACK" button to return to the table of contents. ]>-

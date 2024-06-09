@@ -1,0 +1,381 @@
+4 - Configuring Your BBS
+
+Now that you have planned out your BBS, and copied all of your files to where
+you want them, you now need let the software in on all of this information!
+This chapter explains the main setup program where main parts of the system
+are configured. Also covered is a utility for converting some Color 64/V128
+system files over from a BBS that you may have run in the past [NAL].
+Small, specialized areas of the BBS are configured from within Centipede
+[NAL]. The configuration utilities available on all Centipede BBSs are covered
+in section 5.11. Many add-on systems (such as networks) will also have their
+own configuration utilities [NAL].
+
+
+4.1 - BBS-Setup
+
+The bbs-setup program is your centralized location for configuring all general
+BBS parameters. Many of these settings are used throughout the system. This is
+the place to go once you have planned for your BBS (chapter 2) and copied the
+files to your primary storage units (chapter 3). You will also return to the
+bbs-setup program on occasion to make changes to system parameters.
+If you already have the BBS running, shut it down. Switch your active disk
+location to your Programs Files location and run the program "bbs-setup".
+On-screen instructions will guide you on how to navigate through the setup
+program. The following subsections will brief you on specific sections of the
+setup program and specific options.
+
+NOTE: Any blinking options are not available in Centipede Lite.
+
+
+4.1.1 - File Locations
+
+In this section, you inform Centipede on how to find each of the main file
+locations that you choose in section 2.6. You will be prompted for the device
+number file prefix, and commands for each location you select to edit. If you
+do not have a second command for a location, simply leave that field blank.
+For a review on how to specify file locations on your particular storage
+units, please refer back to section 2.3.
+
+
+4.1.2 - Programmable Key Definitions [NAL]
+
+The programmable ALT keys are analogous to the programmable F-keys (function
+keys) on the Commodore 128. [NAL]
+
+
+4.1.3 - Modem Configuration
+
+Refer to section 2.5 for information about configuring your particular modem,
+and then set the parameters: 
+
+Use Modem DTR Signal?
+Setting this to YES will sometimes make for more reliable disconnections
+after a call. However, you cannot set this option and use the off-hook option.
+If you select NO, your modem configuration will need to include AT&D0. To set
+your modem to use DTR, you will need to use a &D setting of greater than zero,
+such as AT&D3.
+
+Use Off-Hook Command?
+Selecting yes here will take the BBS phone line off hook when it is busy
+and unable to accept a call. You must select NO to the previous setting for
+this to work correctly.
+
+Using a SwiftLink/Turbo232?
+Select YES if your modem is connected to a SwiftLink or Turbo232 cartridge.
+Select NO for modems (or interfaces) connected to the user port.
+
+Use Fixed Local Baud Rate?
+Select YES to force the modem and computer to always communicate at the
+highest baud rate.
+
+Maximum Baud Rate:
+Possible values for any modem interface are 300, 1200, 2400, and 4800.
+With a SwiftLink or Turbo232, you may also select 9600, 14400, 19200, and
+38400. These are the local (DTE) baud rates. Your actual modem connection rate
+(DCE) will generally be lower.
+
+Modem Initialization Command:
+Any modem settings that cannot be saved as a profile in the modem's memory
+is included here. If all settings are saved, then this init string will
+typically be ath0z0.
+
+Learn Carrier Type
+Select this option any time you change your modem or modem interface. The
+setup program will learn the type of carrier detection signal your system uses.
+
+
+4.1.4 - Users' Time Limits
+
+Callers are only allowed to remain on the system for a limited amount of time
+each day. This gives other people a chance to call in. Base daily limits are
+assigned by member access level. Individual adjustments may be made via
+Account Maintenance (see section 5.3).
+
+In addition to daily limits, you may also set per-call time limits for both
+the AM and PM hours, as well as the maximum calls a user may make in a single
+day and the amount of time a user has to wait in between separate calls [NAL].
+
+
+4.1.5 - Caller Purge [NAL]
+
+Accounts may be set to expire if a user does not call frequently.[NAL]
+
+
+4.1.6 - U/D File Transfer Areas
+
+The U/D File Transfer Areas section of bbs-setup is split into three parts.
+Please refer back to your planning work in subsection 2.6.10 as you progress
+through this subsection.
+
+
+4.1.6.1 - Categories [NAL]
+
+In this first part, you set the categories for your file directories. [NAL:
+Only one category in Lite.]
+
+
+4.1.6.2 - Directories
+
+The directory editor will present you with dual-pane view. The right side is a
+list of currently defined directories. Each line in the list consists of a
+directory number (for reference within bbs-setup only) and the directory's
+name. Use the cursor up and down keys to scroll the list. On the left is a
+command menu of options: add directory to the end of the list, insert a
+directory anywhere, delete a directory, or edit an existing directory.
+
+Choosing to add, insert, or edit will take you to the directory definition
+screen. Here, you may use the standard bbs-setup navigation commands (shown on
+screen) to edit the fields defining the directory's name, access level,
+location, and upload/download privileges. 
+
+
+4.1.6.3 - Options
+
+Besides directory definitions, there are several parameter settings related to
+the file transfer area. Following are descriptions of each:
+
+Minimum Number Of Blocks Available To Allow Uploads:
+This value is used to reserve disk space for other files and to prevent
+an upload from overrunning the disk. This number is subtracted from the actual
+number of blocks available on disk. If the resulting number of blocks
+available is less than one, an upload will not be allowed.
+
+Use Extended File Descriptions? [NAL]
+Extended file descriptions are in addition to the thirty-eight character
+Short-View descriptions that are stored in the U/D directory. Each file in the
+file transfer area will have its own extended description file, containing the
+uploader's name, the number of downloads the file has received, and a member
+entered description that can be as long as a public message. [NAL]
+
+Multiplication Factor Of Credits Awarded When File D/Led: [NAL]
+Each time a file is downloaded, the uploader may be awarded extra credits.[NAL]
+
+Multiplication Factor Of Credits Awarded On File U/L:
+When a file is uploaded to the public file transfer area, the uploader may
+be awarded credits based on this multiplication factor. For example, if a
+caller uploads a file of 100 blocks and this is set to 3, the caller will
+receive 300 credits. Set this parameter to zero to prevent any credits from
+being awarded when a file is uploaded.
+
+Maximum Number Of Downloads User May Make Per Call:
+This is the number of files a caller may download in a single call. Keep
+in mind that a single double sided disk that has been zipped will account for
+eight downloads on its own.
+
+Access Level Exempt From Credits & DLs Per Call:
+A member of this access level or higher will always be able to download,
+without regard for credit balance or number of files already downloaded. Set
+to 1 to effectively disable the entire credit system.
+
+Uploaded File Auto-Release Level:
+Any file uploaded by a member with an access level less than this
+setting will not be available for someone else to download until a SysOp or
+Co-SysOp releases the file. See section 5.15 for information on the file
+releasing utility.
+
+Access Level That Can Access Unreleased Files: [NAL]
+This is set to the access level 7, of Co-SysOp(s) who can release these files.
+
+[Default UD Category Lock-Outs] [NAL]
+Each individual user may be locked out of certain categories, regardless
+of access level. [NAL]
+
+
+4.1.7 - Message Board Areas
+
+Use this section of bbs-setup to define your message boards. The planning done
+in subsections 2.1.1 and 2.6.9 will guide you through most of this. We will
+only cover a few points here which were not covered in the planning stage.
+
+When defining a message board's categories, you may edit each category's name,
+minimum access level, and associated network category. You may leave this
+field set to zero for any category you wish to be accessible to anyone with
+access to the message board. The network category association is dependent on
+your network. Refer to the documentation for your network system(s) for
+instructions on what network category numbers to use. Set this field to zero
+in order to identify a category as local only. To remove a category from a
+message board, simply clear its name field. That category, and all categories
+after it, will no longer be a part of the message board.
+
+The following parameters will appear on the final screen of options for the
+message boards:
+
+Minimum Number of Message Buffer Slots (0-25):
+Buffer slots are blank spots in the message board index that are available
+for new postings. When no blank spots are available, the BBS must remove an
+old posting from a full message board before it can complete posting a new
+one. This can cause a significant delay when the caller saves a message.
+Having buffer slots thus allows for quick posting of new messages. For optimum
+performance, the number of slots should be set to the number of messages you
+expect the average member to post in a single call. You will need additional
+directory space in each of your message board locations to store these extra
+messages.
+
+Maximum Number Of Files On Any Message Directory:
+By setting a number here, the system will insure that the BBS does not
+attempt to store more files on a disk than the disk is capable of holding. If
+there is no chance of a message board location running out of file space, set
+this option to 0 to disable this procedure and speed up the logoff sequence.
+
+Minimum # Of Blocks Until Cycle Off Messages:
+By setting a number here, the system will start cycling messages off a
+message board early if the number of blocks free in any message board location
+falls below this value. If there is no chance of a message board location
+running out of disk space, set this option to 0 to disable this procedure and
+speed up the logoff sequence.
+
+Access Level to Scratch & Edit Others' Postings (3-9):
+Members of this access level will be able to scratch (delete) and edit other
+members' public postings. You may wish to set this slightly lower than level
+nine if you have an area Co-SysOp who patrols the message boards for you.
+
+[Default Message Base Lock-Outs] [NAL]
+Each individual user may be locked out of certain boards, regardless of
+access level.[NAL]
+
+
+4.1.8 - System Colors
+
+Centipede makes extensive use of color in order to present an appealing
+display. Rather than having predefined colors in the software, Centipede
+allows you to define eight system colors. When a new color is needed by the
+software, the system simply cycles to the next system color.
+System colors are also used by rainbowed text.
+
+To change the colors, enter the color number you wish to change, then press
+the key combination for the desired color. Colors are defined on the face of
+the number keys on the main keypad. Hold the CONTROL key followed by the
+number to produce the top color, or hold the C= key and press a number to
+produce the bottom color.
+
+
+4.1.9 - E-Mail & Messaging Options
+
+This section allows you to define several parameters dealing with e-mail and
+the message editor.
+
+Number Of Days To Hold E-Mail & Credits: [NAL]
+Set this option to the number of days you wish for the system to hold onto
+old e-mail or pending credit awards (awarded when a file uploaded by the
+member is downloaded). [NAL]
+
+Minimum Access Level To Send Local E-Mail:
+Access level a user must have in order to send e-mail to another local user.
+
+Minimum Access Level To Send Network E-Mail:
+Access level a user must have in order to send e-mail to someone on another
+node of a network.
+
+Absolute Max Lines Per Message:
+Each message has a maximum length, defined by the amount of memory (RAM)
+that is available for storage of the message. Centipede automatically adjusts
+itself to changing memory availability. This setting lets you set an absolute
+maximum size that cannot be exceeded, even if more memory is available. Having
+this set higher than is necessary is wasteful (due to overhead), so once you
+see how many lines the BBS is generally allowing for messages according to
+memory needs, it is best to lower this limit to match. Please note that a 40
+column caller will be allowed about twice as many lines as an 80 column
+caller, since their lines are smaller.
+
+
+4.1.10 - Other Parameters
+
+These options did not fit in with any of the other sections, nor are there
+enough related options to give them each their own individual sections. They
+are the miscellaneous options.
+
+Maximum Number Of Members On System:
+This limit determines the how much space for membership accounts is created
+in the accounts file. This can be expanded in the future, but not reduced.
+You should make sure that there is enough space for all membership accounts,
+without making the file too large. A larger file can make some operations
+in the system take longer. Each membership account requires two blocks of
+disk space.
+
+New Member's Access Level:
+This is the access level assigned to a new, unvalidated, caller. Set this
+to 1 or 2.
+
+Membership Expired Access Level: [NAL]
+Each user can be assigned a date on which their membership expires.[NAL]
+
+Save All Members' Applications? [NAL]
+Set to YES to cause a new member's application to be stored in a premanent
+file for future reference. [NAL]
+
+Local Mode Usage Password: [NAL]
+If a password is defined, it will be required to initiate any local
+functions other than logging in. [NAL] Please note that this system is far
+fool proof.
+
+Minutes Idle At Wait4Call Screen Before Run Idle Script:
+The idle script includes system activities that you want to run on a
+regular basis during system inactivity. The idle script is generally used for
+making automatic network calls. Other BBS add-ons may find other uses. By
+waiting several minutes after a caller has logged off, the likelihood of this
+system activity preventing another member from calling is minimized. Set the
+number of minutes you want to allow the system to sit idly before it runs this
+script. The default is 10 minutes.
+
+Minutes Idle At Wait4Call Screen Before Run Screen Saver:
+Screen savers may be used with Centipede. This setting defines how long
+the system should wait at the Wait4Call screen before running it. Set this
+option to 0 to disable the screen saver. Centipede Lite has a screen saver
+pre-installed.
+
+Use Sim40c When 40 Column User Is Online? [NAL]
+Sim40c will stretch your display so that the characters are double wide,
+thus simulating a 40 column display. Your C128 will still be using the 80c
+(VDC chip) display and running at full speed. [NAL]
+
+Trap BASIC Errors And Keep BBS Running?
+When enabled, the system will attempt to recover from any errors
+encountered in the BASIC coding. Also, the RUN/STOP key will be disabled,
+preventing you from accidentally stopping the system. The only time you would
+want to disable this is to debug a piece of software. The system will then
+crash to BASIC and allow you to examine the state of the software at the
+crash. Note: Even when enabled, you can still stop the system and return to
+BASIC be pressing the RUN/STOP, C=, SHIFT, and CONTROL keys all at the same
+time.
+
+Size Of Caller Log: [NAL]
+This log keeps track of everything a caller does while online. [NAL]
+
+Your BBS's Name:
+Simply enter the name of your BBS here. It is used in a few spots
+throughout your system, including being displayed at the Wait4Call screen, and
+in the 'From' line of an e-mail receipt. 
+
+
+4.1.11 - Save
+
+Selecting will make any necessary changes to the Centipede system files to
+reflect your new choices.
+
+
+4.1.12 - Abort
+
+Aborting will disregard all changes you have made.
+
+
+4.1.13 - Starting Anew
+
+If you wish to change all of your configuration settings defined by bbs-setup,
+or if you lose the "var.main" file which stores this information (where is
+your backup?), you will need to dissolve the starter "var.main" file back from
+your Centipede Lite software disk. You'll find this file in the "misc-prg.lbr"
+archive. The bbs-setup program cannot run without a "var.main" file to read.
+
+
+4.2 - Converting Color 64 or V128 System Files To Centipede [NAL]
+
+If you previously ran a Color 64 v7.3x or Version 128 BBS system, you can
+convert many of your system and support files from that software to be used by
+Centipede by using the "v128-to-centi" conversion program. You may convert
+membership accounts, message areas, e-mail, U/D directory listings, credits to
+award, and message macros. [NAL]
+
+
+Copyright 1998, Bugsoft
+
+  -<[ Use your browser's "BACK" button to return to the table of contents. ]>-

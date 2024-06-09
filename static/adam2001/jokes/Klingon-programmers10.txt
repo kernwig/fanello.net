@@ -1,0 +1,35 @@
+We must have some Klingons at CSUF ... I've heard a lot of these from
+students  :)
+
+=========================================================================     If Klingons Developed Software...
+     
+     Top 10 things likely to be overheard if you had a Klingon on your 
+     software development team:
+     
+     10) "This code is a piece of junk!  You have no honor!"
+     
+     9) "A TRUE Klingon warrior does not comment his code!"
+     
+     8) "By filing this bug you have questioned my family honor. 
+        Prepare to die!"
+     
+     7) "You question the worthiness of my Code?!  I should kill 
+        you where you stand!"
+     
+     6) "Our competitors are without honor!"
+     
+     5) "Specs are for the weak and timid!"
+     
+     4) "This machine is a piece of GAGH!  I need Sparc E4000 
+        processors if I am to do battle with this code!"
+     
+     3) "Behold, the keyboard of Kalis!  The greatest Klingon 
+        code warrior that ever lived!"
+     
+     2) "My program has just dumped Stova Core!"
+     
+     And the number one thing likely to be heard if you had a Klingon on 
+     your software development team:
+     
+     1) "Perhaps it IS a good day to Die!  I say we ship it!"
+ 

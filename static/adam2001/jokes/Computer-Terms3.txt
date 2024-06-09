@@ -1,0 +1,125 @@
+   Tonkin's First Computer Dictionary
+             (cont'd again..)
+ 
+ 
+Segment: (n.) a way of restricting or
+  complicating access to memory in an
+  attempt to break  a programmer's
+  will to live.  Outlawed by both the
+  A.S.P.C.A and the U.N. but still
+  practiced in some backward areas of
+  the world.  See: Offset.
+ 
+Software: (n.) anything other than
+  hardware.  That which hardware
+  manufacturers can blame for physical
+  failures.
+ 
+Sort: (v.) to order a list of data in
+  such a way as to destroy all
+  relationships between the items.
+  (n.) The process which accomplishes
+  this, esp. if it takes a very long
+  time.
+ 
+Source Code: (n.) a record of a
+  programmer's thought for a period of
+  time.  A stream-of-consciousness
+  novel or short story.
+ 
+Spreadsheet: (n.) a way of forcing
+  repeatable answers from insufficient
+  data for superficial purposes.  Also,
+  a game played during office hours by
+  bored or restless yuppies.
+ 
+Stack: (n.) any area of memory which
+  grows and eventually destroys both
+  code and data.  (v.) To place in
+  such an area.
+ 
+Standard: (n., adj.) a design target
+  which manufacturers may embellish,
+  improve upon, or ignore as they wish,
+  so long as it can be used profitably
+  in their advertising.
+ 
+Transportable: (adj.) said of software
+  - that which can be put on a new
+  machine in less time than it took to
+  write in the first place.  Said of
+  hardware - that which can
+  theoretically be moved more than ten
+  feet in one minute by some
+  combination of machinery or
+  explosives.  The meanings are
+  equivalent.
+ 
+Truly relational: (adj.) relational,
+  but where the paternity is indubitable.
+ 
+TSR: (n.) acronym for Terminate and
+  Stay Resident.  A way of turning a
+  useless computer with plenty of
+  memory into a computer with no
+  memory at all.
+ 
+Turbo-: (prefix) computer software
+  which uses air under pressure
+  (supplied by a special fan) to
+  achieve high performance.
+ 
+User-friendly: (adj.) trivialized,
+  slow, incapable, and boring.
+  See: Icon, Mouse.
+ 
+UNIX: (n., v.) a DOS which needs more
+  memory than you have and run more
+  slowly than you can bear.  To UNIX:
+  to grossly enlarge and slow down out
+  of all proportion, esp. by using C.
+ 
+User: (n.) one who knows from
+  experience that programs cannot be
+  trusted.  A realist.
+ 
+Vendor: (n.) a manufacturer's lackey.
+ 
+Virtual: (adj.) emulated.
+  See: Emulate.
+ 
+Warranty: (n.) a list of vendor's
+  promises with carefully-worded
+  exceptions which cancel each of the
+  promises in turn.  See: License.
+ 
+Windowing: (n., adj.) a way of making a
+  large and easily-read display into
+  many small, cluttered, and confusing
+  ones.
+ 
+Word Processor: (n.) A program which
+  makes a $5,000 computer into a $250
+  typewriter.  A computer game for
+  beginning operators.
+ 
+WORM: (n.) acronym for Write Once, Read
+  Mangled.  Used to describe a normally
+  functioning computer disk of the very
+  latest design.
+ 
+XYZZY: (n.) a common user prompt.
+ 
+Yarrow: (n.) kind of stalks used by
+  computer diagnosticians when
+  performing the ritual of the I Ching.
+  See: Diagnostics.
+ 
+Zaxxon: (n.) a sophisticated simulation
+  and design program used by the
+  brightest programmers to test the
+  consistency of internal logic and
+  memory.  Management prefers to use
+  games such as 'spreadsheet' for the
+  same purpose.
+ 

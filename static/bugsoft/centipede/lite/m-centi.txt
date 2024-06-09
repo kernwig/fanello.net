@@ -1,0 +1,142 @@
+CENTIPEDE is a revolutionary new BBS software package for Commodore
+computer systems, taking advantage of the latest in computer
+technologies. It represents over eight years of BBS programming experience
+on behalf of its author, covering four systems. Centipede is the second
+BBS creation by Adam Fanello.
+
+When you buy the full version of Centipede, you gain dozens of new,
+improved, and advanced functionality that is not available in this Lite
+version.
+
+Here us a categorized list of most of the new functions:
+
+
+Messaging:
+
+* Quoting of reference message!
+* Personal macros attached to end of any message.
+* Customizable hotkeys for message board reading, e-mail reading, and
+  in the message editor.
+* Up to 15 message boards with level restrictions and individual member
+  lockouts for private boards.
+* Member definable message board scan sequence.
+* Entire thread renaming and removal functions.
+* Public message mobility.
+* E-mail file attachments!
+* Automatic purging of old e-mail messages.
+* Feedback menu for unlimited SysOps, Co-SysOps, area-Ops...
+
+
+File transfers:
+
+* Up to 15 categories with level restrictions and individual member
+  lockouts for private categories.
+* Extended file descriptions for uploader, access, and detailed description.
+* Editability of short and extended file descriptions.
+* Ability to award extra credits for popular downloads.
+* Xmodem-1k, Multi-Punter, and Ymodem-batch file transfer protocols.
+
+
+Customization:
+
+* Color 64 and Image style system structures.
+* Ability to define and customize your own system structures.
+* Alter entire menu/submenu structure without limitations.
+* Create and edit command scripts.
+* Definable random menu phrases.
+* Define new hotkeys for message reading, e-mail reading, editor, and file
+  transfers.
+* Selectable Picture Format (SPF) file editor. Create different pictures for
+  different caller emulation modes.
+
+
+Chat Mode:
+
+* Toggle SysOp availability for chat.
+* Digitized chat request sounds.
+* Customizable chat-mode entry and exit messages.
+* Toggle automatic color changing.
+* Toggle word wrap in chat.
+* Split-Screen chat mode!
+
+
+Membership Accounts/Calling:
+
+* Individual member SysOp editable information files (starting with a copy of
+  the member's application.)
+* Edit current caller's level, time, and credits while on-line.
+* Member account inactivity purging.
+* Global membership accounts adjustments.
+* Ban certain handles from joining the BBS.
+* Automatic e-mail sent to new members.
+* Expiration date for subscription boards.
+* Definable maximum calls a member may make in a single day.
+* Definable minimum wait time a caller must wait in between calls.
+
+
+System Functions:
+
+* Local buffer. No reason to call your own BBS from a term program!
+* Customizable ALT key definition strings.
+* Local usage password for extra security.
+* Instant local login - straight to the main menu!
+* Simulated 40c mode can stretch your display to show only 40 columns. See
+  things the same way that your C64 callers do!
+* Caller activity log that records caller actions - searchable!
+* Full, instantly updating, BBS View Panel information.
+* Digitized caller logoff sounds.
+* Star scape screen saver.
+* Volume test keystroke.
+* Caller viewable call list.
+* Read the current date and time from your CMD real time clock.
+* Support for Lt. Kernal multiplexer for dual-line BBS!
+
+
+Add-ons:
+
+* Well over 100 Centipede on-line games!
+* Networks:  ComLink, CommNet, and Net64.
+* Graffiti tree.
+* BBS lister.
+* Call-Back validation.
+
+
+Conversion:
+
+* Color64/V128 conversion utility to transfer old membership accounts,
+  messages, e-mail, credits, directory listings, and member macros.
+* COCOON utility to assist in converting Color64/V128 games to Centipede.
+
+
+Documentation:
+
+* Printed manual.
+* Full module and script file details.
+
+
+Pricing:
+
+* Standard Price - $69.95 + $9.95 S&H.
+* For Registered Owners of V128 BBS - $59.95 + $9.95 S&H.
+* Write "I tried Centipede Lite!" on your order, and knock $5.00 off the above
+  price!
+
+
+Owner Support is free via e-mail on the Internet, ComLink, direct on the
+author's BBS, and through other support BBS'.
+
+
+You can contact Bugsoft for information or orders at:
+
+BBS:          Nature Reserve BBS 714-828-7296
+              User #1: "Ant"   -   User #2: "Centipede"
+
+ComLink:      Send e-mail to 1-Ant   -or-   1-Centipede
+
+Internet:     adamf@acm.org   -   http://www.bugsoftware.com
+
+Postal Mail:  Adam Fanello / Bugsoft
+              4822 Larwin Ave
+              Cypress, CA
+              90630-3515 USA
+

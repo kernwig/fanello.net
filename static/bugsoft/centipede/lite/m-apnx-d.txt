@@ -1,0 +1,96 @@
+D - Keyboard Commands
+
+There are many keyboard commands for performing a wide variety of actions in
+Centipede. Most of these are activated by pressing the CONTROL or ALT key in
+combination with another key, or by pressing one of the Function keys. These
+are described in the sections below. One other command that does not fit into
+any category is the LINE FEED key. Ordinarily a rather useless key, in
+Centipede it can be pressed at nearly any point during BBS operation to bring
+up the BBS View Panel. Press LINE FEED again to shove the panel back down.
+Viewing the panel will not have any effect on a caller that may be online at
+the time. [NAL: The View Panel in Centipede lite is crippled. Only the display
+of the current and last five callers' handles is functional.]
+
+
+D.1 - CONTROL Key Commands
+
+The CONTROL key commands are produced by pressing and holding the CONTROL key,
+while pressing the listed letter key. Unless otherwise noted, these character
+commands can be entered from online (such as in messages), or included in
+program code.
+
+CONTROL-A:     Turn rainbow mode on.
+CONTROL-B:     Change the background color if followed by a color key, otherwise
+               turn character underlining on.
+CONTROL-C:     Cycle to the previous system color.
+CONTROL-D:     Cycle to the next system color.
+CONTROL-F:     Turn character flashing and underlining off.
+CONTROL-G:     Produce a bell sound.
+CONTROL-J:     Produce a carriage return. Works from within program code only.
+CONTROL-K:     Copy a character entered at the current column position on the
+               last line entered. (Certain restrictions apply for security
+               reasons.)
+CONTROL-O:     Turn character flashing on.
+CONTROL-P:     Abort current operation when online, or produce a soft return in
+               when in program code. (A soft return will output a space when
+               still on the first half of an 80c display.)
+CONTROL-S:     Pause output. This is the same as the HOME key on a Commodore.
+CONTROL-V:     Verify current line being entered by redisplaying it on the next
+               line. Useful for checking for line noise.
+CONTROL-W:     Word delete; delete back to last space.
+CONTROL-X:     Delete back to the beginning of the line.
+CONTROL-Z:     Turn rainbow off.
+
+
+D.2 - ALT Key Commands [NAL]
+
+The ALT key commands are produced by pressing and holding the ALT key, while
+pressing the listed command key. These commands only work from the local
+computer that the BBS is running on, and thus cannot be activated by a caller.
+
+[NAL: The list is here only to show you what the full version of Centipede can
+do.]
+
+ALT-1 ...
+     ALT-8:    Display the numbered programmable ALT key definition, as
+               defined in bbs-setup.
+ALT-A:         Toggle SysOp availability for chat.
+ALT-C:         Toggle Auto-Color Changing in chat mode. With this feature
+               active, anything you type will be shown in the first system
+               color, and anything the caller types will appear in the second
+               system color.
+ALT-G:         Produce a bell sound on the BBS computer only. This is
+               useful for adjusting the audio volume.
+ALT-S:         Toggle Split-Screen Chat Mode. When active, the chat screen
+               will be split into two halves, one for the SysOp and one for
+               the caller.
+ALT-W:         Toggle Word-Wrap in chat mode.
+ALT-0:         Clear the system buffer.
+ALT-+:         Start capturing output into the system buffer.
+ALT--:         Stop capturing output into the system buffer.
+ALT-@:         Dump the contents of the system buffer, as if it were typed
+               into the keyboard.
+
+In addition to these commands, simply holding the ALT key while a script is
+executing will prompt you for execution of each command in the script.
+
+
+D.3 - Function Key Commands
+
+When a member is online, there are a few commands that can be executed by
+pressing the F- keys on your keyboard:
+
+F1:  From nearly anywhere in the BBS, you may press F1 to jump into chat with
+     the caller.
+F3:  Pressing F3 will exit chat mode, having frozen the caller's time for the
+     day while in chat mode.
+F4:  Pressing F4 will exit chat mode, while having allowed for the caller's
+     time for the day to be used up during the time spent in chat.
+F5:  Edit the caller's access level, time for the day, or credits. [NAL] You
+     may also put the caller on hold. [NAL]
+F7:  Run a program module. [NAL]
+
+
+Copyright 1998, Bugsoft
+
+  -<[ Use your browser's "BACK" button to return to the table of contents. ]>-

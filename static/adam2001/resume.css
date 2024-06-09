@@ -1,0 +1,54 @@
+/* Stylesheet for typical resume formatting       */
+/* Author: Adam Fanello                           */
+
+body {
+    background-attachment: fixed;
+    background-image: url(P8280019.JPG);
+    margin: 1em 4em;
+    color: black;
+    background-repeat: repeat;
+    font-family: Serif;
+}
+h1 {
+    font-size: 28pt;
+    letter-spacing: 2pt;
+    text-align: center;
+}
+a:link {
+    text-decoration: underline;
+    color: black;
+}
+a:visited {
+    text-decoration: underline;
+    color: black;
+}
+a:hover, a:active {
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+#header {
+    font-family: Cursive;
+    text-align: center;
+}
+p {
+    margin: 0 0;
+}
+
+#content p, h4 {
+    margin-left: 6em;
+}
+ul {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-left: 8em;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 2em;
+}
+
+p.period {
+    margin-bottom: 1em;
+}

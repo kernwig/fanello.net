@@ -1,0 +1,9 @@
+C - Script Language [NAL]
+
+Centipede has a simple scripting language, which is compiled within the Script
+Editor utility. [NAL]
+
+
+Copyright 1998, Bugsoft
+
+  -<[ Use your browser's "BACK" button to return to the table of contents. ]>-

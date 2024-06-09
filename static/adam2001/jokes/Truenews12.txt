@@ -1,0 +1,240 @@
+@FROM   :funny-request@clari.net                                      
+@SUBJECT:The True News Digest part 12/22                              
+Newsgroups: rec.humor.funny
+
+ =       =       =       =       =
+
+From: murray@motto.UUCP (Murray S. Kucherawy)
+Subject: Garbled communications
+
+This is something of a famous event among many CS students at the
+University of Waterloo.
+
+One of the concepts in any CS major program is data communications, and it
+is important to understand how a message can get garbled.  One prof
+was teaching this to a second-year class, and the demonstration used
+was to line up everyone in the class across the lecture room, side-by-side.
+A message was given to a student at one end, and he/she was to pass
+it on to the next until it reached the other end.
+
+Normally the message comes out somewhat different from the original message,
+proving how communications can become garbled when it goes through many stops.
+Whatever the message was when the [female] prof started it, some clever soul
+decided to produce an extreme case of garbled communications... the message
+that came out at the end of the line was NOT what the original had been:
+
+ Prof: OK, now what message did you get?
+ End student: You don't want to know.
+ Prof: Come on, tell us.
+ End student: Trust me, you don't want to know.
+ Prof: What message did you get!?!
+ End student: [pauses] "The prof's a dyke."
+ Prof: [blushes profusely]
+
+The class had a good laugh about it.  I'm not sure if that form of
+demonstration is still in use today, though...
+        
+ =       =       =       =       =
+
+From: catfood@ncoast.org (Mark W. Schumann)
+Subject: Joke submission--Bumper sticker
+
+Seen on a pickup truck on I-77 just north of Akron:
+
+             "My kid beat up your honor student"
+        
+ =       =       =       =       =
+
+From: jacob@taitastigon.tcs.com
+Subject: Berkeley protesters are SO paranoid...
+
+I wandered by People's Park in Berkeley today.  This time the guy exhorting
+the crowd seemed less in touch with reality than usual.  He cried "We have
+to do something.  We have to get organized.  The *government* is organized."
+        
+ =       =       =       =       =
+
+From: psavoie@pro-micol.cts.com (Pierre Savoie)
+Subject: Vachon snack cakes
+
+   This week I saw a funny ad on the side of a bus for Vachon brand
+snack-cakes, whose different varieties must be all at least 50% sugar.  The
+ad was a tongue-in-cheek jab at health food labelling, and showed a field
+of green stuff with the promise:  "Contains NO Alfalfa!"
+
+   Unfortunately for the company, this was the week when many types of
+Vachon cakes had to be recalled when metal filings were found in the Vachon
+company's mixing equipment.  And some wag had written on the bottom of the
+panel of the ad:  "Also a Good Source of Iron."
+        
+ =       =       =       =       =
+
+From: Bil.Lewis@eng.sun.com (Bil Lewis)
+Subject: Some kids ain't so dumb
+
+  I was behind a little girl at a checkout stand.  She held two boxes of dog
+food priced at $0.99 and had two dollar bills to pay for them with.  When
+the cashier explained that with tax it would come to $2.16, the girl
+hesitated, thought about it, then said "I'll just buy one."  
+
+  She opened the newly purchased box, took out a 20 cents off coupon and
+bought the second box.
+
+  I was impressed.
+        
+ =       =       =       =       =
+
+From: pat@fitz.b17c.ingr.com (Patrick Fitzgerald)
+Subject: Love that chicken...
+
+My friend and his fiance had just finished watching "Silence of the
+Lambs" when they decided to get a bite to eat at the local Popeye's.
+They noticed that the new "skinless chicken" was on special.
+
+Needless to say, they passed.
+        
+ =       =       =       =       =
+
+From: mjg@casbah.acns.nwu.edu (Michael J Graven)
+Subject: Hot Wheels
+
+The economic downturn has hit the real estate business on the East
+Coast particulary hard.  A few months ago, I saw an English Racing 
+Green Jaguar XJ6 in line at the local bank's drive-through teller.
+Its license plate caught my eye, even though we have quite a few 
+vanity plates here in New Jersey.
+
+"2XPNSV"
+
+Now, that's cute and all, but what made it truly amusing was that
+a few months later I saw the same plate on the back of a decrepit 
+Ford Granada... 
+        
+ =       =       =       =       =
+
+From: wardk@cse.ogi.edu (Karen Ward)
+Subject: Oral Roberts' Latest Book
+
+[This is true, believe it or not.]
+
+While flipping channels this morning, I ran across 
+Oral "Send Me 9 Million Dollars or God will Call Me Home" Roberts
+hawking his latest book:
+
+   "How To Get Out of Debt ... Supernaturally"
+        
+ =       =       =       =       =
+
+From: alind@eng.clemson.edu (Alex Lind)
+Subject: bus driver annecdote - true
+
+My grandfather was named "Thure Niels Alexander Lind", but since most
+people could not pronounce "Thure" or "Niels" and he didn't care much
+for "Alexander", they simply called him "Bud". As an active member of
+the local high schools band booster club, one of the things he did for
+them was to occasionally drive the band bus to different outings.  The
+common practice at that time with regard to the bus driver was that they
+would post a sign at the front of the bus that read "Your driver is:
+<first initial>.<last name>".  He always got a kick out of watching the 
+reactions of new band members when they read the sign at the front of
+the bus stating "Your driver is: B.LIND".
+        
+ =       =       =       =       =
+
+From: garyk@hpldslx2.sid.hp.com (Gary Koerzendorfer)
+Subject: Sign of the times
+
+A sign behind the counter at the San Jose Tower Records store:
+
+
+                  Needles are not returnable
+                   and should not be shared
+        
+ =       =       =       =       =
+
+From: pew@cs.brown.edu (Peter E. Wagner)
+Subject: Help Wanted Ad
+
+Seen in Boston Globe, 9/11/91
+
+FUSSBUDGET WANTED
+
+Person wanted to search & examine titles.  Must be meticulous,
+fastidious, exact, precise, orderly, accurate, organized,
+conscientious, constant, unerring, curious, disciplined, punctual,
+scrupulous, punctilious, particular, querulous, and finical.
+
+I wonder what sort of person they are looking for...
+        
+ =       =       =       =       =
+
+From: twang@cunixf.cc.columbia.edu (Tony Wang)
+Subject: True story
+
+There I was, stuck behind a queue of cars forced to wait until a
+sanitation truck finish with it's pick-up. I look over to my right,
+and there was this late model Mercedes that was squeezed between two
+other cars, with no more than 6 inches of space between the other 
+two cars (can you see it coming...). So, the Merc decides to use the 
+bump-n-bump method of getting out. On the third round of the bump-n-bump,
+on the way forward (you sure you still don't see it coming?) he hits the
+car in front with a little extra ommpphhhh, and.......
+
+ SETS OFF HIS AIR-BAG.
+
+I nearly fell off my bike laughing........
+
+What a way to start a Tuesday.
+        
+ =       =       =       =       =
+
+From: bedk@icsi.berkeley.edu (Brian E.D. Kingsbury)
+Subject: Come again?
+
+I came across these quotes in the Fall 1991 edition of Common Cause
+Magazine:
+
+"[There are] few lies more pronounced than the words uttered by
+ feminists."
+
+      Rep. Bill Dannemeyer (R-Calif.), April 23, 1991
+
+"There are few male character traits more loathsome than showing
+ disrespect for women."
+
+      Rep. Dannemeyer, one week later
+        
+ =       =       =       =       =
+
+From: sjreeves@eng.auburn.edu (Stan Reeves)
+Subject: Procrastinator Strikes...
+
+This letter to the editor appeared in the Wall Street Journal on 
+September 17(?), 1991:
+
+Procrastinator Strikes While the Iron Is Warm
+
+ I must register immediately my outrage at your May 13 page-one 
+article "Procrastinators Club Is Definitely Not Ahead of Its Time."
+The story serves only to perpetuate the worst stereotypes about 
+procrastinators.  Also, the term "procrastinator" is offensive; the
+correct term is "temporally challenged."
+
+           Don Nathan
+        
+ =       =       =       =       =
+
+From: PDB059@mipl5.jpl.nasa.gov
+Subject: Manual or Automatic?
+
+A tag from a Duracraft electric fan brags that it is "Manually Reversible".
+So you can reverse the flow of air by flipping a switch?  No. "Manually
+reversible" means you can pick the fan up and turn it around.
+
+Read in the October, 1991 issue of _Consumer_Reports_ magazine.
+        
+ =       =       =       =       =
+
+This newsgroup is sponsored by ClariNet Communications Corp.  Read 
+about The Internet Joke Book -- the best of RHF at
+http://www.clari.net/inetjoke.html

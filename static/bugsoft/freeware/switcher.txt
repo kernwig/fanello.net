@@ -1,0 +1,14 @@
+Switcher! is a two-fold programmer's
+utility for the Commodore 128. With
+it, you can easily swap between two
+independant 80c screens, and have up
+to 7 BASIC programs in memory at once
+for editing.
+
+This file is a BASIC loader program,
+which creates the ML file in whatever
+area of memory you wish. This allows
+Switcher! to coexist with other
+utilities in memory.
+
+Switcher is freeware from Bugsoft.

@@ -1,0 +1,780 @@
+2 - Planning for Your BBS
+
+Many of us like to rip open a new piece of software and start fudging our way
+through it, just to see what it does. You are free to do so with Centipede,
+but be prepared to delete all of that hacking and come back here for a proper
+planning session. You see, a BBS system is not like those other little games
+or utilities you are accustomed to throwing in the disk drive and typing
+LOAD"*",8,1 on. Centipede is a very large software package - more complex than
+even many operating systems. (Not quite as large with Lite.) After all, when
+was the last time you dealt with any software package on an 8-bit system that
+required at least a megabyte of space? You can't just throw that much code
+around and expect it to work.
+
+This chapter is meant to be read through step-by-step, while actually planning
+your BBS. You should have some paper and a pencil handy to take down notes on
+what you decide.
+
+
+2.1 - What Are You Offering?
+
+The first thing to decide, is what your BBS is all about! You probably already
+have a general idea. Now it needs to be fine tuned. Some key questions are:
+
+*    Why are you running this BBS? Is it a support board for a group or
+     product? Will you be stressing a social atmosphere (messages), a point
+     of exchange (file transfers), or a fun place to waste time (games)[NAL]?
+     Something else?
+*    Is there a theme? A theme gives your BBS a unique look, and provides you
+     with a basis for design decisions. Pick a theme that fits your or your
+     group's interests and go with it!
+*    How much space do you have? Don't think that you will become the place
+     to exchange files or to run a zillion message networks, if you are running
+     off an REU and a fleet of floppy disks. It won't work.
+
+
+2.1.1 - Message Boards and Networks
+
+Bulletin Board Systems earned their names by being compared to cork bulletin
+boards used to post messages in schools and workplaces. While BBSs have
+expanded to offering many other features since that time, the message boards
+continue as a central feature. Here, any member (with proper access) may post
+a new message on the board or post a reply to another message.
+Message networks expand the bulletin board idea for automatic posting of
+messages on other BBSs. As such, any message posted on one BBS will
+automatically appear on every other BBS in the network. Please see section 6.1
+for more information about networking.
+
+Now, keeping your BBS theme, space available, and the networks you plan to run
+in mind, it is time to plan your message board structure. Centipede allows for
+up to fifteen separate message boards on your BBS [NAL: Only one message board
+available in Lite.], although it starts using hexadecimal to number the boards
+after the ninth one, so you may want to keep the total under nine. Each
+message board has the following properties:
+
+Name:
+Your board needs a purpose for existence. The name should very briefly state
+this purpose in a way that clearly separates it from your other message
+boards. On a small BBS, you may wish to run only one message board.
+
+Categories:
+Each board must then be separates into categories. Up to twenty-six categories
+may be used. Each category needs a name and a clear purpose within the
+confines of the purpose of the board. You may also define a minimum access
+level required for each category, which functions over and above the message
+board access level. (See Access below.)
+
+Threading:
+A board may be threaded or unthreaded. A threaded board will have all replies
+to a post displayed together. In the bulletin board analogy, it is like
+posting replies right under the last reply. An unthreaded board will display
+messages strictly in the order in which they were created. In the analogy,
+this would be like always posting new messages and replies in the next free
+spot on the board, with no relation to the original post or replies.
+
+Access:
+Access can be set either by one of the nine general access levels, or as
+private. For a private message board [NAL], only members whom you have given
+explicit access will be able to see the message board.
+
+Size of the Board:
+A message board can only hold so many postings, before it becomes full and old
+postings must be removed. You must decide how many postings you want to keep
+on each message board. Enough postings must be kept for readers to be able to
+refer back to a detail and for members who don't call daily to still be able
+to read when they do call. However, a member who goes away on vacation is
+probably not interested in returning to read a thousand new messages. Balance
+is needed. Additionally, each posting requires its own file on disk. Many disk
+storage units have limitations on the number of files they can hold in a
+directory. Don't fret over this property too much though - it can be adjusted
+at any time.
+
+Network Association:
+For public messaging networks, message board categories must be associated
+with network categories. It is generally a good idea to give each network its
+own message board [NAL], in order to be clear to the readers where a message
+came from, and where a reply will go. However, Centipede does not require
+this. You are free to mix local and different network categories on a single
+message board.
+
+
+2.1.2 - File Transfer Areas
+
+The next major area of any BBS is the file transfer area. The file transfer
+area (sometimes called Upload/Download or U/D area) allows for members to
+exchange files by uploading to the BBS, and downloading from it.
+
+Centipede allows you to group your file transfer directories (similar to disk
+directories) into anywhere from one to fifteen categories [NAL: Only one
+category available in Lite.], although it starts using hexadecimal to number
+the categories after the ninth one, so you may want to keep the total under
+nine. Each category has the following properties:
+
+Name:
+The category name should briefly indicate the types of directories that fall
+under it. On a small BBS, you may wish to run only one file transfer category.
+In this case, Centipede will skip any category selection and go directly to
+directory selections.
+
+Directories:
+Each category must be separated into directories. Up to twenty-six directories
+may be used, each with the following attributes:
+
+     Name:          The name of the category.
+     Location:      The disk location where the files are stored. Each file
+                    transfer directory must be in its own disk directory
+                    (location).
+     Direction:     A directory may be upload only, download only, or both.
+     Access Level:  General access level needed to see the directory. A more
+                    restrictive category access requirement will override 
+                    this setting [NAL].
+     Files:         Each directory may contain up to 300 downloadable files;
+                    subject to storage unit directory limitations.
+
+Access:
+Access can be set either by one of the nine general access levels, or as
+private. For a private file transfer category [NAL], only members whom you
+have given explicit access will be able to see the category and its
+directories. This will override a lower directory access level.
+
+There are several ways of setting up file transfer area options. First, if you
+only have a small amount of storage space, you may opt out of using categories
+all together. This will leave you with only directories to deal with, and is
+recommended if you plan to have twenty-six or fewer directories on your
+system.
+
+For larger transfer areas, a category system is necessary. I'll cover two
+common methods used for selecting category/directory configurations:
+platform/type and type/platform. You are free to mix these methods or come up
+with your own. 
+[NAL: Since Lite can only use one category, this section has been removed.]
+
+A final note on the file transfers area involves a thing called credit. You
+may choose to encourage fair usage of your file transfer area by requiring
+credits to be used when downloading. Centipede has two credit awarding systems
+built-in [Only one in Lite], of which you may use both, either, or neither.
+
+The first place a member may earn credits is upon uploading of a file. For
+each disk block uploaded to the BBS, the caller will receive a certain
+proportional number of credits to use for downloading. The number of credits
+received for each block uploaded may be any integer value. (I.e., One-for-one,
+double credit, triple, etc.) 
+
+The problem with the first award system is that there is no check of upload
+quality. Someone can upload his grocery list multiple times and receive
+credits. The second way of earning credit then, is when another member
+downloads a file [NAL]. The person who uploaded the file is then awarded
+credit based on how many times the file is downloaded. The more popular a file
+is, the more credits the uploader will earn.
+
+Alternatively, of course, you may choose to simply disable the requirement of
+credits for downloading. This will effectively disable the credit system and
+allow any member (or any member of a minimum access level) to download any
+number of files within their daily time limit.
+
+
+2.1.3 - On-Line Games [NAL]
+
+There are well over 100 games available for Centipede. However, Centipede
+Lite does not support them.
+
+
+2.2 - General Access Levels
+
+General access levels define a set of abilities and limitations shared by
+members at each of the nine levels. In Centipede, level one is the most
+restrictive while level nine gives full access to the system. Beyond that
+general guide line, the abilities and limitations of each level is completely
+configurable. 
+[NAL: Skipping configuration options section of the manual.]
+
+In addition to the access levels, each member may be given individual access
+to a message board or file transfer categories [NAL]. Daily time limits may
+also be adjusted on an individual basis.
+
+In the full version of Centipede, you may create your own guide-lines for
+access levels. Centipede Lite lacks this customization, and so most access
+level restrictions are already defined within the menus. The access level
+guide-line used by Centipede Lite is as follows:
+
+1. Crippled:   These members will be able to do next to nothing. They will
+               be able to read and reply to e-mail, but only initiate mail to
+               the SysOp. No message board or file transfer access. This is a
+               possible starting level for an unverified new member.
+
+2. Looker:     These members will have the added benefit of being able to look
+               at messages or files, but not add anything of their own. This is
+               also a good place for a new member.
+
+3. Restricted: These members will be able to post messages and upload files.
+               Local e-mail may be allowed, but not network. They are
+               restricted by the credit system for downloads and uploads that
+               must be released by a Co-SysOp.
+
+4. Open:       These members have open access to most of the general system,
+               including all e-mail, networking, and file transfer areas. The
+               credit and upload release restrictions may or may not stay in
+               place. This is your typical member.
+
+5. Privileged: These members have access to all non-SysOp features with
+               little restrictions. Place valued members here.
+
+6. V.I.P.:     These members have special V.I.P. treatment. Guest SysOps of
+               other systems or close friends often reside here.
+
+7. Area-Op:    These members are low level Co-SysOps. They are usually in
+               charge of one particular area, such as releasing uploaded files
+               or patrolling message boards.
+
+8. Co-SysOp:   These members are your primary Co-SysOps. They have access
+               to most SysOp functions, possibly including Account Maintenance
+               but excluding direct disk access (DOS prompt). The Account
+               Maintenance utility will not allow a caller to edit their own 
+               account or give someone higher access than themselves.
+
+9. SysOp:      This person is you, and perhaps one fully trusted partner.
+               Level nine members can do anything. It's that simple.
+
+
+2.3 - What Storage Units Are You Using?
+
+It is now time to start looking at your physical system. In this section, we
+will go over how to use different storage units (disk drives, hard drives,
+etc.) with Centipede. I assume that you already know the basics of how to use
+your specific hardware, as well as the Commodore 128 computer. If this is not
+the case, please review the relevant manuals before beginning.
+
+Centipede is likely to be the most hardware demanding system you will ever run
+across for a Commodore 8-bit computer. The bare minimum storage capacity for a
+stripped down system (such as Lite) is 512 kB (2048 blocks). Half of that 
+space needs to be on a high speed device(s). The following subsections
+detail not only which devices meet the 'high speed' requirement, but also how
+to use each one with Centipede.
+
+First, we need an introduction to the Centipede concept of disk locations.
+Different hardware units utilize the terms drives, partitions, subdirectories,
+and several other concepts for indicated a specific file directory on disk. In
+Centipede, this is all generalized into the term location. There are four
+attributes to defining a location: device number, prefix, command, and
+secondary command.
+
+The device number should be familiar with you. Every Commodore disk drive unit
+has a device number between eight and fifteen. Some units allow for higher
+device numbers than fifteen, but Centipede does not support this. If you have
+more than eight units, it is time to trade in for a higher capacity device and
+start saving on the electric bill! For most BBSs, these devices are on 24
+hours a day, so this can be a real concern.
+
+The prefix is automatically attached to the file name of any reference to a
+file in the location. In the original Commodore design, this prefix could
+either be "0:" or "1:", indicating drive 0 or drive 1 on a dual-floppy unit.
+Modern additions now allow for partition numbers, subdirectories, and LUs to
+be selected via the prefix. The prefix will always conclude with a colon.
+
+The command is a disk channel command sent to the storage unit when the
+location is to be selected. On simple single directory units (such as floppy
+disks), this is generally "i0", which tells the device to take note of what
+disk it currently holds. Modern units can select partitions, subdirectories,
+and so on, by way of this command.
+
+The secondary command is an optional field used when a single disk channel
+command is not enough. For instance, the first command may select a partition,
+while the second command selects the subdirectory.
+
+
+2.3.1 - Floppy Drives
+
+This is the bottom line storage unit for your Centipede system. Every system
+should have a least one floppy, even if solely for transferring files from
+floppy disk to another storage unit. 
+
+While it is possible to run a slow system with only a series of floppy drives,
+it is by no means recommended. You will need to have at least one of the other
+storage units listed in the following subsections.
+
+The 1541 and 1571 floppy disk drives are only capable of holding a single
+directory on a disk. As such, the disk location information is rather
+straight forward: Prefix is always "0:" and command is "i0". A device number
+of eight to eleven may be physically selected by jumper, solder cut, or dip
+switches. Refer to your disk drive manual to learn how to change the device
+number.
+
+Generally, the 1581 floppy drive works much like the earlier Commodore model
+floppy disk drives. The 1581 does contain a partitioning option though. Each
+partition has its own directory space with a capacity of holding 296 files. As
+such, partitioning can be useful for storing multiple message boards on a
+single 1581 disk. A 1581 disk split into three even sized partitions can then
+easily hold three message boards of 290 postings each. (Leave yourself some
+elbow room.) Refer to your manual and/or 1581 Test/Demo disk for information
+on creating partitions. In Centipede, the location information will still use
+the prefix of "0:", now with a command of "/partition-name" and a second
+command of "i0".
+
+The 1542 and other dual-drive units work just like their single drive
+counterparts, but use the "1:" prefix and "i1" command for referring to drive
+#1.
+
+Centipede can also be used with IEEE drive units. In order to use one of
+these, you will need a C128 mode IEEE interface, such as the QuickSilver IEEE
+interface. The location information works the same as other floppy drives.
+
+For details on configuring CMD floppy drive units and their location
+information, please refer to subsection 2.3.3. The CMD FD units can be
+effectively treated as slightly slower, smaller capacity versions of the CMD
+HD. It is even possible to use a CMD FD unit as your primary storage unit, if
+you do not mind some short delays.
+
+The following table lists the capacity and directory space (number of files
+that can be held) for several common floppy drives.
+
+       DEVICE       1541      1571      1581      CMD FD-2000
+       CAPACITY    164 KB    330 KB    784 KB       1590 KB
+       DIR.SPACE    144       144       296        unlimited
+
+
+2.3.2 - RAM Expansion Unit (REU)
+
+The Commodore (and clone) RAM Expansion Unit (REU) adds memory to the
+Commodore 128 computer in the form of external memory. This memory is not
+readily available to programs however. A convenient way for a program to use
+an REU is as a RAM-based disk drive. This is accomplished via a special
+program called RAMDOS.
+
+Centipede is fully compatible with RAMDOS, and a copy of the RAMDOS 128 v4.5
+package is included on your Centipede disks. [NAL - You may still use RAMDOS,
+it just is not included here.]  Please refer to the documentation within
+the RAMDOS package for information on how to use it. Use the default option
+of memory page 14. Any device number between 8 and 15 may be used, so long
+as it does not conflict with any other devices.
+
+Because RAMDOS uses RAM for storage, it is extremely fast. As such, it easily
+meets the speed requirements for your 'high speed' device for Centipede.
+
+The down side of REUs is that they do not maintain data in the event of a
+power loss. If you lose power to your computer (including simply turning it
+off), the contents of your RAM disk will be lost. Because of this limitation,
+only program files should be stored on your RAM disk. All program files should
+be added to and/or modified on a special floppy disk (or disks) which can be
+used to reload the RAM disk when needed. Additionally, any time you reset your
+computer the RAMDOS system will need to be reloaded. Done properly though, the
+contents of your RAM disk will not need to be reloaded. (Once again, refer to
+the documentation that is included in the RAMDOS package.)
+
+The location information for a RAMDOS REU is the device number you chose,
+prefix "0:", and command "i0"; just like a floppy disk.
+
+
+2.3.3 - CMD Hard Drive and RAMLink
+
+CMD's storage units are the most advanced storage systems ever built for
+Commodore computers. They have a level of flexibility, compatibility, and
+reliability that is unequaled by any other device. It goes without saying that
+they make excellent choices for running Centipede.
+
+The CMD RAMLink is a high speed RAM disk. Unlike an REU with RAMDOS, there is
+no driver software to load (it's in ROM), and its contents are not lost when
+the computer is reset or turned off (it has its own power source). The RAMLink
+can still lose power in a back out though, so make frequent backups and do not
+store important information that changes frequently on a RAMLink. You may wish
+to consider getting a battery backup for your RAMLink. Storage capacity ranges
+from one to sixteen megabytes.
+
+The CMD HD is a high capacity hard drive system. Using a normal serial
+connection, the CMD HD runs at a speed that may be acceptable if you don't
+mind short delays. You may wish to combine your CMD HD with a Jiffy-DOS chip
+(also from CMD) or a RAMLink in order to achieve much higher speeds. Refer to
+your CMD HD manual for more information. Storage capacity ranges from 20 MB to
+4 GB. 
+
+Both of these devices (as well as the CMD FD units) use the same partitioning
+and subdirectory structuring. Unless you have reason to do otherwise, it is
+recommended that you use native mode partitions, set for the highest size
+possible. On the RAMLink and FD units, the largest size is the entire unit. On
+the HD, each partition may be up to 16 MB. You can then split the partitions
+into subdirectories for different uses. The reason for this recommendation is
+that free space is common to all subdirectories, but not to partitions.
+Obviously you have to take the situation into account. You can run a Centipede
+Lite system (excluding the file transfer areas) on one megabyte. You need not
+allocate a full 16 MB partition. If you have a large hard drive, give the
+Centipede system twice of what you think you will need (so you won't have to
+worry about it anymore) and then create 16 MB partitions for your file
+transfer areas.
+
+Finally, if you are running both a RAMLink and a HD, create a partition on
+your HD the same size as your RAMLink. This will make for easy backups using
+the mcopy program that comes with both units.
+
+There are two ways of designating file locations on CMD equipment. One is to
+send explicit change partition and change subdirectory commands. The other is
+to use the full path to a file as the prefix. There is no proven advantage of
+one over the other, so take your pick.
+
+Using explicit change commands, set the prefix to "0:", which tells the CMD to
+use the current partition. The first command is then "cp x", where x is the
+partition number. The second command is "cd//name" where name is the
+subdirectory name. Double slashes are needed to tell the unit to begin
+searching from the root directory. If you are using nested subdirectories (not
+recommended), use the syntax "cd//name1/name2..."  If you are not using
+partitions or not using subdirectories (which is possible with some systems),
+then only use the one needed command and leave the secondary command blank.
+
+Using the full path prefix method, the prefix will include the partition
+number and subdirectory name. For instance, to locate the directory in
+partition number 12, in the subdirectory games, use the prefix "12/games/:".
+The prefix always ends with a final slash and a colon. The command can then be
+set to a simple "i0", and the secondary command is blank.
+
+A mix of these two methods is also possible. For example, you may use the cp
+command to choose a partition, and then put the subdirectory in the prefix.
+Refer to your CMD manual for a detailed explanation and more examples on how
+to select partitions and subdirectories.
+
+
+2.3.4 - ICT Data Chief and Mini Chief
+
+The ICT hard drive units were the first hard drives units designed for the
+Commodore 64 and 128. In essence, these units pretend to be a chain of 1541
+and 1571 disk drives. The hard disk is partitioned to emulate these drives.
+There is also a chain mode used to link multiple partitions together -
+effectively creating larger partitions. The Mini Chief is a 1571 with a hard
+drive added internally. On this unit, the actual floppy drive is partition
+zero. The Data Chief only contains a hard drive.
+
+Centipede supports the ICT units with a limitation: chain mode is only
+supported for file transfer areas. For everything else, single partitions must
+be used. You should format your partitions alternatively as 1541 or 1571
+emulating, depending on the storage capacity needed. Chained partitions need
+to be all formatted as 1541 partitions.
+
+To define a location on an ICT, use the standard prefix of "0:". The command
+will be "hx", where x is the partition number to select. The second command is
+blank. For file transfer areas, you may chain together a group of partitions
+by using the hm4 command as described in your manual. As an example, "hm4 11
+30" will chain partitions 11 through 30 together.
+
+
+2.3.5 - Lt. Kernal Hard Drive
+
+The powerful Lt. Kernal hard drive system is also supported by Centipede. This
+is a high speed device that plugs into the cartridge port of your C128. An
+additional C128 Adaptor Board is required to use the Lt. Kernal in C128 mode.
+Lt. Kernal capacities range from 20 MB to 165 MB.
+
+You may create up to ten user defined partitions, called logical units (LU).
+Each may hold as much as 32 MB and is split into sixteen users. These user
+numbers create the effect of subdirectories. In actuality, all files in an LU
+are stored in the same physical directory. A system with many postings on the
+message boards and many games could easily have a few thousand files in the
+physical LU directory, which can create a noticeable slow down. In this case,
+you may wish to split the files into multiple LUs to speed up access time.
+Please note that as far as Centipede is concerned, different user numbers are
+different directories. You should treat them as such.
+
+When defining the LUs on your Lt. Kernal, you need to give careful
+consideration as to the size and number of LUs you use. You may wish to give
+one LU to the main Centipede files, another to the message board, and then all
+others for the file transfer areas. While having only a few, large, LUs
+provides the most flexibility in usage of free space, you are limited to only
+sixteen directories per LU. Give these limitations careful consideration when
+planning. Fortunately, you do have the Lt. Kernal utilities autocopy and
+automove on your side. These utilities make it easy to move directories from
+one LU to another, should one fill prematurely.
+
+A location on an Lt. Kernal is defined by its LU and user numbers. A single
+disk channel command named ldlu selects both of these values. The 'l' is the
+command name and always remains the letter L. 'd' stands for device. This is
+the device number of your Lt. Kernal - usually 8. The second 'l' stands for
+logical unit, and is the LU you wish to select. The 'u' is the user number.
+User numbers must be represented in hexadecimal format. That is, user #10 is
+'a', user #11 is 'b', etc. The entire command must be exactly four characters
+long and consist of lowercase letters and numbers.
+
+In Centipede, set the location with the ldlu command as the command, no
+secondary command, and "x:" as the prefix, where you replace 'x' with the LU
+number. Within the BBS, you normally will not be prompted for the prefix, as
+Centipede can figure that out on its own.
+
+The Lt. Kernal has an optional hardware component called a multiplexer, or
+mux, which allows for connecting up to four computers to a single hard drive.
+Multiple 'muxers' may be used to connect up to sixteen computers. Centipede is
+capable of running a dual-line BBS on two such multiplexed computers [NAL].
+
+
+2.4 - Multiplexed System [NAL]
+
+Centipede was designed from the very beginning to be able to run two lines to
+your BBS. Because the C128 is not a multiplexing computer by nature, two
+C128's are required to achieve this effect - one for each line. It is,
+however, a single BBS system; since both computers share the same files. [NAL]
+
+There is only one system available for the C128 that can connect more than one
+computer to a single hard disk; that is the Lt. Kernal.
+
+
+2.5 - What Modem and Interface Are You Using?
+
+Storage units are very important, but if you want your BBS to be available for
+people to call in, you will need a modem and possibly an interface to connect
+it with.
+
+Centipede will work with any external modem that supports the Hayes AT command
+set. Nearly every modem of 1200 bps and above supports this. If you are not
+using a modem that plugs directly into the C128 use port (such as the
+Commodore 1670 and the Aprotek Minimodem-C series) you will also need a modem
+interface. A simple user port modem interface can drive a modem with Centipede
+at up to 4800 baud. The SwiftLink cartridge can handle up to 38400 baud and
+the Turbo232 cartridge, 203400 baud[NAL]!
+
+When using a SwiftLink or Turbo232, you may run into conflict with another
+cartridge you are using. If you are using a RAMLink, simply plug the SwiftLink
+or Turbo232 into the pass-through port on the RAMLink. In the case of an REU
+or Lt. Kernal host adaptor, you will need a cartridge port expander such as
+the EX2+1 from CMD. Use the EX2+1 rather than the EX3, so that the heavy REU
+or host adaptor can lay flat, rather than in the air.
+
+For the Lt. Kernal, you will need an extra long ribbon cable to connect the
+C128 Adaptor Board to the host adaptor now on the cartridge port expander.
+Additionally, the jumper labeled P2 on the host adaptor circuit board must be
+connected to the right two pins (vertically) when looking at the cartridge as
+you would plug it into the C128. No other jumpers are to be attached to the
+host adaptor.
+
+The following table offers information on how to use several types of modems
+with Centipede. If your modem is not listed, start with the generic version
+for your baud rate and play with the settings as necessary. Also, be sure to
+read the manual addendum on your Centipede disk for any updates or additions
+to this table.
+
+MODEM                                                              FIXED  MAX
+NAME            CONFIGURATION              INITIALIZATION          BAUD   BAUD
+------------------------------------------------------------------------------
+Commodore
+1670(A)          none                      ATX1S0=0F1Q0V1M0E0        NO   1200
+
+Generic 1200
+(including the
+MiniModem C(B))  none                      ATX1S0=0S10=30F1Q0V1M0E0  NO   1200
+
+Generic 2400     AT&F&D0&C1&S0X1           ATS7=30S10=30             NO   2400
+                 ATS0=0M0E0&W0
+
+MiniModem C24    none                      ATS7=15S10=30X4M0E0       NO   2400
+
+PPI 14400FXMT
+and FXSA         AT&F0E0M0T&C1S10=30       ATH0Z0                    NO  38400
+                 ATS36=5S95=2S109=46&W0
+
+Generic 14.4K    AT&F0E0M0T&C1S10=30       ATH0Z0                   YES  38400
+
+Motorola Power
+Class 28.8       AT&F0E0D0&C1\J1&W0        ATH0Z0                    NO  57600
+
+Generic 28.8K    AT&F0E0M0T&C1S10=30       ATH0Z0                   YES  57600
+
+Generic 33.6K    AT&F0E0M0T&C1S10=30       ATH0Z0                   YES 115200
+
+Generic 56K(C)   AT&F0E0M0T&C1S10=30       ATH0Z0                   YES 115200
+
+------------------------------------------------------------------------------
+A. The 'newer' 4 dip-switch version is required; set switch 3 UP, and all
+   others DOWN.
+B. The MiniModem C dip switches should be set with switches 1, 4, 5, and 6 UP,
+   and all others DOWN.
+C. 56K modems can only call out at 56K. When receiving a call, such as on your
+   BBS and any BBS you may network with, they act as a 33.6K modem
+
+
+The following is an explanation of the fields:
+
+Configuration:
+Run your favorite terminal program and send this command string to your modem.
+It stores your modem configuration in nonvolatile memory in the modem. The
+text should be entered in lowercase and spaces are optional. The '0's are
+zeros, not the letter oh. The '\' appears as a back-slash in your modem manual.
+
+Initialization:
+This is your modem initialization command that you will enter into the
+bbs-setup program for Centipede. (See subsection 4.1.3.) The text should be
+entered in lowercase and spaces are optional. The '0's are zeros, not the
+letter oh.
+
+Fixed Baud:
+This field corresponds to a modem setup parameter in the bbs-setup program.
+High speed modems can communicate with the local computer at a higher speed
+than with the remote modem. This facilitates data compression. Some of these
+modems do not easily change the local baud rate according to the connection
+speed. These should then fix the local baud rate at the maximum speed. When
+using a fixed baud rate, the modem and computer will always communicate with
+each other at the maximum baud rate, no matter the connection speed. Using
+this will result in the draw back of the local and remote displays being
+slightly out of sync.
+
+Max Baud:
+This is the maximum DTE (modem-to-computer) baud rate to use. This setting
+will also be entered into the bbs-setup program. On modems that support data
+compression, this should be set higher than the DCE (modem-to-modem carrier)
+rate. Please note that a user-port connection maxs at 4800 baud, and the
+SwiftLink at 38400 baud. [NAL: Lite does not support more than 38400 baud,
+even with a Turbo232.] Do not attempt to use a higher rate on a modem interface
+that does not support it.
+
+
+2.6 - Planning File Structure
+
+The Centipede files are split among several file locations (directories).
+Unless otherwise stated, any of these locations may overlap. For instance, you
+may choose to put your system files and support files in the same location.
+This is fine. If you can though, it makes things clearer not to place several
+types of files in the same location.
+
+In each subsection, a recommended minimum storage space is given for the
+location. If you have the space to spare, it is recommended that you allocate
+two or three times this minimum. This will give you plenty of elbow room, thus
+preventing you from having to worry about running out of space any time soon.
+[Not quite as much of a concern if you plan to stick with Lite, as there is
+little expansion possible.]
+
+
+2.6.1 - Program Files
+
+Several types of files actually fall under this category. They are:
+
+   File Name   What They Are                 Appx. Blocks Needed
+   ---------   ----------------------------  -----
+   ovl.*       BASIC program code overlays.    90
+   mdl.*       BASIC program code modules.    460
+   mlc.*       Machine Language Code.         180
+   mnu.*       Menu structure definition.      45
+   scr.*       Executable scripts.             20
+
+
+In addition, there are a few other miscellanies files that will be stored in
+this location. In total, you need around 940 blocks (235 KB) of space in this
+location, and it needs to be capable of high speed loading. Refer to appendix
+A.1 for a listing of Centipede program files.
+[NAL: Section on space for add-ons removed.]
+
+
+2.6.2 - Support Files
+
+There is a large collection of files, of the SEQ and REL types, that are
+needed by the program code. These files serve a supportive function toward the
+program code. They may serve to store variables ("var.*" files), [NAL: title
+screens, player statistics in games], or just about anything else. You will
+need to reserve at around 40 blocks for the support files of Centipede Lite.
+Refer to appendix A.2 for a listing of Centipede support files.
+[NAL: Section on space for add-ons removed.]
+
+
+2.6.3 - Accounts Files
+
+This location is the primary storage location for just two files: "accounts
+file" and "member memory". The member memory file stores the membership list
+in a special format that can be easily loaded into the computer's memory and
+used for fast member name look-ups. It is only a few blocks long. The accounts
+file, however, stores almost all information about each member. This REL file
+will be two blocks long for each member account you allow for. For example, if
+you set your system up to allow for up to 100 members, this file will be 200
+blocks long.
+
+The reason the accounts file (along with its companion, member memory) has its
+own location is because it is so important! If you lose this file, everyone
+will have to log in again as new members. People don't like that. This
+location should thus be on your most reliable device. This file is not
+accessed terribly often, so speed is not a deciding factor. NEVER place your
+Accounts Files location on a RAM disk!
+
+
+2.6.4 - System Files
+
+The system files are a special form of support files that are used at a lower
+level of the Centipede system than typical support files. There are only a few
+of these, and it would be perfectly logical to store them in the same location
+as your other support files. Allocating 35 blocks for this is typically fine -
+although if you are running a large collection of menu phrases [NAL] (random
+phrases that you may set to pop up at menu selections), you may need some more
+space.
+
+
+2.6.5 - Help Files
+
+Help files are simple menu command lists that pop up when a caller presses the
+question mark key in various places of the BBS. They are named with the
+"hlp.*" prefix. This is only for the help files for the main Centipede system,
+and perhaps some add-ons. Games [NAL] will store their help files in the
+Support Files location. A mere 70 blocks will generally be enough space for
+this location.
+
+[Since Centipede Lite has so few System, Support, and Help files, with little
+room for expansion, you may find it easiest to store all of these files in
+the same location.]
+
+
+2.6.6 - Caller Log File [NAL]
+
+The caller log file stores a detailed log of what each member did during his
+or her call. [NAL]
+
+
+2.6.7 - Network Files
+
+Centipede can run up to ten networks. [NAL: Only ComLink supported in Lite.]
+Support files for all of the networks are stored in this location. The amount
+of space needed depends on which networks you are running. Refer to the
+manuals for any networks you wish to run for information on file space
+requirements.
+
+
+2.6.8 - E-Mail Files
+
+E-mail is stored in one file per member who has e-mail waiting. Allocating
+three blocks per member should be sufficient, but more is safer. A fairly fast
+storage unit will make a notable difference when reading e-mail.
+
+
+2.6.9 - Message Boards
+
+Each message board requires its own disk location [NAL: Only one in Lite].
+Each posting on a board uses its own file and requires an average of 2.5
+blocks.
+
+For message boards, any directory space limitation is the true deciding factor
+for the maximum number of postings on a message board. For instance, if you
+where to place a message board on a 1541 disk, the 644 blocks on a disk would
+appear to indicate for the ability to store 250 messages. Unfortunately, the
+1541 can only store 144 files, no matter the size. In this case, you should
+store no more than 140 messages (leave a few spaces for the message board
+index file and any temporary files) in the message board. Refer back to the
+section 2.3 for information on any limitations on the number of files on your
+storage unit.
+
+
+2.6.10 - U/D Directories
+
+Each file transfer directory requires its own disk location. File space
+requirements depend entirely on what sort of files are being uploaded. You
+must use your own discretion here.
+
+
+2.7 - System Structure
+
+Centipede has a command structure that can be called polymorphic. This means
+that it can take many (unlimited, actually) forms [NAL]. You could build your
+own system structure from scratch, but you will probably find it easier to
+start off with one of the included structures and then customize it. 
+
+Centipede Lite does not have a customizable structure. It uses a variation of
+the Centipede Default structure. The Centipede Lite structure includes menus,
+help files, scripts, and hotkey definitions to give you a fully functional
+system. It is not the prettiest or the most efficient structure; far from it.
+What it does do is give you every menu option available under Centipede
+system.
+
+The full version of Centipede includes Color 64 and Image BBS style
+structures. It also allows you to create your own or download structures
+written by others.
+
+
+Copyright 1998, Bugsoft
+
+  -<[ Use your browser's "BACK" button to return to the table of contents. ]>-

@@ -1,0 +1,154 @@
+B - MCI Commands
+
+MCI stands for Message Command Interpreter. It allows you to insert command
+codes into messages, which are interpreted by Centipede when the message is
+displayed.
+
+All MCI commands start with the attention character '\'. On Commodore
+computers, this appears as an English Pound symbol. On most other systems, it
+is a backslash. The \ is immediately followed by a command parameter, usually
+a digit.
+
+
+B.1 - Simple MCI Commands
+
+The following is a list of the simple MCI commands:
+
+\c#  Changes the color of the text. The number or letter you place for # will
+     change the active text color to:
+     0 = Black           8 = Dark Purple
+     1 = White           9 = Brown
+     2 = Dark Red        A = Light Red
+     3 = Light Cyan      B = Dark Cyan
+     4 = Light Purple    C = Medium Grey
+     5 = Dark Green      D = Light Green
+     6 = Dark Blue       E = Light Blue
+     7 = Yellow          F = Light Grey
+     This color list is for display on a C128 in 80 columns. A C64 or C128 in 
+     40 columns, and an ANSI terminal, will show some colors slightly     
+     differently.
+
+\d#  Where # is: 0 to home the cursor or 1 to clear the screen and home the
+     cursor.
+
+\g#  Get key press. # is the key press buffer number of 0 through 3.
+
+\h#  Send # back-space/delete characters.
+
+\k#  Rainbow mode. 0=off, 1=letter, 2=word, 3=line.
+
+\n#  Send # carriage returns.
+
+\p#  Output content of key press buffer #.
+
+\r#  Reverse mode, where # is 0 for reverse off or 1 for reverse on.
+
+\u#  Case, where # is 0 for lower/upper case or 1 for upper case/graphics.
+
+\v#  Output information:
+     0 = Access level    8 = Morning/Afternoon/evening
+     1 = Time left       9 = Last caller
+     2 = handle          A = The BASIC variable a$
+     3 = Credits         B = Box prompt
+     4 = Baud rate       C = BBS name
+     5 = Date last call  D = RETURN or ENTER
+     6 = Current date    E = Emulation mode
+     7 = Current time    F = The BASIC variable f$
+
+\w#  Pause for 1 to 8 half seconds.
+
+\x   Skip rest of file.
+
+\z   Output rest of file without emulation interpretation. (i.e. raw data)
+
+\@#  Skip to tab stop. Stops every 8 characters. 0=column 1, 1=column 8,
+     2=column 16, etc.
+
+\^#  Cursor up # lines.
+
+\!#  Cursor down # lines.
+
+\>#  Cursor right # columns.
+
+\<#  Cursor left # columns.
+
+\\   Display a single \.
+
+
+B.2 - Advanced MCI Commands
+
+These commands are for advanced use only. They are designed for SysOp use.
+Some of them only interpret properly when contained within a file that is
+being displayed from disk. These commands will thus not show when editing a
+message.
+
+DISPLAY VARIABLE:
+
+The \[ ] command displays any BASIC variable, or the result from any BASIC
+expression. It will not display past a null character in a string variable.
+This fact is used to prevent the viewing of passwords by starting all password
+variables with a null character.
+
+Examples:
+\[na$]         Displays the caller's name.
+\[d$(6)]       Displays the caller's real name.
+\[mn(m)]       Displays the number of the posting currently being displayed.
+\[pd/d%(3)]    Divides the number of blocks the user has ever uploaded by the   
+               number of calls made. I.e., Average blocks downloaded per call.
+
+Variables and expressions must be enclosed within brackets. The closing
+bracket may be replaced with a carriage return. This MCI command, and only
+this command, may be used within file names throughout most of the BBS.
+
+JUMPING:
+
+The \j1 command will skip all text in a file until a \m1 is found, or the end
+of the file is reached. The '1' is a marker identifier and may be replaced by
+any character, providing you with the ability to have multiple markers in the
+same file. Markers are skipped without being displayed.
+
+The \x command will immediately stop reading the file. All following text will
+be ignored. A \x that is jumped over will of course be ignored.
+
+CONDITIONAL JUMPING:
+
+Using syntax similar to the expression displayer and the jumper, we can make
+jumps based on the value of variables or user responses. The MCI command
+\?expression] preforms the test. The conditional jump \t1 will jump only if
+the last expression evaluated to True. \f1 will jump only if the last
+expression evaluated to False. As with the \j command the '1' marker
+identifier can be replaced with any character, and a corresponding \m marker
+is needed.
+
+Example:
+The BASIC variable 'lv' represents the caller's access level. We can give
+names to access levels using conditional jumping:
+
+\?lv=1] \f2 NEW USER \je \m2 \?lv>7] \ts VALIDATED \je \ms SYSOP \me
+
+Spaces were added in order to make the example easier to read. You'll want to
+be careful with using space however, because some of them will be displayed to
+the reader.
+
+You may also branch based on input from the reader. Refer to the \g command
+for this example:
+
+Press Q to quit, or any other key to continue: \g1\?'1'="Q"]\f1\x0\m1
+
+The user input is placed into MCI key press storage register #1. There are
+four registers numbered 0 through 3. By placing the register number in an
+expression surrounded by single quotes (apostrophes), you can test for the
+value of the key press. The stored value of a key press will always be in
+uppercase.
+
+A restriction in the conditional testing coding requires that the expression
+does not end with a '$' character. So \?"Sysop"=na$] will give an
+unpredictable result, whereas \?na$="Sysop"] will test to see if the name of
+the caller is "Sysop". In the case of something like \?a$=b$] where reversal
+will not help, you can simply surround the expression with parenthesis:
+\?(a$=b$)].
+
+
+Copyright 1998, Bugsoft
+
+  -<[ Use your browser's "BACK" button to return to the table of contents. ]>-

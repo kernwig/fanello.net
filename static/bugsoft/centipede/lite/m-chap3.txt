@@ -1,0 +1,60 @@
+<HTML>
+<BODY>
+<PRE>3 - Installing The Centipede Files
+
+Enough planning, let's get started on the computer! While reading through this
+chapter you have the simple task of preparing your storage units and copying
+and dissolving files. Nothing to it!
+
+
+3.1 - Preparing Your Storage Units
+
+In section 2.3 you learned how to use your storage units with Centipede, and
+in section 2.6, you planned out your file structure. It is now time to put all
+that knowledge and planning to work! Partition your drives, format your disks,
+and create your subdirectories. It may sound like a lot, but this is very
+easy. You've already planned it all out; this is the point where you simply do
+it. All the information you need is in the previous sections and your storage
+unit manuals.
+
+
+3.2 - Dissolving The Archives
+
+The Centipede Lite files are stored in file archives in order to sort them
+into logical groups on disk. This is the same purpose that subdirectories
+serve in file systems. Since Commodore floppy disks do not support
+subdirectories however, we are stuck with archives. The library archival
+format is used on your Centipede distribution disks. They are named with the
+suffix ".lbr". The library format was chosen because it works in C128 mode
+with any storage hardware, is fast, and has a friendly interface that allows
+for individual file selection.
+
+You'll find the "library v1.4" program in the same place that you got the rest
+of the Centipede Lite files. Use this program to create and dissolve library
+archives. Load the library program now and then continue... 
+
+*    Switch to your Default Program Files location, and dissolve to it the
+     "programs1.lbr" and "programs2.lbr" archives.
+*    Switch to your Default Support Files location, and dissolve to it the
+     "support.lbr" archive.
+*    Switch to your System Files location, and dissolve to it the
+     "system.lbr" archive.
+*    Switch to your Help Files location, and dissolve to it the "help.lbr"
+     archive.
+*    If you are somehow reading this file without having done this already,
+     dissolve the "manual.lbr" file to its own location someplace.
+
+If your Centipede files are on 5.25" disks, you will need to flip and swap
+disks to find the right libraries. The BASIC command 'directory' can come in
+useful for this. (Refer to your favorite BASIC 7.0 Encyclopedia for details.)
+
+
+3.3 - Installing a System Structure [NAL]
+
+After dissolving all of the archives, you will have a BBS using the Centipede
+Lite system structure. This is your only option for Centipede Lite.
+
+
+Copyright 1998, Bugsoft
+
+  -<[ Use your browser's "BACK" button to return to the table of contents. ]>-

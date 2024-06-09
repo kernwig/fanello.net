@@ -1,0 +1,65 @@
+title : "Web Sites"
+id: "sites"
+content: ""
+style: "style1 medium"
+items:
+
+  - name : "Adam Fanello's Blog"
+    topImage: "images/adam-blog.png"
+    content : |
+      <a href="https://adam.fanello.net">adam.fanello.net</a>
+      <p>Adam's blog as a professional software architect.</p>
+
+  - name : "Adam & Diana's Photo Gallery"
+    topImage: "images/gallery.jpg"
+    content : |
+      <a href="https://gallery.fanello.net">gallery.fanello.net</a>
+      <p>Featuring our extensive wedding albums!</p>
+
+  - name : "Barn Dance Party"
+    topImage: "images/barndanceparty.png"
+    content : |
+      <a href="https://barndanceparty.com">barndanceparty.com</a>
+      <p>
+      Adam &amp; Diana are your Southern California callers and DJs for your party, community, 
+      barn dance, square dance, and any occasion!
+      </p>
+
+  - name : "Santa Kevin"
+    topImage: "images/santa-kevin.jpg"
+    content : |
+      <a href="https://santa-kevin.com">santa-kevin.com</a>
+      <p>
+      Your Concierge Santa Claus
+      </p>
+
+  - name : "SquareCue"
+    #    topImage: "images/squarecue.png"
+    content : |
+      <a href="https://kernwig.github.io/squarecue/">kernwig.github.io/squarecue/</a>
+      <p>Square Dance Singing Call Formatted Cue Sheets</p>
+
+  - name : "SqAC"
+    topImage: "images/sqac.png"
+    content : |
+      <a href="https://sqac.fanello.net">sqac.fanello.net</a>
+      <p>
+        The Square Auto-Choreographer (SqAC, pronounced "squawk") is a computer program to assist a caller, 
+        or even a knowledgeable dancer, in calling patter.
+      </p>
+
+  - name: "BugSoft"
+    topImage: "bugsoft/bugsoft_logo.gif"
+    content: |
+      <p>Back in the 1990s, Adam Fanello produced two Bulletin Board Systems (BBS)
+      products for the Commodore 128. You can still download Centipede 128!</p>
+      <p>Visit the <a href="bugsoft">BugSoft</a> site</p>
+
+  - name: "Adam 2001"
+    topImage: "adam2001/anybrowser_icon.gif"
+    content: |
+      <p>The original, circa 2001</p> 
+      <a href="adam2001">Adam's Silly Little Homepage</a>
+
+
+#santa-kevin.com

@@ -1,0 +1,190 @@
+                             ComLink v2.0 lt
+                           for Centipede Lite
+                      By Adam Fanello of Bugsoft
+                              July 2,1997
+                    (Lite update: January 20,1998)
+ 
+    ComLink is a centralized, message-oriented network for Commodore
+BBSs. Entire message categories are sent to a central HUB which
+distributes the messages to all nodes in the Link. E-mail can also be
+sent to any user on any node in the Link. The entire transfer is done
+in only a few minutes, with a single call from your BBS to the Hub
+system.
+
+    In order to use the ComLink system, you must subscribe to the Hub
+service. The price is kept low, running about the same price as a
+magazine subscription. With a magazine, you receive information once a
+month. With ComLink, you receive and send information every day! It's
+quite a deal! See the file "subscribe form" for details on how to
+subscribe.
+ 
+ 
+SECTION 1: Program Code Installation
+
+
+    ComLink comes pre-installed on Centipede Lite systems.
+
+    You may rename the "scr.wait4call-0" file to have a different
+ending character, thus changing the hotkey that is used to activate a
+call to the Hub. This can be changed at any time.
+
+
+SECTION 2: System Configuration
+ 
+
+NOTE: Do not configure ComLink until you have subscribed to the
+service and received your node number and password!
+
+    Enter SysOp Maintenance and select the ComLink submenu. Select the
+(C)onfig command to configure your ComLink parameters. The following
+is a detailed description of each parameter:
+ 
+ComLink Node Number: This is your node, or account, number on the
+'Link. It is assigned to you by the LinkOp (Link Operator) when you
+become a member. Simply enter that number here and hit RETURN. Enter a
+node number of 0 (zero) to disable ComLink.
+
+ComLink Node Password: All passwords are EXACTLY five characters. When
+you subscribe, your password is assigned to you. Enter your password
+here. It will automatically be converted to upper-case.
+ 
+Start Calling Hub At: This is the start of your networking window. The
+Hub is online from 11 PM to 6 AM Pacific Standard Time. You should
+place your network window between these hours. Calling the Hub during
+any other hours will result in an extra five second delay after
+connection, as the Nature Reserve BBS switches over to the Hub system
+to handle your call. You cannot start your window earlier than 0,
+which is midnight local time, or later than 11 AM.
+ 
+Quit Calling Hub At: If the Hub or your BBS is busy at the start of
+your networking window, your BBS will attempt to call the Hub at the
+interval of your idle script, until it either connects or the hour in
+this parameter is reached. This time is actually the hour in which the
+BBS will stop trying to call, not the last hour to keep trying. If you
+set this number to 5, the last time your BBS will try calling as at
+4:59 AM. The window cannot be set to close past 12 (noon).
+ 
+Hub Call Baud Rate (1200-230400): This is the baud rate at which to
+call the Hub. At the time of this writing, the Hub is run on a 14400
+bps modem and this parameter works best set to 19200.
+ 
+When everything is correct, save your parameters.
+
+ 
+Section 3: Category Setup.
+ 
+
+    When you subscribe to ComLink, you will receive a list of ComLink
+category subjects and their network category number. If you do not
+wish to receive any particular category, send e-mail to the LinkOp
+asking that the category not be sent to your BBS.
+
+    You must add these categories to your BBS. Since Centipede Lite
+does not support multiple message boards, you will have to fit all of
+your local and ComLink categories into a single board. Please make it
+clear to your callers in the category names as to which categories are
+a part of ComLink and which are local.
+
+    Please refer to your Centipede manual for information on how to
+use the bbs-setup program to edit your message board categories. Don't
+forget to assign the proper network category numbers.
+
+ 
+SECTION 4: Using ComLink.
+ 
+ 
+    ComLink fully integrates into your BBS by using the networking
+abilities that are built into Centipede. Posting a message to ComLink
+is done like posting any other message. E-mail is directed to the
+desired node by use of a node number. Replies are automatically routed
+to the sender on whichever node the message originated, and e-mail is
+received by the user alone side any local e-mail.
+
+    All ComLink messages are saved in files on your Network files
+location until the system is ready to call the Hub. The Hub is only
+automatically called once per night. Files are prepared prior to
+calling, and new messages are distributed into the message boards and
+mail boxes after hanging up. The time actually spent online is
+minimized to only a couple of minutes, depending on your baud rate and
+the amount of message activity on ComLink.
+
+    Note that public messages are not actually copied to the Network
+files location until the system is preparing to call the Hub. This
+gives you and your users the opportunity to edit or even scratch
+messages after they have been saved, but before they are sent to the
+Hub.
+
+    You also have the option to force your system to call the Hub at
+any time. By default, this is done by pressing the zero key while at
+the Wait4Call screen. The key press can be altered by renaming the
+"scr.wait4call-0" file.
+
+ 
+SECTION 5: Rules of ComLink.
+ 
+ 
+    Just as you are the SysOp of your BBS, and have rules for your
+system, I am the SysOp (or LinkOp) of ComLink, and have rules. You may
+want to post these rules on your BBS someplace for the users to read.
+ 
+1. No profane language, or highly adult subject matter in public
+messages. ComLink is rated G. This rule is not open for debate. If you
+do not feel that you or your users can handle this restriction, please
+do not join ComLink.
+
+2. Please try to keep discussion of local events and local arguments,
+in the local message categories. Keep in mind that your messages are
+being echoed all over across the United States, and that SysOps are
+paying to receive them.
+
+3. The ComLink network is not to be used for any criminal activity,
+either by a SysOp or a member of a 'Linked board. Harassment and
+fraud, even by e-mail, will not be tolerated.
+
+ 
+As the Link Operator, I reserve the right to drop any node for any
+reason. A refund of any remaining subscription time is available UPON
+REQUEST. The same applies if you decide to remove ComLink. I also
+reserve the right to ban any subject thread. Doing so will prevent any
+message of the banned thread from leaving the Hub. My liability toward
+any damages you may incur in usage of ComLink is limited to the funds
+remaining on your ComLink subscription.
+
+ 
+    Rules will be enforced by myself, Ant, user #1 on Nature Reserve
+and by my Co-SysOp OWL, user #3 on Nature Reserve.
+ 
+    Rule offenders will first receive a kind reminder directly from a
+LinkOp. Continuous problems will be passed to the node SysOp and you
+will be expected to handle it. I reserve the right to demand that any
+user have his or her access to ComLink removed.
+ 
+ 
+SECTION 6: Comments.
+ 
+
+    Remember that you are still responsible for all the long-distance
+charges it will cost for you to call the Hub. Your subscription cost
+only covers my expenses and time as the LinkOp and author of this
+system.
+ 
+ 
+ 
+SECTION 7: Disabling ComLink.
+ 
+ 
+    If you decide to remove (disable only in Lite) ComLink at any
+time, you may do so by setting your node number to zero (0) in the
+Configure option from the ComLink submenu under SysOp Maintenance. 
+ 
+
+SECTION 8: Contacting the Author
+
+
+    ComLink was created and is maintained by Bugsoft. Refer to your
+Centipede manual for contact information.
+
+
+Copyright 1998, Bugsoft
+
+  -<[ Use your browser's "BACK" button to return to the table of contents. ]>-

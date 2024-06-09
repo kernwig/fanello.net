@@ -1,0 +1,210 @@
+@FROM   :funny-request@clari.net                                      
+@SUBJECT:The True News Digest part 5/22                               
+Newsgroups: rec.humor.funny
+
+[Note - What follows is one part of the True News Digest - a collection of
+ true-life stories which didn't really warrant individual posting, but
+ which are amusing nevertheless.  The digest is quite long, and it will
+ appear in 22 parts over the next few months - ed.]
+
+=       =       =       =       =
+
+From: cmp8118@information-systems.east-anglia.ac.uk (D.S. Cartwright)
+Organization: School of Information Systems, University of East Anglia
+Subject: Breakfast ... or is it ... ??
+
+I was sat in the pub with a few friends, playing pool and whatever, when 
+someone asked me whether I'd made a move with a girl I fancied. The landlord
+took us up on this, and said "I'll give you the one chat-up line she can't
+give you a snotty response to". Okay, said I. He told me to get her alone,
+put my arm round her, kiss her gently on the cheek, and whisper in her ear :
+"How do you like your eggs in the morning ??"
+
+To which a voice came from the other side of the table :
+
+   "Unfertilised".
+
+[Source of the question as far as I know is Ian Warren, the landlord of my 
+local.
+Smart-arse answer courtesy of Kevin Buckler, a chemistry undergraduate at
+my university. But someone's got to be a chemistry undergraduate, I spose..
+I don't think it's original, but it's funny, I reckon].
+
+ =       =       =       =       =
+
+From: peter@aix1.uottawa.ca (Pete Hickey)
+Subject: Boring!
+
+At a jewelry store here in town, there is a sign in
+the window,
+
+ "Watch batteries while you wait"
+
+Most boring thing I ever heard of.....
+        
+ =       =       =       =       =
+
+From: johnl@iecc.cambridge.ma.us (John R. Levine)
+Subject: Aviation worm hole discovered
+
+An article in the current Frequent Flyer magazine reports that at Stewart
+airport in Newburgh NY each day there are 25 scheduled arrivals and 26
+scheduled departures.
+        
+ =       =       =       =       =
+
+From: Jordan_Melville@mindlink.UUCP (Jordan Melville)
+Subject: Racism?
+
+You should have seen the bulletin posted outside of our Auditorium...
+ Our school is performing the play "Annie", and it is the Broadway version
+without Daddy Warbucks' bodyguard Punjab. So on the door it said "Sorry, no
+Punjabs". You should have seen the review THAT one got in the local newspaper.
+        
+ =       =       =       =       =
+
+From: kds@phx.mcd.mot.com (Kevin Strietzel)
+Subject: classified ad...
+
+I saw the following classified ad in the computer section of one of the
+local newspapers, March 21, 1991.  I can't remember the exact words; so
+I paraphrase:
+
+ For sale/trade: computer freak with all
+ kinds of stuff, IBM/Apple/Motorola/etc.
+ Call 555-1212 nights/weekends.
+       
+ =       =       =       =       =
+
+From: UOG01002@vm.uoguelph.ca (Brian Switzer)
+Subject: Beware of falling glass.
+
+This is a true story as related through the BITNET mailing list LORE.
+The appropriate credits are attached to the text.
+
+
+Date:         Wed, 20 Mar 91 13:32:00 EDT
+Sender:       LORE - Folklore List <LORE@NDSUVM1.BITNET>
+From:         Jim Shanesy <JSHANESY@NAS.BITNET>
+
+>Maybe all of that is a Massachusetts characteristic....isn't it the
+>Prudential Tower in boston that has had windows falling out of it
+>from great height?
+
+I used to work for the Commercial Division of Honeywell, Inc. which
+installed the Variable Air Volume HVAC control system in the building
+to which you referred.  In a VAV system the temperature is maintained
+by varying the volume of air flowing through the conditioned space,
+which in turn is controlled by varying the static air pressure in the
+supply ducts relative to that in the returns.  It all usually works
+pretty well, but in the early days of VAV the techs who wired up the
+systems were all the time forgetting to connect the return air fan,
+which provides pressure relief for the air being pumped into the
+space.
+
+So when they fired up the system for the first time in the Prudential
+Tower, it was like blowing up a big glass and steel balloon.  Since
+the windows had been set into their frames but not cemented, out they
+came.  Honeywell had to ante up plenty on that one.  Each window was
+worth thousands.
+
+This also happened at building site known as "The Pyramids" in
+Indianapolis, a very avant-garde design by Kevin Roche/John Dinkleoo
+Assoc. for an insurance company there.  The windows had been custom
+designed and made.
+        
+ =       =       =       =       =
+
+From: beshers@division.cs.columbia.edu (Clifford Beshers)
+Subject: Parental reflexes.
+
+Some relatives have a 5-year old boy named Jeff who has some
+speech problems which include using incorrect grammar.  So, they
+put him in speech therapy.  During the early stages of treatment,
+they were not supposed to correct his speech, since his
+self-esteem was pretty low.  But Jeff made progress and gained
+some confidence, so the rule became that they were now supposed
+to correct him all the time.  This is what happened soon after.
+
+One morning, Jeff was eating his cereal, his younger sister began
+to tease him mercilessly.  Rather than fight back, he finally got
+up and moved to the other side of the table, muttering, "Me not
+going to take that kind of crap."  Immediately, his parents
+responded in unison, "*I'm* not going to take that kind of crap."
+        
+ =       =       =       =       =
+
+From: brennan@dg-rtp.dg.com (Dave Brennan)
+Subject: Marketing blunders
+
+I just heard an advertisement on the radio for "Hooked on Phonics," a
+cassette base course for learning how to read.
+
+The announcer proudly proclaims 
+
+   "To order `Hooked on Phonics' call 1-800-ABC-DEFG now!"
+
+I wonder if 1-800-PHO-NICS was taken...
+        
+ =       =       =       =       =       =
+
+From: CCEB001@utxvm.bitnet
+Subject: The Menudo was REAL hot.  True story
+
+A fire in the parking area at a menudo cookoff near San Antonio
+this Sunday (3/24) destroyed over 100 automobiles.  The cookoff
+was sponsored by a firefighter's association.
+
+(Menudo is a kind of Mexican soup.  Most nonhispanics would prefer
+not to know the ingredients.)
+        
+ =       =       =       =       =
+
+From: iverson@ptolemy.arc.nasa.gov (Dave Iverson)
+Subject: Earth Downtime (true)
+
+I logged on to one of NASA's computers this morning and was greeted by
+this startling message of the day:
+
+---------  EARTH DOWNTIME  ----------
+
+Earth will be down today from 4:30pm to 6:30pm to work on hardware problems.
+        
+ =       =       =       =       =
+
+From: ginsberg@t.stanford.edu (Matthew L. Ginsberg)
+Subject: you call this free speech?
+
+This is reported by Time magazine:  "Santa Cruz, CA: A university
+of California administrator has sought to ban such phrases as
+"a chink in the armor," "a nip in the air" and "call a spade a spade"
+because they contain words that in other contexts have been used to
+express prejudice."
+        
+ =       =       =       =       =
+
+From: mhr@ccicpg.UUCP (Mark Hull-Richter)
+Subject: Technobabble
+
+In looking through the COMB (authorized liquidator - that's a laugh
+right there) catalog for this month, I came across this absolute jewel
+on Page 17 in the photo for the Ricoh Rapicom 120 fax machine:
+
+  9600 Bauds Per Second!
+        
+ =       =       =       =       =
+
+From: n311bs@tamuts.tamu.edu (Ross Mckinney)
+Subject: Semi-Official Secrets Act
+
+ Read in Wednesday, April 3rd's New York Times, in an article by William
+Broad:
+
+"In Great Secrecy, the pentagon is developing a nuclear powered rocket..."
+
+Apparently so...
+
+--
+Selected by Maddi Hausmann.  MAIL your jokes (jokes ONLY) to
+funny@clarinet.com
+Attribute the joke's source if at all possible.  A Daemon will auto-reply.

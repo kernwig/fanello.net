@@ -1,0 +1,110 @@
+navidoc 1.0
+graph=2
+nametype=2
+title=
+style=
+template=
+Pages:
+"index.html" Up="" Style="" Title="Bugsoft Software Home Page" Type="text/html" 1
+"adam.gif" Up="" Style="" Title="" Type="image/gif" 1
+"bub.gif" Up="" Style="" Title="" Type="image/gif" 1
+"bugs_logo.gif" Up="" Style="" Title="" Type="image/gif" 1
+"bugsoft.html" Up="" Style="" Title="About Bugsoft" Type="text/html" 1
+"bugsoft_logo.gif" Up="" Style="" Title="" Type="image/gif" 1
+"caterpil.gif" Up="" Style="" Title="" Type="image/gif" 1
+"centipede" Up="" Style="" Title="" Type="application/x-navidoc" 1
+"cgi-bin" Up="" Style="" Title="" Type="application/x-navidir" 1
+"contact.html" Up="" Style="" Title="Bugsoft Contact Page" Type="text/html" 1
+"disk5_0c.gif" Up="" Style="" Title="" Type="image/gif" 1
+"doc1a.gif" Up="" Style="" Title="" Type="image/gif" 1
+"frame-index.html" Up="" Style="" Title="Bugsoft" Type="text/html" 1
+"freeware" Up="" Style="" Title="" Type="application/x-navidoc" 1
+"ice.gif" Up="" Style="" Title="" Type="image/gif" 1
+"mailbox3.gif" Up="" Style="" Title="" Type="image/gif" 1
+"navbar.html" Up="" Style="" Title="Please title this page. (navbar.html)" Type="text/html" 1
+"orgchart.html" Up="" Style="" Title="Bugsoft Organizational Listing" Type="text/html" 1
+"potogold.gif" Up="" Style="" Title="" Type="image/gif" 1
+"tiedye.gif" Up="" Style="" Title="" Type="image/gif" 1
+"unus_madhack.gif" Up="" Style="" Title="" Type="image/gif" 1
+"voicephone.html" Up="" Style="" Title="Calling The Author" Type="text/html" 1
+"help_table.gif" Up="" Style="" Title="" Type="image/gif" 1
+Ghosts:
+Refs:
+"index.html"
+	2 "bub.gif"
+	2 "bugsoft.html"
+	2 "bugsoft_logo.gif"
+	2 "caterpil.gif"
+	0 "centipede"
+	2 "centipede/index.html"
+	4 "contact.html"
+	0 "freeware"
+	2 "freeware/index.html"
+	2 "mailbox3.gif"
+	2 "potogold.gif"
+	2 "tiedye.gif"
+"adam.gif"
+"bub.gif"
+"bugs_logo.gif"
+"bugsoft.html"
+	2 "adam.gif"
+	2 "bugs_logo.gif"
+	0 "bugsoft_logo.gif"
+	4 "contact.html"
+	0 "freeware"
+	0 "freeware/index.html"
+	0 "http://www.bugsoftware.com/adam"
+	2 "ice.gif"
+	0 "mailto:ant@bugsoftware.com"
+	2 "mailto:iceman@zoomnet.net"
+	0 "orgchart.html"
+	2 "tiedye.gif"
+"bugsoft_logo.gif"
+"caterpil.gif"
+"centipede"
+"cgi-bin"
+"contact.html"
+	8 "http://www.fanello.net/bugsoft/cgi-bin/mailer.pl"
+	0 "mailto:ant@Fanello.net"
+	0 "mailto:Ant@Fanello.net"
+	2 "bugsoft_logo.gif"
+	2 "disk5_0c.gif"
+	2 "help_table.gif"
+	2 "tiedye.gif"
+	10 "unus_madhack.gif"
+	4 "index.html"
+"disk5_0c.gif"
+"doc1a.gif"
+"frame-index.html"
+	2 "home.html"
+	2 "navbar.html"
+"freeware"
+"ice.gif"
+"mailbox3.gif"
+"navbar.html"
+	2 "bugs_logo.gif"
+	0 "bugsoft.html"
+	0 "centipede.html"
+	0 "contact.html"
+	0 "freeware.html"
+	0 "home.html"
+	0 "lite"
+"orgchart.html"
+	2 "bugsoft.html"
+	2 "bugsoft_logo.gif"
+	0 "http://home.earthlink.net/~owly"
+	0 "http://ram.ramlink.net/~icebbs"
+	0 "http://www.bugsoftware.com/adam"
+	4 "index.html"
+	2 "tiedye.gif"
+	0 "http://home.earthlink.net/~squidlydidly"
+"potogold.gif"
+"tiedye.gif"
+"unus_madhack.gif"
+"voicephone.html"
+	2 "bugsoft_logo.gif"
+	2 "contact.html"
+	0 "http://www.thunderpub.com"
+	0 "smallt.gif"
+	2 "tiedye.gif"
+"help_table.gif"

@@ -1,0 +1,300 @@
+
+Article in rec.ham-radio:
+From: k3mc@APPLE.COM (Mike Chepponis)
+Subject: The Story of Digipeater
+         Rabbit -- a No Code Fable
+Date: 13 Apr 89 00:12:57 GMT
+Sender: daemon@ucbvax.BERKELEY.EDU
+Organization: The Internet
+Lines: 162
+ 
+
+The Story of Digipeter Rabbit
+  -- a No Code Fable
+By Frank Terranella, N2IGO
+ 
+ 
+ 
+     Once upon a time, in the far-
+away kingdom of Radio, there was a
+peaceful valley called Hamville,
+inhabited by a group of rabbits.
+Hamville was originally settled by the
+Whiskey family, and the patriarch of
+that family was an old hare called
+Charlie Whiskey.
+ 
+        Charlie Whiskey was a farmer
+by trade.  He came to the beautiful
+valley of Hamville when it was all
+open meadows.  He saw the potential
+for farming the vacant land and over
+time he developed a thriving carrot
+plantation.  Charlie Whiskey's carrot
+plantation was the envy of all the
+inhabitants of the kingdom of Radio.
+He succeeded year after year in
+producing a bumper crop of carrots.
+All the other residents of the kingdom
+came to Charlie for advice on planting
+carrots.  Charlie would always tell
+them, "The secret's in developing a
+good ear."  No, Charlie didn't
+have superior hearing, but he had
+developed a very special skill.  You
+see, Charlie picked his carrots with
+his ears.
+ 
+        In fact, Charlie had worked
+hard at perfecting this skill and was
+able to harvest at better than 20
+carrots a minute.  All of Charlie's
+family learned to pick carrots with
+their ears.  Soon they were all
+picking at better than 20 carrots a
+minute.  Charlie was so proud of his
+special skill that he insisted that
+everyone who came to work at Hamville
+first show that he could pick carrots
+with his ears.  Charlie would not give
+new settlers any land unless they
+could demonstrate to his foreman,
+Victor Echo, that they could pick at
+least 5 carrots a minute with their
+ears.  When they could pick 13 carrots
+a minute, Charlie gave them more land
+to work.  When they were able to pick
+carrots by ear at the rate of 20 a
+minute, Charlie made them full
+citizens of Hamville.
+ 
+        This process of learning to
+pick carrots with your ears went on
+for sometime.  In other parts of the
+kingdom of Radio, other rabbits began
+to pick carrots by ear.  However,
+there were some noisy ducks, known as
+the Quackers, who lived in the
+community of Good Buddy.  They used
+their mouths to pick their crops
+instead of their ears.  They had much
+larger mouths than the rabbits and saw
+no need to use their ears.  The
+rabbits all looked down on the
+Quackers.  "We must always require ear
+harvesting skills for entry into
+Hamville," they said.  "That way we
+will keep out those noisy Quackers."
+So everyone who came to Hamville had
+to learn how to pick carrots by ear if
+they wanted to stay.  Charlie Whiskey
+was adamant about that.  "If you don't
+want to learn the skill of ear
+harvesting then go work in Good Buddy
+with the Quackers," he would say.
+ 
+        And so the years passed, and
+new methods of farming were developed.
+These new methods were easier to learn
+than ear harvesting, especially for
+the animals who didn't have the big
+ears that the rabbits had.  What's
+more, the new methods were just as
+efficient as ear harvesting.  As time
+went by, fewer and fewer of the young
+animals were willing to learn the
+skill of ear harvesting.  The
+population of Hamville began to
+dwindle.  All the residents of
+Hamville were getting on in years.  To
+make matters worse, there were new
+neighbors nearby who coveted the
+beautiful open farmland of Hamville.
+They wanted to come in and turn it
+into commercial uses like shopping
+centers.  And worst of all, the
+pollution from the Quackers, the other
+Rabbits, and the Mice (known in
+Hamville as the QRM group) was having
+an adverse effect on farming in
+Hamville. The future looked bleak
+indeed.
+ 
+        Then, one day, a stranger
+called Digipeter Rabbit came to
+Hamville.  He was an educated rabbit
+who had studied at the School for
+Scientific Bunnies (SSB).  He had
+majored in Farm Mechanics and knew all
+of the latest scientific agricultural
+methods.  But for all his education
+and know-how, there was one thing that
+Digipeter could not do.  He could not
+master the skill of picking carrots
+with his ears, and since he already
+knew how to pick carrots more
+efficiently with new scientific
+methods, he was not interested in
+learning.
+ 
+        Charlie Whiskey was outraged.
+"What do you mean you won't learn to
+pick carrots with your ears?  Why, we
+in Hamville have been picking carrots
+that way for 75 years.  It's a
+tradition here.  It shows that we're
+special and that we're better than the
+Quackers.  If you don't have the
+desire to develop a good ear, then we
+don't want you here in Hamville."
+
+        But Digipeter was adamant.  He
+saw no reason to learn an obsolete
+skill just to stay in Hamville and he
+refused to even try.  Charlie Whiskey
+took the matter to the Ancient Royal
+Rabbit League, which he had founded.
+The ARRL decreed that everyone in
+Hamville must learn to pick carrots
+with his ears or be banished.  And so
+Digipeter Rabbit left Hamville and
+founded his own village called
+Techietown.
+ 
+        Soon, all the young animals in
+the land of Radio were flocking to
+Techietown.  But Digipeter had his own
+entrance requirement.  A good ear and
+a good memory were not enough for him.
+No one could stay in Techietown unless
+he could demonstrate technical
+knowledge, understanding  and ability,
+and the desire to contribute to the
+advancement of Techietown.
+ 
+        Digipeter encouraged all the
+residents of Techietown to experiment
+in the cultivation of new unexplored
+lands, never before farmed.  Digipeter
+showed them how to overcome pollution
+problems.  He showed them how to use
+the land they had more efficiently.
+Digipeter even perfected a method of
+farming which allowed a number of
+rabbits to farm the same land at the
+same time.  And while the residents of
+Hamville were picking 30 carrots a
+minute on a good day, in Techietown,
+harvests of 300 carrots a minute were
+possible.  Using Digipeter's methods,
+and those developed by the other
+bright, young residents, Techietown
+soon became the most prosperous
+village in the kingdom of Radio.
+This did not escape the notice of
+the Field Carrot Council, which
+governed the kingdom of radio.  To
+reward the residents of Techietown for
+their contributions to the kingdom,
+the Field Carrot Council gave
+Techietown more and more land to work,
+until its borders touched those of
+Hamville.
+ 
+     Meanwhile, Hamville was still
+plodding along as it always had,
+oblivious to the revolution in farming
+occurring around it.  The old hares
+still picked carrots by ear.  The
+Ancient Royal Rabbit League complained
+bitterly to the Field Carrot Council
+about all the new land it was giving
+to Techietown, but the population of
+Hamville continued to drop.  When the
+Field Carrot Council gave 2 acres of
+Hamville property to Techietown, the
+residents of Hamville began, for the
+first time, to be genuinely concerned
+about their plight.  Some even dared
+to ask the Ancient Royal Rabbit
+League to change its mind about the
+need to learn to pick carrots by ear
+to live in Hamville. "We need new
+blood here to fight off the Field
+Carrot Council," they said.  Charlie
+Whiskey, now in his nineties, was
+furious.  "We have to maintain our
+standards.  We don't need those smart
+young bunnies, we need rabbits skilled
+in our time-honored harvesting tech-
+niques.  We need rabbits who are
+dedicated enough to the principles of
+Hamville to want to learn our methods.
+If a rabbit really wants to live here,
+he'll learn our ways.  If he doesn't,
+we don't want him.  You don't want
+those Quackers to move here, do you?"
+ 
+        But by now the residents of
+Hamville had seen the writing on the
+wall.  Although they genuinely enjoyed
+picking carrots with their ears, they
+realized that there were now other
+ways which yielded just as many
+carrots.  And though they would
+probably continue to pick carrots by
+ear as they always had, they could no
+longer shun those bright young rabbits
+who chose a more modern method.  A
+group of rabbits, led by an elder
+statesman rabbit named Elmer, who had
+once served in the government of
+the kingdom of Radio, asked the
+Ancient Royal Rabbit League to change
+its policy.  The League agreed and
+issued a decree that henceforth ear
+harvesting skills would not be
+required to become a resident of
+Hamville.
+ 
+        When Digipeter Rabbit heard
+of the decree, he sent envoys to
+Hamville with all the latest
+scientific discoveries, which he
+shared freely with the residents.  The
+residents of Hamville seized upon the
+new knowledge and soon Hamville became
+revitalized.  Its population began to
+increase as young rabbits were
+attracted to its bountiful open
+farmland.  The Field Carrot Council,
+impressed by the renaissance in
+Hamville, did not take away any more
+of its land, but actually gave some
+new territory to Hamville.  Everyone
+was amazed at the new vibrancy of
+Hamville.
+ 
+        Charlie Whiskey, though sad
+that his beloved harvesting method was
+no longer in vogue, saw that his
+people were prospering and was glad.
+And to show that there were no hard
+feelings, Charlie Whiskey sent
+Digipeter Rabbit a packet of 73
+carrots which he had picked himself
+-- with his ears.
+ 
+        The residents of Hamville
+rejoiced and declared a festival to
+celebrate their new prosperity.  And
+over the front door of the Hamville
+Festival they put a banner, which
+read: "A bunny's worth is measured
+not by the skill of his ears, but by
+what lies between them."  The
+residents of Hamville had learned an
+important lesson.
+
+ - THE END -
+

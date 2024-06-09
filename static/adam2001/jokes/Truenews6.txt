@@ -1,0 +1,227 @@
+@FROM   :funny-request@clari.net                                      
+@SUBJECT:The True News Digest part 6/22                               
+Newsgroups: rec.humor.funny
+
+[Note - What follows is one part of the True News Digest - a collection of
+ true-life stories which didn't really warrant individual posting, but
+ which are amusing nevertheless.  The digest is quite long, and it will
+ appear in 22 parts over the next few months - ed.]
+
+ =       =       =       =       =
+
+From: woodhams@phoenix.princeton.edu (Michael Woodhams)
+Subject: An uplifting experience
+
+The maths/physics/computer science building at
+Auckland University was built in about 1970, and
+in a typical penny pinching maneuver, obsolete
+lifts were installed. As these are now 20 years
+old, and spare parts have probably been
+unavailable for much of that time, they are, to
+say the least, unreliable. Your life flashes
+before your eyes whenever you enter one, and an
+office mate of mine maintained (over my
+objections) that there are no Atheists in lifts. I
+lived in constant dread that I would get stuck in
+a lift when I needed to go to the toilet.
+
+Anyway, one morning I came in and found that both
+lifts were operating flawlessly. (As opposed to
+the more common event of operating floorlessly.)
+They opened the doors smoothly, they weren't in
+their homicidal "close the doors again before they
+even completely open" mode, they weren't in their
+"sulk in the basement" mode, when they stopped,
+you could get out without stepping up or down 30
+cm and they took less than one minute between
+floors. Inspired by this unprecedented event, I
+went up to my office and soon returned to the
+lobby with a notice:
+
+"Due to circumstances beyond our control, both
+lifts are fully operational. We apologize for any
+inconvenience. Normal service will be resumed as
+soon as possible."
+
+Sure enough, next morning the sign was gone, and
+an engineer had disassembled lift spread around
+the lobby for repairs.
+        
+ =       =       =       =       =
+
+From: m228-2ba@web.berkeley.edu (Ronnen Levinson)
+Subject: Ah, that British Stiff Upper Lip
+
+From the New York Times, 3 April 1991:
+
+BRITON JOKES ABOUT 5 YEARS IN IRANIAN JAIL
+
+    Looking tired and gaunt but sporting a sense of humor, Roger Cooper, a
+British businessman who was held by Iran for more that five years on spying
+charges, arrived in Britain yesterday after being released unexpectedly 
+from a high-security prison in Tehran.
+
+    Playing down his ordeal, he said, "I can say that anyone who, like me, 
+has been educated in the English public schools and served in the ranks of 
+the British army is quite at home in a Third World prison."
+
+ =       =       =       =       =
+
+From: roosen@math.rutgers.edu (Roosen)
+Subject: Cooking with Kraft
+
+Real honest to god recipe on the back of Kraft grated parmesan cheese:
+
+'The Secret To Thicker Sauce'
+     SPAGHETTI PARMESAN
+
+1 32-oz jar spaghetti sauce
+2/3 cup KRAFT 100% Grated
+    Parmesan Cheese
+1 16-oz pkg spaghetti,
+    cooked,drained
+
+Heat sauce according to label directions. When heated, stir in
+parmesan cheese. Simmer 10 minutes, stirring occationally. Pour
+sauce over spaghetti. Sprinkle with additional parmesan cheese,
+if desired. 6 to 8 servings.
+
+Variation: Recipe may be halved.
+
+Sure am glad they explained it!
+        
+ =       =       =       =       =
+
+From: dan@bbn.com
+Subject: novel treatment of low back pain
+
+From the New England Journal of Medicine, March 7, 1991 (Volume 324 Number
+10):
+
+To the Editor: I wish to report the serendipitous discovery of a
+symptomatic treatment for low back pain that, until now, has been
+underutilized.  Six months ago I evaluated a 48-year-old retired
+airline pilot with a two-month history of ... [unrelated complaint
+deleted].  ... he had ... and responded quickly to ... On a follow-up
+visit at six months, he reported continued control of the facial pain
+but described an exacerbation of his chronic, intermitted low-grade
+lumbar back pain.  On examination, he had a mild restriction of
+forward bending, mild paraspinous muscle spasm, and no neurologic defects.
+
+When asked about factors that aggravated or relieved his pain, he
+related that the only maneuver that attenuated the symptom was flying
+upside down in his rebuilt open-cockpit biplane, suspended by the seat
+belt and shoulder harness. This treatment had to be administered in
+repeated brief bursts, since the aircraft operated on a
+gravity-dependent fuel-injection system; after 10 seconds upside down,
+the engine would stall and need to be restarted during a dive.  On the
+other hand, his back pain was aggravated by prolonged flying in the
+usual (right-side-up) position.  In fact, the current exacerbation was
+attributed to a recent flying trip with his wife, during which she
+would not permit him to fly upside down.
+
+This case raises a number of interesting questions, not least among
+them being issues of risk-benefit ratios, cost effectiveness, and even
+utilization review, assuming that fuel costs may be reimbursible by
+the patient's third-party insurance carrier...  In any case, the time
+is ripe for a study comparing this approach with the use of
+gravity-inversion boots.
+
+     Robert S. Hoffman, M.D.
+Daly City, CA 94015   Peninsula Neurological Associates
+        
+ =       =       =       =       =
+
+From: kilroy@gboro.glassboro.edu (Dr Nancy's Sweetie)
+
+My wife is a new CS professor, and since she is new she teaches lower-
+level courses.  One of her classes is in "Computer Literacy", which is
+a course to explain computers to non-majors.
+
+Sadly, some of these people don't pay a lot of attention in class and
+try to guess answers to test questions; this week's midterm earned one
+of the most original guesses ever:
+
+Question:  Name one advantage of tape as compared to a hard disk for
+           storing data.
+
+Answer:    Can listen to it.
+        
+ =       =       =       =       =
+
+From: eanderson@ucsd.edu
+Subject: bad technical writing
+
+From "Unisys World   Network Computing News"  March 1991   Vol 9, No 3
+
+"... the Symmetry 2000 achieved a record performance rate of 354 transactions
+ per second on a 16-CPU system.  The benchmark yielded a cost per transaction
+ of $8100, including five-year cost of ownership ..."    ^^^^^^^^^^^^^^^^^^^^
+
+And I thought $0.15 per check was bad!
+        
+ =       =       =       =       =
+
+From: tstockfisch@ucsd.edu (Tom Stockfisch)
+Subject: tax forms
+
+My favorite quotation from this year's 1040 form (page 24):
+
+ "DO NOT use this chart if you are blind."
+        
+ =       =       =       =       =
+
+From: psrc@jupiter.UUCP (Paul S. R. Chisholm)
+Subject: Double features
+
+The local duplex theater had the following on their marque:
+
+            DANCES WITH WOLVES
+               THE HARD WAY
+
+A few years back, the same theater advertised:
+
+             EXTRATERRESTRIAL
+           WHOREHOUSE IN TEXAS
+        
+ =       =       =       =       =
+
+From: upstill@pixar.UUCP
+Subject: rec.humor.funny submission
+
+The following was written and is currently being used as resume cover 
+letter by my buddy Dennis Jennings:
+
+ To whom it may concern:
+
+Well hello there prospective new employer!!! Lookin for that perfect
+new employee? One that's smart enough to get the job done but not
+smart enough to take your job? Well I'm your man!! Yup, I'll be your
+very own sychophant and will do all those nasty, dirty little jobs
+that you don't want to do or just can't do cause you're a tad short
+in the smarts department. When the big boss compliments you on how 
+much you've improved (even though we know it was because of me) I'll
+stand right there and say how terrific you are! Am I good? Yes! Am I
+cheap? Of course! Do I know my place? You know I do BOSS! So c'mon,
+give little ol dj a call and get that career of yours back on track!
+I'll be waiting to hear from you!
+
+ Sincerely,
+        
+ =       =       =       =       =
+
+From: Mark.Sapossnek@globe.edrc.cmu.edu
+Subject: Lube job
+
+A new TV ad for a Lexus automobile touted a new leasing agreement 
+where Lexus will pay for all scheduled maintenance costs for
+two years or 30,000 miles, whichever comes first.
+The ad finishes with the announcer saying:
+
+  "Just what you've always wanted: a short-term, no-maintenance
+   relationship."
+
+--
+Selected by Maddi Hausmann.  MAIL your jokes (jokes ONLY) to
+funny@clarinet.com
+Attribute the joke's source if at all possible.  A Daemon will auto-reply.

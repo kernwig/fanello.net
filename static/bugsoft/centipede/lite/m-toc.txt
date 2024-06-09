@@ -1,0 +1,145 @@
+
+                              C e n t i p e d e
+
+          C= BBS Software by Bugsoft  -  For the Commodore 128 computer
+
+
+                         O W N E R ' S   M A N U A L
+
+
+                              (c) COPYRIGHT 1997
+                                By Adam Fanello
+
+------------------------------------------------------------------------------
+
+                      T A B L E   O F   C O N T E N T S
+
+
+1 - Introduction
+
+                1.1 - Welcome
+                1.2 - Heritage  
+                1.3 - Using This Manual 
+                1.4 - Terminology       
+                1.5 - Running Programs  
+
+2 - Planning for Your BBS     
+
+                2.1 - What Are You Offering?    
+                        2.1.1 - Message Boards and Networks     
+                        2.1.2 - File Transfer Areas     
+                        2.1.3 - On-Line Games [NAL]  
+                2.2 - General Access Levels     
+                2.3 - What Storage Units Are You Using? 
+                        2.3.1 - Floppy Drives   
+                        2.3.2 - RAM Expansion Unit (REU)        
+                        2.3.3 - CMD Hard Drive and RAMLink      
+                        2.3.4 - ICT Data Chief and Mini Chief   
+                        2.3.5 - Lt. Kernal Hard Drive   
+                2.4 - Multiplexed System [NAL]       
+                2.5 - What Modem and Interface Are You Using? 
+                2.6 - Planning File Structure  
+                        2.6.1 - Program Files  
+                        2.6.2 - Support Files  
+                        2.6.3 - Accounts Files 
+                        2.6.4 - System Files   
+                        2.6.5 - Help Files     
+                        2.6.6 - Caller Log File [NAL]
+                        2.6.7 - Network Files  
+                        2.6.8 - E-Mail Files   
+                        2.6.9 - Message Boards 
+                        2.6.10 - U/D Directories
+                2.7 - System Structure  
+
+3 - Installing The Centipede Files
+
+                3.1 - Preparing Your Storage Units     
+                3.2 - Dissolving The Archives   
+                3.3 - Installing a System Structure [NAL]
+
+4 - Configuring Your BBS        
+
+                4.1 - BBS-Setup 
+                        4.1.1 - File Locations  
+                        4.1.2 - Programmable Key Definitions [NAL]  
+                        4.1.3 - Modem Configuration   
+                        4.1.4 - Users' Time Limits    
+                        4.1.5 - Caller Purge [NAL]   
+                        4.1.6 - U/D File Transfer Areas 
+                        4.1.7 - Message Board Areas     
+                        4.1.8 - System Colors  
+                        4.1.9 - E-Mail & Messaging Options      
+                        4.1.10 - Other Parameters   
+                        4.1.11 - Save  
+                        4.1.12 - Abort 
+                        4.1.13 - Starting Anew
+
+                4.2 - Converting Color64 or V128 System Files To Centipede[NAL]
+
+5 - Maintaining and Modifying Your BBS 
+
+                5.1 - Booting Up       
+                5.2 - The Wait For Caller Screen       
+                        5.2.1 - Login (F1/L)   
+                        5.2.2 - Instant Login (F2/I) [NAL] 
+                        5.2.3 - View Caller Log  (F3/C) [NAL]
+                        5.2.4 - Terminal Mode (F4/T)    
+                        5.2.5 - Read/Reply to E-mail (F5/R)    
+                        5.2.6 - SysOp Maintenance Menu (F6/S) 
+                        5.2.7 - File Maintenance (F7/F) 
+                        5.2.8 - System Shut Down (F8)   
+                        5.2.9 - Answer/Disconnect Call (C=)     
+                5.3 - Account Maintenance     
+                5.4 - Accounts Adjustments [NAL]   
+                5.5 - Editor    
+                5.6 - Selectable Picture Format (SPF) Files [NAL]   
+                5.7 - Menu Editor [NAL]     
+                5.8 - Script Editor [NAL]    
+                5.9 - SysOp News Editor 
+                5.10 - Voting Booth Editor      
+                5.11 - Configure Area Commands [NAL] 
+                5.12 - Regenerate Message Board 
+                5.13 - Regenerate/Update File Directory 
+                5.14 - Delete File from Transfer Area   
+                5.15 - Releasing Files in the Transfer Area     
+                5.16 - Transfer Protocols [NAL]      
+
+6 - Using Add-Ons [NAL]      
+
+                6.1 - About Network Add-Ons     
+                        6.1.1 - What is ComLink?        
+
+7 - Converting Color 64 and V128 Games and Add-Ons [NAL]     
+
+8 - Wrapping Up
+
+                8.1 - Updates, Games, and Add-Ons [NAL]      
+                8.2 - Contacting the Author
+                8.3 - Getting Help From Other SysOps [NAL]
+                8.4 - How to Report Problems
+                8.5 - Thanks from Adam Fanello
+
+A - File Listings and Descriptions 
+
+                A.1 - Program Files
+                        A.1.1 - Modules
+                        A.1.2 - Machine Language Code Files
+                        A.1.3 - Overlays
+                        A.1.4 - Miscellaneous
+                A.2 - Support, System, and other Specialized Files
+                A.3 - Help Files
+                A.4 - Script Files
+
+B - MCI Commands
+
+                B.1 - Simple MCI Commands
+                B.2 - Advanced MCI Commands
+
+C - Script Language [NAL]
+
+D - Keyboard Commands
+
+                D.1 - CONTROL Key Commands
+                D.2 - ALT Key Commands [NAL]
+                D.3 - Function Key Commands
+

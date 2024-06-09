@@ -1,0 +1,179 @@
+1 - Introduction
+
+
+1.1 - Welcome
+
+Welcome to the world of Centipede. You now hold in your hands a reduced down
+freeware version of the most powerful, flexible, and extensible bulletin board
+system ever created for a Commodore 8-bit computer. This is not a one time
+claim; Bugsoft is committed to retaining this title through continued
+development. 
+
+
+1.2 - Heritage
+
+Centipede traces its roots back to 1985, and the release of Color 64 BBS by
+Greg Phountz. Color 64 spent five years receiving updates from the author and
+mods (changes made directly into the base program code) and games from other
+authors. In 1990, the author of Centipede decided that he wanted to run his
+own BBS. Liking Color 64's flexibility and large selection of mods and games,
+but wanting to use the full power of the Commodore 128, he wrote Version 128;
+an upgrade to Color 64 v7.3x that ran the system in native C128 mode. This was
+followed by years of updates, mods, and games for V128 that lasted until 1995,
+when the lack of availability of Color 64 and requests from customers led to
+the announcement of Centipede. Unlike V128, which was simply an upgrade,
+Centipede is an entirely new system. Some low level programming from V128 have
+been reused, and long time Color 64/V128 users will certainly see similarities
+between Color 64/V128 and Centipede; a result of years of influence. Much of
+this similarity on the program code level was done purposely in order to
+facilitate usage of Color 64/V128 on-line games and mods with Centipede. One
+thing people accustom to Color 64/V128 programming will not find in Centipede
+is ten years worth of updates, mods, duplicated code, and hacks. What these
+people will find is a clean system with all modern features built in and
+facilities for easily, and cleanly, adding new features in the future.
+
+Centipede Lite is a reduced version of the Centipede system. It was designed
+not only as a teaser for the full version, but also as a functional system for
+running a small BBS. You are free to run Centipede Lite for as long as you
+wish. Purchasing the full version of Centipede grants you additional
+functionality, free upgrades, and free technical support.
+
+
+1.3 - Using This Manual
+
+This manual serves as both a step-by-step overview of setting up a Centipede
+BBS, and as a reference manual. Before you begin, you may find it useful to
+skim through this entire manual to familiarize yourself with it, as well as
+Centipede. Then, next time you have a free day, clear your desk, cuddle up
+with this manual, some scratch paper, a pencil and your Commodore 128, and get
+started!
+
+NOTE: The symbol [NAL] is used frequently throughout this manual. It stands
+for Not Available in Lite. This means that this feature and/or documentation
+is not available in the Lite version of Centipede.
+
+The first thing to do is to run the "run me" program from the Centipede
+package. This program (for the C128 in 80 column mode) provides an easy
+interface for viewing this manual, as well as the addendum; covering any
+changes and additions made since this writing.
+
+This manual is split into chapters, which are subdivided into sections, which
+are subdivided into subsections. For instance, chapter 4 covers configuring
+your BBS, section 4.1 covers the bbs-setup program, and subsection 4.1.1
+covers the file locations selection part of bbs-setup. The following is a
+brief overview of what you will find in each chapter:
+
+*    Chapter one is your introduction to Centipede, and a few general things
+     you will need to know. Read it completely.
+
+*    Chapter two is the planning stage of your BBS. Read all applicable
+     sections thoroughly and take notes.
+
+*    In chapter three, you will be instructed on how to select and install
+     the Centipede files onto your storage units.
+
+*    Chapter four will guide you through configuring Centipede to your
+     specific hardware and preferences, as well as converting [NAL] any
+     existing BBS support files you may have from a Color 64 or V128 BBS. This
+     chapter also serves as reference for making changes in the future.
+
+*    With chapter five, you will boot your BBS for the first time. From
+     hereon, this manual becomes a reference guide. The remainder of chapter
+     five explains the maintenance and configuration tools that are available
+     from within the BBS.
+
+*    Chapter six explains the concept of networking, and gives a brief
+     overview of two of the networks available for Centipede at the time
+     of this writing.
+
+*    For the skilled programmers, chapter seven describes the process of
+     converting Color 64/V128 games for use with Centipede - using the
+     Cocoon program. [NAL]
+
+*    In chapter eight, we wrap things up with information about contacts,
+     updates, and other concluding remarks.
+
+*    Appendix A contains a complete listing of all files used by Centipede,
+     and how to use them. This information is invaluable for customizing
+     your BBS [NAL], as well as for programmers to make use of existing 
+     routines [NAL].
+
+*    Appendix B covers the powerful Message Code Interpreter (MCI) that is
+     built into Centipede.
+
+*    The flexible Centipede scripting language is documented in Appendix C.
+     [NAL]
+
+*    The manual concludes with Appendix D and a listing of keyboard commands
+     that can be used throughout Centipede.
+
+
+1.4 - Terminology
+
+There is a whole language of terminology used on bulletin board systems. Most
+of these terms should be clear to you from prior experience with computing, or
+from context. A point that can cause confusion, however, is synonymous terms.
+Throughout this manual and Centipede, many terms are used synonymously. I will
+attempt to describe these synonymous terms here.
+
+Member, Caller, and User:
+For the most part, these words refer to the same person. A member is someone
+who has an account on your BBS. A caller is one who calls the BBS, and a user
+is someone who uses the BBS.
+
+Posting and Message:
+A posting or message is simply a piece of written text. A posting generally
+refers to such a text that is made for public display. Message is a more
+generic term.
+
+Upload/Download, U/D, and File Transfer area:
+These are all terms for the same thing: an area of the BBS where members can
+publically exchange files.
+
+DOS mode, DOS prompt, and File Maintenance:
+This is an area of the BBS where files can be viewed, scratched, and renamed.
+Directories can be listed, and numerous file maintenance utilities run from a
+line prompt. DOS is a generic term meaning Disk Operating System.
+
+Add-on, Games, and Doors:  [NAL]
+An add-on is some sort of system that can be added to the base Centipede BBS.
+A game is a specific type of add-on. Networks are also add-ons. On some other
+BBS programs, these same sort of systems are called doors.
+
+Check marks, carets, and up-arrows:
+Color 64/V128 systems use the check mark character to start many of their file
+names. This naming convention has largely been dropped with Centipede, but you
+will run across it in a few places; particularly when dealing with games
+converted from Color 64/V128. To type this check mark, press SHIFT-@. Since
+the check mark is not part of the ASCII character set, some editors cannot
+produce it. In these cases, it has been common convention to substitute a
+caret or up-arrow (^) symbol, for the check mark. Whenever you see
+documentation which shows a caret or up-arrow as the first character of the
+file name, you will need to substitute a check mark in its place.
+
+
+1.5 - Running Programs
+
+In several places through this manual, you are instructed to run programs. For
+instance, to boot up the BBS, you will be told to run the program "bbs". There
+are several ways to do this, some of which are dependent on the hardware you
+using. The following steps form a general outline that will work on any
+system:
+
+*    Make sure your Commodore 128 is turned on, in C128 mode, 80 columns, and
+     not running any other programs. It is often a good idea to reset the
+     computer between programs.
+
+*    If necessary, switch to the disk location (partition, subdirectory) of
+     the program you wish to run.
+
+*    Type in the BASIC command: run"program name",u8. Replace program name
+     with the name of the program to run, and the 8 with the device unit
+     number of where the program is stored. Actually, the device number
+     defaults to 8, so the ,u8 is optional in this case.
+
+
+Copyright 1998, Bugsoft
+
+  -<[ Use your browser's "BACK" button to return to the table of contents. ]>-
+

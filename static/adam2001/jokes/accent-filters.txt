@@ -1,0 +1,175 @@
+From wayne@cs.toronto.eduThu May 16 13:47:52 1996
+Date: Thu, 16 MAY 96 4:30:07 EDT 
+From: Wayne Hayes <wayne@cs.toronto.edu>
+Newsgroups: rec.humor.funny
+Subject: Weird Text Filters 
+
+
+Back in 1992 some friends and I found some interesting Unix command filters
+that work on English text.  Some of them are binaries, and some of them
+are shell scripts.  The only attribution I can find was in fudd(1), which
+said
+
+#   Purpose:    Make text look like it was spoken by Elmer Fudd.
+#
+#   Author:     Joe Brownlee, Analysts International Corporation
+#   Modified:   Joe Brownlee, 12/03/92
+
+Having nothing better on hand back in 1992, we ran "man sh" through some
+of these filters.  It seemed pretty funny back then, and perhaps you
+folks who have never seen it may enjoy it your first time as much as we
+did.
+
+---------------------------------------------------------------------------
+
+% man sh | fudd
+sh(be vewy quiet, 1)           Usew Commands           sh(be vewy quiet, 1)
+
+NAME
+     sh, jsh, wsh - sheww, the standawd, job contwow  sheww,  and
+     westwicted sheww command intewpwetews
+
+AVAIWABIWITY
+     SUNWcsu
+
+DESCWIPTION
+     sh is a command pwogwamming wanguage that executes  commands wead
+     fwom  a  tewminaw  ow  a  fiwe, eheheheh.  The command jsh is an
+     intewface to the sheww which pwovides aww of the functionawity of
+     sh  and  enabwes  Job Contwow (be vewy quiet, see ``Job Contwow,''
+     bewow), eheheheh.  /usw/wib/wsh is a westwicted vewsion of  the
+     standawd  command  intewpwetew sh; It is used to westwict wogins
+     to execution enviwonments whose capabiwities awe mowe  contwowwed
+     than  those  of  the standawd sheww, eheheheh.  See
+     ``Invocation,'' bewow fow the meaning of awguments  to  the
+     sheww, eheheheh.  Note, you miscweant:  This   command   shouwd
+     not   be   confused  with /usw/bin/wsh, the wemote sheww,
+     eheheheh.
+
+---------------------------------------------------------------------------
+
+% man sh | drawl
+sh(1)                     User Commands                     sh(1)
+
+NAME
+     sh, jsh, rsh - shayll, thuh standard, job control  shayll,  and
+     restricted shayll command interpreters
+
+DESCRIPTION
+     sh izza command programmin' language thet executes  commaynds
+     read  frum  uh  terminal  or  uh  file.  The command jsh iz an
+     interface tuh the shayll which provides all uh the functional-
+     ity  uh  sh  an'  enables  Job Control (see ``Job Control,''
+     below).  /usr/lib/rsh izza restricted version uh  thuh  stan-
+     dard  command  interpreter sh; It iz used tuh restrict lawgins
+     tuh execution environments whose capabilities is  more  con-
+     trolled  than  them  uh  thuh standard shayll.  See ``Invoca-
+     tion,'' below fahwar the meanin' of  arguments  tuh  thuh  shayll.
+     Note:    This   command   should   not   bay   confused  with
+     /usr/bin/rsh, thuh remote shayll.
+
+---------------------------------------------------------------------------
+
+% man sh | swedish-chef
+
+sh(1)                     User Cummunds                     sh(1)
+
+NEME
+     sh, jsh, rsh - shell, zee stunderd, jub cuntrul  shell,  und
+     restreected shell cummund interpreters
+
+EFEILEBILITY
+     SOoNVcsoo
+
+DESCRIPTION
+     sh is a cummund prugremmeeng lungooege-a thet ixecootes  cummunds
+     reed  frum  a  termeenel  oor  a  feele-a.  Zee cummund jsh is un
+     interffece-a tu zee shell vheech prufeedes ell ooff zee fooncshunel-
+     ity  ooff  sh  und  inebles  Jub Cuntrul (see-a ``Jub Cuntrul,''
+     beloo).  /usr/lib/rsh is a restreected ferseeun ooff  zee  stun-
+     derd  cummund  interpreter sh; It is used tu restreect lugeens
+     tu ixecooshun infurunments vhuse-a cepebeelities ere-a  mure-a  cun-
+     trulled  thun  thuse-a  ooff  zee stunderd shell.  See-a ``Infuca-
+     teeun,'' beloo fur zee meuneeng ooff  ergooments  tu  zee  shell.
+Bork Bork Bork!
+     Nute-a:    Thees   cummund   shuoold   nut   be-a   cunffoosed  veet
+     /usr/been/rsh, zee remute-a shell.
+Bork Bork Bork!
+
+---------------------------------------------------------------------------
+
+% man sh | valspeak
+
+sh(1)                     User Commands                     sh(1)
+
+NAME
+     sh, mostly, jsh, man, rsh - shell, fer shure, the standard, like, job
+     control  shell, oh, baby, and restricted shell command interpreters
+
+DESCRIPTION
+     sh is like, ya know, a command programmin' language that executes
+     commands read  from  a  terminal  or  a  file.  The command jsh is
+     an interface to thuh shell which provides all of thuh functional-
+     ity  of  sh  and  enables  Job Control (see ``Job Control,''
+     below).  /usr/lib/rsh is like, ya know, a restricted version of
+     thuh  standard  command  interpreter sh; It is used to restrict
+     logins to execution environments whose capabilities are  more
+     con- trolled than  those  of  thuh standard shell.  See ``Invoca-
+     tion,'' below for thuh meanin' of  arguments  to  thuh  shell.
+     Note:    Like, ya know, this   command   should   not   be
+     confused  with /usr/bin/rsh, man, the remote shell.
+
+  Definitions
+     A blank is ya know, like, a tab or a space.  A name is like wow! a
+     sequence of  ASCII letters, oh, baby,  digits, like, or underscores,
+     fer shure, beginnin' with a letter or an underscore.  A parameter is a
+     name, mostly, a digit, like, wow,  or  any of thuh characters *,
+     mostly, @, like, wow, #, oh, baby, ?, like, wow, -, fer shure, $, man,
+     and !  Gag me with a SPOOOOON!  Gag me with a pitchfork!  Gag me with a
+     SPOOOOON!  Gag me with a SPOOOOON!\^.
+
+---------------------------------------------------------------------------
+
+And of course, there are combinations.
+
+% man sh | valspeak | chef
+
+sh(1)                     User Cummunds                     sh(1)
+
+NEME
+     sh, mustly, jsh, leeke-a, voo, rsh - shell, ooh, beby, zee
+     stunderd, mun, j ub cuntrul  shell, ooh, beby,  und
+     restreected shell cummund interpreters
+
+EFEILEBILITY
+     SOoNVcsoo
+
+DESCRIPTION
+     sh is leeke-a, ya knoo, a cummund prugremmeen' lungooege-a thet
+     ixecootes cummunds reed  frum  a  termeenel  oor  a  feele-a.  Zee
+     cummund jsh is un interffece-a tu thooh shell vheech prufeedes ell
+     ooff thooh fooncshunel- ity  ooff  sh  und  inebles  Jub Cuntrul
+     (see-a ``Jub Cuntrul,'' beloo).  /usr/lib/rsh is leeke-a, ya knoo, a
+     restreected ferseeun ooff  tho oh  stun- derd  cummund  interpreter
+     sh; It is ya knoo, leeke-a, used tu restreect lu geens tu ixecooshun
+     infurunments vhuse-a cepebeelities ere-a  mure-a cun- trulled  thun
+     thuse-a  ooff  thooh stunderd shell.  See-a ``Infuca- teeun,'' beloo
+     fur thooh meuneen' ooff  ergooments  tu thooh  shell.
+Bork Bork Bork!
+     Nute-a:    Leeke-a, ya knoo, thees   cummund   shuoold   nut
+     be-a cunff oosed  veet /usr/been/rsh, leeke-a, zee remute-a shell.
+Bork Bork Bork!
+
+  Deffeenishuns
+     [...]  A
+     paramitir is leeke-a, ya knoo, a neme-a, mustly, a deeg it, leeke-a,
+     voo,  oor  uny  ooff thooh cherecters *, mustly, @, mun, #, fer
+     shoore-a, ?, leeke-a, -, ooh, be by, $, mun, und !  Geg me-a veet a
+     peetchffurk!  Geg me-a veet a SPOOOOON!  Ooh, voo!  Geg me-a veet a
+     peetchffurk!
+
+--
+Selected by Jim Griffith.  MAIL your joke to funny@clari.net.
+Attribute the joke's source if at all possible.  A Daemon will auto-reply.
+If you don't need an auto-reply, submit to rhf@clari.net instead.
+

@@ -1,0 +1,34 @@
+Origin: FC-BBS - 0462 - rec.funny
+    To: ALL
+  From: DUANE D MORIN
+  Date: 01/12/95
+    Re: Not just any key
+------------------------------------------------------------------------
+ÿ@FROM   :ddm@wpi.edu
+Message-ID: <S7b7.2f52@clarinet.com>
+Newsgroups: rec.humor.funny
+
+ Rule for software developers.  Never stand over the shoulder of a
+beta tester.  Once, I was watching Jane test the latest version of our
+software.  When a message appeared on the screen, "Press any key to
+continue", Jane pressed the letter 'j'.
+
+ I thought I was going to have heart failure.
+
+ "JANE!" I screamed, "Why did you press J?!!?"
+
+ "It said any key."
+
+ "Yeah, but....when programmers say any key, they mean the space bar!"
+
+ At which point my fellow programmer looked at me and said,
+"We do?  I thought we meant enter."
+
+Duane
+--
+Selected by Maddi Hausmann Sojourner.  MAIL your joke to funny@clarinet.com.
+Attribute the joke's source if at all possible.  A Daemon will auto-reply.
+
+Remember: Always give your jokes a descriptive "Subject:" line.
+Don't use "joke" or "submission" or "joke submission," please.
+

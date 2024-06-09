@@ -1,0 +1,84 @@
+Article 17 of alt.folklore.computers:
+Path: umn-cs!nic.MR.NET!srcsip!ctrsol!zaphod.mps.ohio-state.edu!brutus.cs.uiuc.edu!apple!rutgers!rochester!pt.cs.cmu.edu!fas.ri.cmu.edu!dstewart
+From: dstewart@fas.ri.cmu.edu (David B Stewart)
+Newsgroups: alt.folklore.computers
+Subject: Unix
+Message-ID: <7223@pt.cs.cmu.edu>
+Date: 6 Dec 89 05:24:33 GMT
+Organization: Carnegie-Mellon University, CS/RI
+Lines: 72
+
+I personally like the humour provided by the csh shell.  
+The following came my way several months ago.  Unfortunately,
+I cannot take credit for any of these.  
+
+
+------------------------------------------------------------------------------
+
+Paul Barth writes:
+    Since we are all now great Unix wizards, the follow might be humorous. It
+    came to me from Umass.
+
+    Note that the '%' prompt indicates that the command should be issued from 
+    the C shell, and the '$' prompt indicates the Bourne shell. 
+
+------------------------------------------------------
+
+% rm meese-ethics
+rm: meese-ethics nonexistent
+
+% ar m God
+ar: God does not exist
+
+% "How would you rate Reagan's incompetence?
+Unmatched ".
+
+% [Where is Jimmy Hoffa?
+Missing ].                                                                     
+
+% ^How did the sex change^ operation go?
+Modifier failed.
+
+% If I had a ( for every $ Congress spent, what would I have?  
+Too many ('s.
+
+% make love
+Make:  Don't know how to make love.  Stop.
+
+% sleep with me 
+bad character
+
+% got a light?
+No match.
+
+% man: why did you get a divorce?
+man:: Too many arguments.
+
+% ^What is saccharine?
+Bad substitute.
+
+% %blow
+%blow: No such job.
+
+% \(-
+(-: Command not found.
+
+% sh
+
+$ PATH=pretending! /usr/ucb/which sense
+no sense in pretending!
+
+$ drink <bottle; opener
+bottle: cannot open
+opener: not found
+
+$ mkdir matter; cat >matter
+matter: cannot create
+
+-- 
+David B. Stewart, Dept. of Elec. & Comp. Engr., and The Robotics Institute, 
+	Carnegie Mellon University,  email: stewart@faraday.ece.cmu.edu 
+The following software is now available; ask me for details
+        CHIMERA II, A Real-time OS for Sensor-Based Control Applications
+
+

@@ -1,0 +1,224 @@
+   Tonkin's First Computer Dictionary
+                (cont'd)
+ 
+ 
+Kernel: (n.) the core of a program,
+  i.e. the source of all errors.  Thus
+  the common misspelling, 'kernal.'
+ 
+Keyboard: (n.) a device used by
+  programmers to write software for a
+  mouse or joystick and by operators
+  for playing games such as 'word
+  processing.'
+ 
+Kludge: (v., adj., or n.) to fix a
+  program in the usual way.
+ 
+Leading Edge: (n., adj.) anything
+  which uses advanced technology.
+  See:  Advanced.
+ 
+License: (n.) a covenant which tells
+  the buyer that nothing has been pur-
+  chased and that no refund, support,
+  advice, or instruction may be
+  anticipated and that no resale is
+  permitted.  A modern way of saying
+  "Thanks for all your money and
+  goodbye," far less crude than "Stick
+  'em up" but even more effective since
+  the purchaser will often borrow the
+  funds requested.
+ 
+Logic: (n.) a system of determining
+  truth or falsity, implication or
+  exclusion, by means of a sort of
+  binary Oneiromancy.
+ 
+Loop: (n., v.) 1. a series of
+  instructions to be iterated. 2. the
+  process of iterating them.  Most
+  loops are unintentional and can be
+  quite droll.
+ 
+Macro: (n.) a series of keystrokes
+  used to simulate a missing but
+  essential command.
+ 
+Megabyte: (n.) more than you can
+  comprehend and less than you'll need.
+  See:  UNIX.
+ 
+Megaherz: (n.) a way of measuring how
+  well your computer matches the
+  frequency of your local television
+  channels.  Most computers perform
+  exceptionally well on this test,
+  especially the higher-quality
+  foreign-made ones.
+ 
+Menu: (n.) any list of choices, each of
+  which is either unsatisfactory or in
+  some fashion contradictory.
+ 
+Micro-: (prefix) anything both very
+  small and very expensive.
+ 
+Mode: (n.) a way of forcing glitch or
+  bug.
+ 
+Modem: (n., v.) a device used to
+  connect computers (see: BBS) or the
+  process of transmitting data between
+  or among computers, esp. for those
+  unable or unwilling to speak.
+ 
+Monitor: (n.) a sort of television with
+  exceptionally poor picture quality
+  and limited to a single very local
+  station.
+ 
+Motherboard: (n.) the hardware version
+  of the software 'kernel.'
+ 
+Mouse: (n.) an input device used by
+  management to force computer users to
+  keep at least a part of their desks
+  clean.
+ 
+Nano-: (prefix) a thousandth of a
+  thousandth, but not a binary
+  thousandth in either case.  Decimal
+  is used for all very small
+  measurements since no further
+  confusion is necessary.
+ 
+Octal: (n.) a base-8 counting system
+  designed so that one hand may count
+  upon the fingers of the other.
+  Thumbs are not used, and the index
+  finger is reserved for the 'carry.'
+ 
+Offset: (n.) a method which permits
+  access to any memory location in
+  thousands of ways, each of which
+  appears different but is not.  Used
+  with segments.  See: Segment.
+ 
+Operator: (n.) 1.  One who has no
+  experience with computers.  2.  Any
+  beginner, esp. one part of whose
+  salary is paid in soft drinks and 
+  processed salted food treated with
+  dangerous and illegal drugs or
+  preservatives.  Differs from a
+  programmer in that a programmer will
+  often take the dangerous and illegal
+  drugs or preservatatives directly.
+ 
+Pascal: (n.) a classroom project which
+  was released before it could be
+  graded - probably a good idea,
+  considering.  One wishes the
+  University had used a better system
+  of academic controls.
+ 
+Patch: (v.) to fix a program by
+  changing bytes according to the rules
+  of logic.  (n.) Any repair of this
+  form.
+ 
+Pirate: (v., n.) to steal software, or
+  one who is such a thief.  True
+  pirates see nothing wrong with
+  thievery, having successfully
+  forgotten or repressed all moral
+  values.
+ 
+Pop: (v.) to remove from an area of
+  memory naively thought to be the
+  stack in a futile attempt to keep a
+  program running.
+ 
+Portable: (adj.) that which can be
+  physically moved more than a hundred
+  yards by an unaided olympic athlete
+  without permanent damage to that
+  individual more than 50% of the
+  time.
+ 
+Printer: (n.) a small box attached to a
+  computer and used to start fires in
+  cold weather.
+ 
+Procedure: (n.) a method of performing
+  a program sub-task in an inefficient
+  way by extensively using the stack
+  instead of a GOTO. See: Pascal and C.
+ 
+Processor: (n.) a device for converting
+  sense to nonsense at the speed of
+  electricity, or (rarely) the reverse.
+ 
+Program: (n.) that which manipulates
+  symbols rapidly with unforseen
+  results.  Also: a bug's way of
+  perpetuating bugs.
+ 
+Programmer: (n.) 1.  one who writes
+  programs and trusts them.  An
+  optimist.  2.  Any employee who
+  needs neither food nor sleep but
+  exists on large quantities of
+  caffeine, nicotine, sucrose, and
+  machine-vended preservatives
+  thinly disguised as foodstuffs.
+ 
+Programming Language: (n.) a shorthand
+  way of describing a series of bugs to
+  a computer or a programmer.
+ 
+Prompt: (n.) a computer request for a
+  random operator error.  Also a game
+  where the computer plays the part of
+  Vanna White and the operator, a
+  contestant.  There are no prizes for
+  winning.
+ 
+Push: (v.) to put into an area of
+  memory believed to be the stack for
+  the ostensible purpose of later
+  retrieval.  Tonkin's rule: In any
+  program there are always more
+  'pushes' than 'pops.'
+  See: Recursion.
+ 
+Quantum leap: (adj.) literally, to move
+  by the smallest amount theoretically
+  possible.  In advertising, to move by
+  the largest leap imaginable (in the
+  mind of the advertiser).  There is no
+  contradiction.
+ 
+Recursion: (n.) a programming method
+  which tests the limits of available
+  memory in an iterative way by using
+  the stack.  When the program fails,
+  all memory has been used.  Memorize
+  this definition, then see: Recursion.
+ 
+Register: (n.) a part of the central
+  purging unit used to distort or
+  destroy incoming data by arbitrary
+  rules.  See: Increment.
+ 
+Relational: (adj.) purchased from, or
+  sold to, blood kin.  See: True
+  relational.
+ 
+Sector: (n.) a disk arc on which is
+  inscribed 'lose a turn' or
+  'bankrupt.'  See: Hard disk, Head,
+  Glitch.
+ 

@@ -1,0 +1,33 @@
+navidoc 1.0
+graph=1
+nametype=2
+title=
+style=
+template=
+Pages:
+"index.html" Up="" Style="" Title="Bugsoft Freeware" Type="text/html" 1
+"clogo.gif" Up="" Style="" Title="" Type="image/gif" 1
+"fcopyer" Up="" Style="" Title="" Type="*/*" 1
+"secure1.zip" Up="" Style="" Title="" Type="application/x-navidir" 1
+"switcher" Up="" Style="" Title="" Type="*/*" 1
+"switcher.txt" Up="" Style="" Title="" Type="text/plain" 1
+"win311.gif" Up="" Style="" Title="" Type="image/gif" 1
+Ghosts:
+Refs:
+"index.html"
+	0 "secure1.zip"
+	0 "../index.html"
+	2 "win311.gif"
+	2 "clogo.gif"
+	0 "index.html"
+	2 "../bugsoft_logo.gif"
+	2 "../tiedye.gif"
+	0 "../centipede/lite/index.html"
+	0 "fcopyer"
+	0 "switcher"
+"clogo.gif"
+"fcopyer"
+"secure1.zip"
+"switcher"
+"switcher.txt"
+"win311.gif"

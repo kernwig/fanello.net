@@ -1,0 +1,214 @@
+navidoc 1.0
+graph=1
+nametype=2
+title=
+style=
+template=
+Pages:
+"index.html" Up="" Style="" Title="Centipede BBS Software" Type="text/html" 1
+"browse.gif" Up="" Style="" Title="" Type="image/gif" 1
+"bugs_logo.gif" Up="" Style="" Title="" Type="image/gif" 1
+"callerlog.gif" Up="" Style="" Title="" Type="image/gif" 1
+"caterpil.gif" Up="" Style="" Title="" Type="image/gif" 1
+"centipede.gif" Up="" Style="" Title="" Type="image/gif" 1
+"color64mainmenu.gif" Up="" Style="" Title="" Type="image/gif" 1
+"comp3.gif" Up="" Style="" Title="" Type="image/gif" 1
+"cutcost.gif" Up="" Style="" Title="" Type="image/gif" 1
+"file_cab.gif" Up="" Style="" Title="" Type="image/gif" 1
+"fileselector.gif" Up="" Style="" Title="" Type="image/gif" 1
+"friendmessage.gif" Up="" Style="" Title="" Type="image/gif" 1
+"gallery.html" Up="" Style="" Title="Centipede Gallery" Type="text/html" 1
+"gp1.html" Up="" Style="" Title="Centipede Gallery Page" Type="text/html" 1
+"gp2.html" Up="" Style="" Title="Centipede Gallery Page" Type="text/html" 1
+"gp3.html" Up="" Style="" Title="Centipede Gallery Page" Type="text/html" 1
+"gp4.html" Up="" Style="" Title="Centipede Gallery Page" Type="text/html" 1
+"gp5.html" Up="" Style="" Title="Centipede Gallery Page" Type="text/html" 1
+"gp6.html" Up="" Style="" Title="Centipede Gallery Page" Type="text/html" 1
+"gp7.html" Up="" Style="" Title="Centipede Gallery Page" Type="text/html" 1
+"gp8.html" Up="" Style="" Title="Centipede Gallery Page" Type="text/html" 1
+"gp9.html" Up="" Style="" Title="Centipede Gallery Page" Type="text/html" 1
+"hands2.gif" Up="" Style="" Title="" Type="image/gif" 1
+"help_table.gif" Up="" Style="" Title="" Type="image/gif" 1
+"historical.html" Up="" Style="" Title="Centipede BBS Historical Information" Type="text/html" 1
+"i577.gif" Up="" Style="" Title="" Type="image/gif" 1
+"lite" Up="" Style="" Title="" Type="application/x-navidoc" 1
+"menueditor.gif" Up="" Style="" Title="" Type="image/gif" 1
+"nature_reserve.html" Up="" Style="" Title="Nature Reserve BBS" Type="text/html" 1
+"new.gif" Up="" Style="" Title="" Type="image/gif" 1
+"news002.gif" Up="" Style="" Title="" Type="image/gif" 1
+"order.html" Up="" Style="" Title="Centipede Order Form" Type="text/html" 1
+"pricecut.html" Up="" Style="" Title="Centipede BBS Price Slash" Type="text/html" 1
+"protocolhelp.gif" Up="" Style="" Title="" Type="image/gif" 1
+"scriptedit.gif" Up="" Style="" Title="" Type="image/gif" 1
+"specs.html" Up="" Style="" Title="Centipede BBS Specs" Type="text/html" 1
+"support.html" Up="" Style="" Title="Bugsoft Technical Support" Type="text/html" 1
+"tiedye.gif" Up="" Style="" Title="" Type="image/gif" 1
+"wait4call.gif" Up="" Style="" Title="" Type="image/gif" 1
+"yahtzee.gif" Up="" Style="" Title="" Type="image/gif" 1
+"free.html" Up="" Style="" Title="Centipede BBS Now Public Domain" Type="text/html" 1
+"freefiles" Up="" Style="" Title=" directory listing of 'D:\\Bugsoft\\Web Site\\centipede\\freefiles'" Type="*/*" 1
+"y2kbug.html" Up="" Style="" Title="Centipede BBS Y2K Bug Fix" Type="text/html" 1
+Ghosts:
+"gallery" Up="" Style="" Title="" Type="application/x-navidir" 0
+Refs:
+"index.html"
+	4 "y2kbug.html"
+	4 "free.html"
+	2 "new.gif"
+	2 "../tiedye.gif"
+	0 "lite/index.html"
+	0 "lite"
+	0 "../index.html"
+	2 "caterpil.gif"
+	2 "file_cab.gif"
+	4 "historical.html"
+	2 "browse.gif"
+	2 "i577.gif"
+	4 "specs.html"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+	0 "gallery"
+	0 "gallery/index.html"
+"browse.gif"
+"bugs_logo.gif"
+"callerlog.gif"
+"caterpil.gif"
+"centipede.gif"
+"color64mainmenu.gif"
+"comp3.gif"
+"cutcost.gif"
+"file_cab.gif"
+"fileselector.gif"
+"friendmessage.gif"
+"gallery.html"
+	2 "bugs_logo.gif"
+	0 "order.html"
+	2 "scriptedit.gif"
+	0 "gp8.html"
+	2 "menueditor.gif"
+	0 "gp4.html"
+	2 "yahtzee.gif"
+	0 "gp9.html"
+	2 "protocolhelp.gif"
+	0 "gp7.html"
+	2 "fileselector.gif"
+	0 "gp5.html"
+	2 "friendmessage.gif"
+	0 "gp6.html"
+	2 "color64mainmenu.gif"
+	0 "gp3.html"
+	2 "callerlog.gif"
+	0 "gp2.html"
+	2 "wait4call.gif"
+	0 "gp1.html"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+"gp1.html"
+	2 "bugs_logo.gif"
+	0 "order.html"
+	2 "wait4call.gif"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+"gp2.html"
+	2 "bugs_logo.gif"
+	0 "order.html"
+	2 "callerlog.gif"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+"gp3.html"
+	2 "bugs_logo.gif"
+	0 "order.html"
+	2 "color64mainmenu.gif"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+"gp4.html"
+	2 "bugs_logo.gif"
+	0 "order.html"
+	2 "menueditor.gif"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+"gp5.html"
+	2 "bugs_logo.gif"
+	0 "order.html"
+	2 "fileselector.gif"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+"gp6.html"
+	2 "bugs_logo.gif"
+	0 "order.html"
+	2 "friendmessage.gif"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+"gp7.html"
+	2 "bugs_logo.gif"
+	0 "order.html"
+	2 "protocolhelp.gif"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+"gp8.html"
+	2 "bugs_logo.gif"
+	0 "order.html"
+	2 "scriptedit.gif"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+"gp9.html"
+	2 "bugs_logo.gif"
+	0 "order.html"
+	2 "yahtzee.gif"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+"hands2.gif"
+"help_table.gif"
+"historical.html"
+	4 "index.html"
+	0 "historical.html"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+"i577.gif"
+"lite"
+"menueditor.gif"
+"nature_reserve.html"
+	0 "specs.html"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+"new.gif"
+"news002.gif"
+"order.html"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+	0 "index.html"
+	0 "free.html"
+"pricecut.html"
+	2 "bugs_logo.gif"
+	0 "order.html"
+	0 "lite"
+	2 "new.gif"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+"protocolhelp.gif"
+"scriptedit.gif"
+"specs.html"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+	4 "index.html"
+"support.html"
+	0 "index.html"
+	2 "centipede.gif"
+	2 "bugs_logo.gif"
+	0 "order.html"
+	0 "../contact.html"
+	2 "tiedye.gif"
+"tiedye.gif"
+"wait4call.gif"
+"yahtzee.gif"
+"free.html"
+	4 "index.html"
+	2 "centipede.gif"
+	2 "tiedye.gif"
+	0 "freefiles"
+"freefiles"
+"y2kbug.html"
+	0 "mailto:Ant@Fanello.net"
+	2 "tiedye.gif"
+	2 "centipede.gif"
+	4 "index.html"

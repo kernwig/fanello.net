@@ -1,0 +1,353 @@
+5 - Maintaining and Modifying Your BBS
+
+Now that you have planned out your BBS and set the main parameters, you are
+ready to put your system online! There is more to running a BBS than simply
+putting it up though, it must be maintained. In addition, there are more
+options than just the ones in bbs-setup. Separate configuration utilities are
+used for specialized areas of the BBS. The different sections of this chapter
+will cover these built in maintenance and configuration utilities. However,
+first thing's first...
+
+
+5.1 - Booting Up
+
+Turn on your computer, monitor, modem, and any storage units used by the BBS.
+If your computer is already turned on, it is generally a good idea to reset it
+before booting the BBS.
+
+Set the currently active disk location to that of your program files, and run
+the program "bbs". 
+
+Note: If you run the "reboot" program instead, no further input will be
+required from you during the boot-up process. All boot-up prompts will accept
+their defaults.
+
+As the system boots, you will see the Centipede copyright screen. This is
+followed by the loading of your main parameters file, activation of the
+Centipede machine language, and a quick identifying scan of all of your
+storage units.
+
+At this point, you will be prompted for the current date and time. Enter the
+numeric values for the month, day, and year, using any key press as a
+separator. If the date is already correct, just press RETURN. If the date
+entered is different from the last known date for the BBS, you will be asked
+if you want to perform a midnight reset. Answer YES if you are truly entering
+a new day. Next, you need to enter the current time. This may be done with
+military time, or by using the letters 'a' or 'p' anywhere in your input. You
+may also use a plus sign as the first character to signal the computer to add
+twelve to the hour you entered. There are a few other formats also recognized.
+Just use whatever you find to be easiest.
+
+With the input complete, the computer will create any missing message index,
+draw the view panel, initialize any ComLink if you are using it, and load the
+membership list into memory. If needed, a new membership list will be created
+automatically.
+
+At this point, you will arrive at the wait for caller (Wait4Call) screen...
+
+
+5.2 - The Wait For Caller Screen
+
+The wait for caller (Wait4Call) screen is where your computer will spend most
+of its time when nobody is connected to the BBS. A wealth of information and
+statistics is displayed on this screen. The Wait4Call screen is also your
+command center for SysOp activity. Pressing the '?' or HELP key will bring up
+a list of the built-in commands you may use. Additional hotkey commands may be
+created. See section 5.8 for details on adding your own Wait4Call hotkey
+commands. The following subsections describe each of the built-in commands.
+
+
+5.2.1 - Login (F1/L)
+
+Pressing the F1 or 'L' keys will let you log into the BBS, as if you had
+called over the phone line. Note that if you have defined a local access
+password [NAL] in bbs-setup, this is the only Wait4Call command that can be
+used without that password.
+
+
+5.2.2 - Instant Login (F2/I) [NAL]
+
+Press F2 or 'I' to perform an instant login. This will take you to the BBS
+main menu, as any member, without going through the login process. The only
+information that will be requested is a membership number. [NAL]
+
+
+5.2.3 - View Caller Log  (F3/C) [NAL]
+
+The caller log details every major move made by a caller while logged into the
+BBS. Press F3 or the 'C' key to view the log. You have the option of viewing
+this log in the order of oldest entry first, most recent entry first, or to
+search for calls that contain certain information. If you have a printer
+attached, you will also have the option of sending the output to the printer.
+[NAL]
+
+[In Centipede Lite, this command will instead give you information about the
+full version of Centipede.]
+
+
+5.2.4 - Terminal Mode (F4/T)
+
+Centipede includes a very simple terminal program. It has a minimal feature
+set and is not meant for extensive use. On screen prompting will guide you
+through its usage. Press F4 or 'T' to activate.
+
+
+5.2.5 - Read/Reply to E-mail (F5/R)
+
+Pressing F5 or 'R' will let you quickly read any e-mail in a raw data format
+and to send e-mail (reply) without logging in. You also have the option of
+clearing the contents of the mailbox when you are done.
+
+If you have a printer attached, you will have the option of sending the output
+to the printer.
+
+
+5.2.6 - SysOp Maintenance Menu (F6/S)
+
+The SysOp Maintenance Menu is the main command center for maintaining your BBS
+by editing menus, scripts, settings, and running of a large variety of
+utilities. When you press F6 or 'S' from the Wait4Call screen, you will be
+instantly logged into the BBS as member number zero, with the name SysOp, and
+placed into the SysOp Maintenance menu. This same menu can be accessed from
+online by pressing the exclamation key from the main menu. The later sections
+in this chapter detail the operation of some of the commands available under
+SysOp Maintenance. Hangup to be returned to the Wait4Call screen.
+
+Note: Although you can go into any area of the BBS from the SysOp Maintenance
+Menu, it is recommended that you restrict yourself to maintenance functions
+when logged in this fashion. Some areas of the BBS will not function correctly
+for member number zero. For instance, you can send e-mail and post messages,
+but you cannot receive e-mail, and some networks will identify such messages
+as corrupted. Also note that membership account zero is not configurable. No
+record is kept of its activities or options.
+
+
+5.2.7 - File Maintenance (F7/F)
+
+Pressing F7 or 'F' takes you to file maintenance (often referred to as DOS
+mode) where you are presented with a line input that accepts disk operations.
+Any disk command channel command may be used. Refer to your storage unit
+manual(s) for details on all available commands. The file maintenance utility
+also accepts numerous commands of its own. Press RETURN on a blank line to
+exit. The following table lists, and briefly describes, the most command
+commands available:
+
+Cmmnd  Description
+@      Read current disk status
+#      Change current active device (#9 for device 9)
+!      Run the file editor
+*      Run the multiple file copier utility (cross device)
+$      Display the disk directory (standard pattern matching accepted)
+%      Update a file transfer directory
+c      Copy a file on the same device (c:copyname=originalname)
+cd     Change directories on some storage units (cd:dirname)
+cp     Change partitions on some storage units (cp2)
+f      Display the file contents to the screen (f:filename). By appending the
+       file name with ,p for PRG or ,r for REL, you may view BASIC and REL
+       files.
+lxxx   Change Lt. Kernal location (l812 for device 8, LU 1, user 2)
+n      Format a disk or directory (n0:diskname,id)
+r      Rename a file (r:newname=oldname)
+s      Scratch a file (s:filename)
+uj     Reset the device
+v      Validate the drive or partition
+x      Run the single file copy utility (cross device)
+
+
+5.2.8 - System Shut Down (F8)
+
+Press F8 to shut down Centipede and return to BASIC. It is best to do a proper
+shut down via this command rather than just resetting or turning the computer
+off.
+
+
+5.2.9 - Answer/Disconnect Call (C=)
+
+Pressing the Commodore key from the Wait4Call screen with place the modem in
+answer mode. If the modem is already answering a call, pressing the Commodore
+key will abort the connection process.
+
+
+5.3 - Account Maintenance
+
+Account Maintenance is used to edit individual information for each member's
+account. Upon entering, enter the handle or number of the account that you
+wish to edit. The first one you should edit is your own, user #1. BBS-setup
+creates this account when it creates the accounts file. You will need to edit
+your account to fit yourself. To edit a field, press the field letter and then
+enter the new data. Following is a brief description of each field:
+
+A) Handle:          The member's online name. Limited to 20 characters.
+B) Real Name:       The member's real name. Centipede only uses this to
+                    display the information on the view panel. [NAL]
+C) Access Level:    The member's general access level from 1 to 9. Set to 0 to
+                    delete the member.
+D) Password:        The member's password. Limited to 9 characters.
+E) Expiration:      Day that the member's membership expires. [NAL]
+F) Upload Blks:     Disk blocks member has uploaded. Used for calculating
+                    credits.
+G) Download Blks:   Disk blocks member has downloaded. Used for calculating
+                    credits.
+H) Xfer Protocol #: Member's last selected file transfer protocol number,
+                    between 1 and 3.
+I) ShortView Flag:  Member's choice as to whether or not to be shown the Short
+                    View descriptions in U/D directories.
+J) Experience Lvl:  Member's self-designated experience level with the BBS.
+K) Word Wrap:       Last state of the member's message editor word wrap
+                    selection.
+L) Review Posts:    Member's choice as to whether to see their own last
+                    postings made when reading new messages.
+M) Default Editor:  Member's selected editor type choice: Line or Full screen.
+N) Autopause line:  Number of lines on member's screen - thus where to
+                    auto-pause. Set to 0 to disable.
+O) Last Msg Read:   Message number member last read on each message board. Set
+                    value to a negative to lock the member out of a 
+                    message board [NAL].
+P) UD Cats Locked:  File transfer area categories you want to lock member out
+                    of, regardless of access level. [NAL]
+Q) Last Called:     Day, time, baud rate, and emulation mode of member's last
+                    call. Only the date can be edited.
+R) # Calls Today:   Number of times member called on last called date.
+S) Time Left:       Minutes member has left for the day.
+T) Daily Time Adj:  Number of minutes by which you want to adjust this
+                    member's daily time limit in relation to the normal limit
+                    for their access level.  Enter a negative value to
+                    subtract time.
+U) Misc Comments:   Any comments you want to make about the member. It is
+                    shown to you in Account Maintenance and on the view panel.
+                    You may also select to show it to the caller using MCI
+                    commands, and a skilled member may be able to view their
+                    own comments using those same MCI commands.
+V) Edit Extra
+   Info Fields:     Their are nine Extra Info Fields that can hold any data.
+                    See the explanation for the "application" file in 
+                    appendix A.2.
+Z) Edit user info:  View and edit the information file about this member.[NAL]
+
+
+To delete an account, set the access level to 0.
+
+On exiting Account Maintenance, you will be asked if you wish to create a new
+member list. Do so if you have added or removed a member, or changed a handle.
+
+
+5.4 - Accounts Adjustments [NAL]
+
+This utility is used for making mass adjustments to all membership accounts.
+This is sometimes necessary after changing a system configuration. [NAL]
+
+
+5.5 - Editor
+
+A single standard text message editor is used throughout Centipede. From SysOp
+Maintenance, you may use it to edit any text based file on any of your storage
+units. Help on using the editor is available online.
+
+
+5.6 - Selectable Picture Format (SPF) Files [NAL]
+
+The Selectable Picture Format (SPF) defines a hybrid text file format that
+combines various versions of displayable text (such as a picture) into a
+single file. Files of this format may be used throughout the system to show
+different variations of a menu or picture to callers in different emulation
+modes. The different modes are: 40c ASCII, 80c ASCII, 40c Commodore, 80c
+Commodore, ANSI, RIPScript, SupeRes. [NAL]
+
+
+5.7 - Menu Editor [NAL]
+
+The Menu Editor is where you can truly redefine your BBS. By changing the menu
+structure, you can make your BBS look like an entirely different system. Of
+course, the Menu Editor utility can also be used for simple things like adding
+new games or add-ons to your system.
+
+[The version of Menu Editor included in Centipede Lite is crippled. You may
+only view menus, not modify them.]
+
+
+5.8 - Script Editor [NAL]
+
+One of the abilities that makes Centipede so flexible is its scripting
+language. Scripting allows for easy writing of simple functions, and for
+quickly adding pre-written add-ons to the system.
+
+[The version of Script Editor included in Centipede Lite is crippled. You may
+only view scripts, not modify them.]
+
+
+5.9 - SysOp News Editor
+
+As a part of the login script, the system checks for any new SysOp News since
+the last time the member has called. Any new news is displayed. The SysOp News
+Editor allows you to add a news item, delete an old news item, or view all of
+the current news items. Old pieces of news should be deleted when not needed
+in order to spare new members from reading them, and to speed up the process
+of checking for new news.
+
+
+5.10 - Voting Booth Editor
+
+The voting booth may contain a single topic that your callers can vote on.
+Each member has one vote, which they may change at any time. A voting tally is
+computed after each vote is cast. To change the voting topic, use the Voting
+Booth Editor. The Voting Booth Editor uses the standard Centipede message
+editor to allow you to enter a voting question, and up to twenty-six choices.
+That is all there is to it.
+
+
+5.11 - Configure Area Commands [NAL]
+
+[In this full version of Centipede, this sub-menu lets you configure hotkeys
+for the Message Editor, E-Mail Reader, Message Board Reader, and File Transfer
+Commands.]
+
+
+5.12 - Regenerate Message Board
+
+Each message board has an index file that is used to track message numbers,
+categories, and threading. The file index is stored in a file named "msg
+index", in each Message Board Files location.
+
+Should one of these index files become lost or corrupted, use this utility to
+rebuild it. The regeneration process can take several minutes, so be patient.
+
+
+5.13 - Regenerate/Update File Directory
+
+This utility is used to recreate or update a file transfer directory file.
+Each directory location has a file named "^directory" which contains the file
+transfer directory information. If the file is lost, use this utility to
+create a new one. If you have added a file by some means other than by
+uploading to the BBS, or removed a file by means other than the Delete File
+utility (see next section), then use this utility to update the directory. The
+updating process may take a minute or two.
+
+
+5.14 - Delete File from Transfer Area
+
+Run this utility to remove files from your file transfers area. Up to fifty
+files may be selected at once from any combination of directories. Any
+selected files will be scratched and their directories updated upon exiting
+the utility.
+
+
+5.15 - Releasing Files in the Transfer Area
+
+In the bbs-setup program, you set an access level at which a member's upload
+is automatically released. You also set an access level at which a member can
+have access to unreleased files. Any file uploaded by a member below the
+auto-release level will appear in the directory listing to those with access
+in reversed type. These files must be released in order for other members to
+be able to download them. Using this utility, select the files to be released.
+The directories will be updated upon exiting the utility.
+
+
+5.16 - Transfer Protocols
+
+Centipede can accept up to ten file transfer protocols. [NAL: Lite only
+supports the built-in protocols of Xmodem-Checksum, Xmodem-CRC, and Punter.]
+
+
+Copyright 1998, Bugsoft
+
+  -<[ Use your browser's "BACK" button to return to the table of contents. ]>-

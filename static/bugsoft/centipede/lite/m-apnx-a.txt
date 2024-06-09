@@ -1,0 +1,182 @@
+A - File Listings and Descriptions
+
+This appendix contains a listing of all of the standard files found on a
+Centipede Lite system.
+
+
+A.1 - Program Files
+
+
+A.1.1 - Modules
+
+Program modules make up the majority of the programming code in Centipede.
+Multiple modules may reside in memory at once, providing that they are at
+different levels. All modules must be named with the "mdl." prefix.
+[NAL: This is a simple list of module names. The full version of Centipede has
+complete details on functions and options for each module which can be used
+for customization.]
+
+mdl.acnt-maint      mdl.apply           mdl.bootup          mdl.caller-log
+mdl.chat-req        mdl.copy            mdl.date&time       mdl.deletefile
+mdl.dos             mdl.download        mdl.edit-menu       mdl.editor
+mdl.edit-script     mdl.email           mdl.filescan        mdl.gfxtype
+mdl.login           mdl.logoff          mdl.mb-main         mdl.mb-purge
+mdl.mb-select       mdl.midnight        mdl.modem           mdl.options
+mdl.panel-draw      mdl.protocol        mdl.regen-dir       mdl.regen-mb
+mdl.releasefile     mdl.screensaver     mdl.sysop-news      mdl.term
+mdl.ud-dir          mdl.upload          mdl.user-acnt       mdl.view-panel
+mdl.vote            mdl.wait4call
+
+
+A.1.2 - Machine Language Code Files
+
+Machine language file are only run from within another program module. Their
+names and descriptions[NAL] are included here for completion of this listing
+only.
+
+mlc.*-r            mlc.*-s             mlc.ansi            mlc.ascii
+mlc.chattext       mlc.commodore       mlc.main0 v4.0lt    mlc.main1 v4.1lt
+mlc.swiftlink
+
+
+A.1.3 - Overlays
+
+Overlays form the lowest building block for the BASIC coding. An overlay must
+always be present in memory. Only one overlay may be in memory at once, and
+loading an overlay will remove any modules from memory. Overlays may be
+thought of as level 0 modules. All overlays must start with the prefix "ovl.".
+There are only two overlays included with the Centipede Lite system.
+
+ovl.main           ovl.trap
+
+
+A.1.4 - Miscellaneous
+
+Following are any other program coding files that do not fit in any of the
+previous subsections.
+
+bbs                chr.ansi            reboot
+
+
+A.2 - Support, System, and other Specialized Files
+
+These files serve a supportive function to the BBS program code. The fields in
+the table are:
+
+File Name:   The file name may contain a wildcard character (* or ?). As in
+             file matching in Commodore DOS, these wildcards can represent
+             different characters. Such properties are explained in the
+             description.
+Location:    This letter code defines the location where the file is stored.
+             The letter codes are defined  as:
+
+       A:  Account Files Location          M:  A Message Board Location
+       E:  E-Mail Files Location           N:  Network Files Location
+       F:  A File Area Directory Location  P:  Default Program Files Location
+       H:  Help Files Location             S:  Default Support Files Location
+       L:  Caller Log Files Location       Y:  System Files Location
+
+Description: A description of the file.
+
+
+accounts file    A  Membership account information. (See format info below.)
+application      Y  New user application questions.
+days stats       Y  The day's statistics - number of calls, posts, new members,
+                    downloads, uploads,network posts, calls, total calls etc..
+default msg 0    E  The default message created by the current caller.
+device id        Y  Information used to identify storage units.
+^directory       F  File transfer area file directory. Stored in "var."
+                    format.
+^dir.bak         F  Temporary directory file during regeneration and a backup.
+email *          E  Member #'*'s E-mail.
+email-dl *       E  Temporary file for e-mail message downloading.
+login msg        S  Picture or text displayed upon connecting to the BBS  
+                    before the login prompt.
+logoff msg       S  Picture or text displayed upon a normal logoff from
+                    the BBS.
+mailbox empty    S  Picture displayed if the caller does not have any
+                    e-mail waiting.
+mailbox filled   S  Picture displayed if the caller has e-mail in his or
+                    her mailbox.
+member memory    A  The membership list in a format that can be quickly
+                    loaded into memory at boot up.
+membership full  S  Message displayed if a new user tries to join and
+                    there is no space for new members in your accounts file.
+msg index        M  The message board's index file - containing message
+                    number, category, and threading information.
+new user msg1    S  Displayed to a new user in between entering a name and
+                    password, and the new user application.
+new user msg2    S  Displayed to a new user after filling out the application.
+nothing flagged  S  Displayed if a caller attempts to perform an operation
+                    on all flagged files, and nothing has been flagged.
+password msg     S  Displayed before a member enters a new password.
+sysop news       S  Storage file for the SysOp News. Use the SysOp News
+                    Editor under SysOp Maintenance to edit and view.
+sysop not here   S  Displayed after a chat request has been made and the
+                    SysOp has not responded.
+upload msg       S  Displayed before a caller uploads files.
+var.bootup       Y  Extra parameters and variables to be loaded at bootup,
+                    that are not defined by bbs-setup.
+var.main         P  Main BBS parameters and variables, as defined in bbs-setup.
+
+
+The application file uses a special format. All text is simply displayed
+unless it is an input field. Input fields are indicated by placing a '#'
+character in the first column of a new line. After the '#', a format code
+defines the type of input allowed:
+        'f'  =  Free form. This is the default if no letter is given.
+        'm'  =  Force Mixed upper and lower casing.
+        'n'  =  Number only.
+        'u'  =  Force Upper case only.
+The format code may be optionally followed by an Extra Info Field number (1
+through 10). EIFs can be viewed in Account Maintenance and used for certain
+purposes by add-ons.
+The format code and/or EIF number may be optionally followed by the lower-
+case letter 'r'. This will store the input as the member's real name in his or
+her account. The same EIF number or 'r' code may be present in multiple
+input fields. The answers will be concatenated together.
+All codes are followed by a second '#' character, and then a short field name.
+An example application file is included with Centipede Lite.
+
+
+A.3 - Help Files
+
+All of the following files are stored in the Help Files location.
+
+hlp.*             Each menu that you define (mnu.*) has an associated help
+                  file that is displayed if the caller presses '?' from the
+                  menu prompt.
+hlp.download      Displayed when the caller presses '?' from the download
+                  prompt: "[U]nflag, [F]lag,[P]rotocol, RETURN=Continue"
+hlp.editor        Command list for text message editor's edit mode. Displayed
+                  if caller presses '?' at the "Edit:" prompt in the editor.
+hlp.editor-full   Command list for the full-screen editor. Displayed if the
+                  caller presses 'HOME ?' while in the full-screen editor.
+hlp.editor-line   Command list for the line-based text editor. Displayed if
+                  the caller enters /? on a line.
+hlp.email-read    Command list for the E-mail reader. Displayed if the caller
+                  presses '?' at the prompt between e-mail messages.
+hlp.fileselect    Command list for the full-screen interactive file selector.
+hlp.login         Information on how to log into the BBS. Shown before the
+                  membership list at the login prompt.
+hlp.protocol      Description of the different file transfer protocols.
+                  Displayed if the caller presses '?' from the protocol 
+                  selection prompt.
+
+
+A.4 - Script Files
+
+Scripts are collections of commands that are run in sequence. They have the
+file name prefix "scr." and are stored in the Program Files location.
+
+The tables below list describe each of these scripts and their default
+contents [NAL].
+
+scr.auto-off       scr.bootup          scr.login
+scr.logoff         scr.midnight        scr.new-hour        scr.new-login
+scr.quick-login    scr.sys-idle        scr.wait4call-0
+
+
+Copyright 1998, Bugsoft
+
+  -<[ Use your browser's "BACK" button to return to the table of contents. ]>-

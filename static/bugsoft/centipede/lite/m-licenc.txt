@@ -1,0 +1,110 @@
+Centipede Lite BBS
+
+CONTRACT FOR LICENSE OF BUGSOFT SOFTWARE PRODUCTS
+IMPORTANT - READ THIS BEFORE DOING ANYTHING ELSE: This Contract for License of
+Software is a legal agreement between you (either an individual or a single
+entity) and Bugsoft for the product identified above, including software and
+associated documentation. By installing, copying, or otherwise using the
+software, you are agreeing to be bound by the terms of this Contract. If you
+do not agree to the terms of this Contract, then do not use the product and
+destroy all copies in your possession.
+
+1.   GENERAL: Bugsoft ("LICENSOR") agrees that the following terms and
+conditions apply to the provision of software ("Software") and documentation
+("Documentation") included in this package.  Software shall also include all
+other software delivered to Customer by LICENSOR and shall be subject to the
+restrictions herein.  Some Software or Documentation may be owned in whole or
+in part by a third party.  Documentation shall normally include all user
+manuals and supplements which by their titles refer to or apply to the
+Software.  The protections included in this license (including all
+reservations of rights and limitations of liabilities) extend to Software and
+Documentation provided under this Contract by both LICENSOR and any
+third-party provider.
+
+     This Contract becomes effective immediately upon use of the Software and
+continues until terminated as provided in the TERMINATION Article.  Customer
+agrees that a facsimile copy of this agreement shall be considered equivalent
+to the original for purposes of validity and enforcement of this agreement.
+
+2.   LICENSE:  LICENSOR hereby grants, and Customer accepts, a non-exclusive
+license to use Software and Documentation subject to all the terms and
+conditions of this Contract.  The Software is licensed solely for Customer's
+internal use.  No rights to sublicense or market the Software or Documentation
+are granted.  All rights not specifically granted to Customer by this license
+shall remain in LICENSOR.
+
+     The Software may be used by Customer on any number of computers.  The
+Software is licensed as a single product. Its component parts may not be
+separated for use.  Customer may make any number of copies of the Software for
+backup, archiving, or sharing with other individuals, but all copyright or
+proprietary notices in the original must be included in such copy.  Customer
+shall not reverse assemble, or reverse compile any binary part of the Software
+or adopt any part of the Software as its own.  Customer is NOT granted the
+right to produce and release (for free or fee) add-ons to the Software.
+
+3.   UPGRADES: If the Software is an upgrade from another product, you may
+use or transfer the Software only in conjunction with that upgraded product,
+unless you destroy the upgraded product.
+
+4.   CONFIDENTIALITY AND NON-DISCLOSURE:  Customer acknowledges that the
+Software and Documentation are proprietary products and may be shared with
+others only as a complete product.  
+
+5.   COPYRIGHTS AND TRADEMARKS:  The Software and Documentation are
+copyrighted and are protected by United States copyright laws and
+international treaty provisions.  Customer will not remove any copyright
+notice, and agrees to prevent any unauthorized copying of the Software or
+Documentation.  All trademarks mentioned in the Software or Documentation are
+trademarks of their respective companies.
+
+6.   WARRANTY:  LICENSOR grants no warranties to Customer. LICENSOR reserves
+the right to correct manuals due to typographical or clerical error.
+
+     Neither LICENSOR nor any of its third-party suppliers warrants or
+guarantees the results from use of the Software.
+
+7.   IMPLIED WARRANTIES, DISCLAIMER, INDEMNIFICATION:  EXCEPT AS OTHERWISE
+REQUIRED BY LAW, THE EXPRESS WARRANTY IN THE WARRANTY ARTICLE OF THIS CONTRACT
+IS LICENSOR'S EXCLUSIVE WARRANTY AND IS IN LIEU OF ALL IMPLIED WARRANTIES,
+INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE, AND THE REMEDIES STATED THEREIN ARE THE EXCLUSIVE REMEDIES
+FOR ANY BREACH OF WARRANTY. LICENSOR WILL NOT BE LIABLE IN ANY EVENT FOR ANY
+CONSEQUENTIAL, SPECIAL, INCIDENTAL, OR INDIRECT DAMAGES ARISING OUT OF OR IN
+CONNECTION WITH THIS CONTRACT, THE PERFORMANCE OF THE SOFTWARE OR ITS USE IN
+ANY AND ALL CASES.  CUSTOMER AGREES TO ASSUME ALL RISK AND LIABILITY FOR
+DAMAGES RESULTING FROM THE FAILURE OF THE SOFTWARE.  LICENSOR'S MAXIMUM
+LIABILITY IN CONNECTION WITH OR ARISING OUT OF THIS CONTRACT SHALL BE THE
+AMOUNT PAID BY THE CUSTOMER TO LICENSOR FOR THE SOFTWARE.
+
+     CUSTOMER IS RESPONSIBLE FOR THE SELECTION OF SOFTWARE TO ACHIEVE ITS
+INTENDED RESULTS, USE OF SOFTWARE, AND THE RESULTS OBTAINED THEREFROM. 
+CUSTOMER AGREES TO INDEMNIFY AND HOLD LICENSOR AND ITS SUPPLIERS HARMLESS WITH
+RESPECT TO ALL CLAIMS BY THIRD PARTIES ARISING OUT OF CUSTOMER'S USE OF THE
+RESULTS OF OPERATION OF THE SOFTWARE.
+
+8.   TERMINATION:  This Contract or the license of any Software may be
+terminated as follows:
+
+     (A)  by the Customer at any time; or
+     (B)  by either
+          (i)  nonpayment by Customer of any amount due under applicable
+          invoices for the Software, which nonpayment continues for a period
+          of ten (10) days; or
+          (ii) nonperformance by Customer of any other material term or
+          condition of this Contract or of any other contract between
+          Customer and LICENSOR related to the Software or the equipment for
+          which it is licensed.
+
+     Upon termination of this Contract or the license of any of the Software,
+Customer shall promptly destroy all copies of the Software and Documentation
+involved, including all copies which Customer has modified and/or merged into
+other computer program material.
+
+     Termination of this Agreement shall not relieve Customer of any of its
+obligations under any invoiced license fees.
+
+9.   APPLICABLE LAW:  This Contract is governed by the laws of the State of
+California, without giving force and effect to its choice of law provisions.
+
+
+  -<[ Use your browser's "BACK" button to return to the table of contents. ]>-
