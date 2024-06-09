@@ -5,18 +5,21 @@ style: "style1 medium"
 items:
 
   - name : "Adam Fanello's Blog"
+    url: https://adam.fanello.net
     topImage: "images/adam-blog.png"
     content : |
       <a href="https://adam.fanello.net">adam.fanello.net</a>
       <p>Adam's blog as a professional software architect.</p>
 
   - name : "Adam & Diana's Photo Gallery"
+    url: https://gallery.fanello.net
     topImage: "images/gallery.jpg"
     content : |
       <a href="https://gallery.fanello.net">gallery.fanello.net</a>
       <p>Featuring our extensive wedding albums!</p>
 
   - name : "Barn Dance Party"
+    url: https://barndanceparty.com
     topImage: "images/barndanceparty.png"
     content : |
       <a href="https://barndanceparty.com">barndanceparty.com</a>
@@ -26,6 +29,7 @@ items:
       </p>
 
   - name : "Santa Kevin"
+    url: https://santa-kevin.com
     topImage: "images/santa-kevin.jpg"
     content : |
       <a href="https://santa-kevin.com">santa-kevin.com</a>
@@ -34,12 +38,14 @@ items:
       </p>
 
   - name : "SquareCue"
+    url: https://kernwig.github.io/squarecue
     #    topImage: "images/squarecue.png"
     content : |
       <a href="https://kernwig.github.io/squarecue/">kernwig.github.io/squarecue/</a>
       <p>Square Dance Singing Call Formatted Cue Sheets</p>
 
   - name : "SqAC"
+    url: https://sqac.fanello.net
     topImage: "images/sqac.png"
     content : |
       <a href="https://sqac.fanello.net">sqac.fanello.net</a>
@@ -49,6 +55,7 @@ items:
       </p>
 
   - name: "BugSoft"
+    url: bugsoft
     topImage: "bugsoft/bugsoft_logo.gif"
     content: |
       <p>Back in the 1990s, Adam Fanello produced two Bulletin Board Systems (BBS)
@@ -56,10 +63,9 @@ items:
       <p>Visit the <a href="bugsoft">BugSoft</a> site</p>
 
   - name: "Adam 2001"
+    url: adam2001
     topImage: "adam2001/anybrowser_icon.gif"
     content: |
       <p>The original, circa 2001</p> 
       <a href="adam2001">Adam's Silly Little Homepage</a>
 
-
-#santa-kevin.com
