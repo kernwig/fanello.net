@@ -1,8 +1,7 @@
 {{ define "main" }}
 
-	{{ partial "spotlight" site.Data.top }}
+  {{ partial "banner" site.Data.top }}
   {{ partial "items" site.Data.sites }}
-	{{ partial "footer" . }}
+  {{ partial "footer" . }}
 
 {{ end }}
-

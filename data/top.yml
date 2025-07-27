@@ -1,7 +1,7 @@
-####################### Spotlight #########################
-style: "style1 orient-right content-align-left image-position-center"
-id: "top"
-title : "Fanello Family"
+####################### Banner #########################
+style: "style3 orient-center content-align-left image-position-center"
+#style: "style1 orient-right content-align-left image-position-center"
+image: "images/coat-of-arms.gif"
 content: |
   <p>Welcome to the Family.</p>
   <p>
@@ -9,8 +9,3 @@ content: |
     members of the Fanello family.
   </p>
   Scroll down for the selections.
-
-#button:
-#  label: "Learn More"
-#  link: "#"
-image: "images/coat-of-arms.gif"
