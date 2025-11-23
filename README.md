@@ -6,3 +6,8 @@ Built with [Hugo](https://gohugo.io/) and [Hugo Story theme](https://themes.gohu
 
 - Develop locally: `hugo serve`
 - Build: `hugo` - outputs to `public` directory
+
+## Deploy
+
+Commit changes back to the GitHub main branch.
+Workflow will deploy static site, hosted by GitHub.
